@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings folder
+.vscode/
+
+# Virtual Environment
+.vscode/*
+!*.code-workspace
+*.vscode/settings.json
+*.vscode/tasks.json
+*.vscode/launch.json
+*.vscode/extensions.json
+*.vscode/*.code-workspace
+
+# IPython history
+.profile_default/history.sqlite
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# C extensions
+*.so
+
+# Cython debug symbols
+cython_debug/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Jupyter Notebook config files
+.jupyter/
+
+# Jupyter Notebook output files
+*.nbconvert/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Docker
+*.dockerignore
+
+# Python-specific
+*.pyo
+*.pyd
+*.pyc
+__pycache__/
