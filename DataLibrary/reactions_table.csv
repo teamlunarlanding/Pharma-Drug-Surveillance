@@ -1,8 +1,23 @@
 patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
+1,1,,,"['drug', 'administration', 'error', 'drug administration', 'administration error']"
+2,1,,,['overdose']
+3,5,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+4,6,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+5,8,18.1,Unknown,['rhinorrhoea']
+6,9,18.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+7,9,18.1,Unknown,['malaise']
+8,14,18.1,Unknown,['swelling']
+9,14,18.1,Unknown,['jaundice']
 10,18,17.0,Recovered,['angioedema']
 11,18,17.0,Recovered,"['laryngeal', 'oedema', 'laryngeal oedema']"
 12,18,17.0,Recovered,"['face', 'oedema', 'face oedema']"
 13,19,17.0,Fatal,"['tuberculosis', 'central', 'nervous', 'system', 'tuberculosis central', 'central nervous', 'nervous system']"
+14,23,18.1,Unknown,['tremor']
+15,25,18.1,Unknown,['malaise']
+16,25,18.1,Unknown,"['ocular', 'hyperaemia', 'ocular hyperaemia']"
+17,27,17.0,Unknown,"['meconium', 'stain', 'meconium stain']"
+18,27,17.0,Unknown,"['amniotic', 'cavity', 'infection', 'amniotic cavity', 'cavity infection']"
+19,27,17.0,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
 20,28,17.0,Recovered,"['respiratory', 'failure', 'respiratory failure']"
 21,28,17.0,Recovered,['listeriosis']
 22,28,17.0,Recovered,['pyrexia']
@@ -11,9 +26,11 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 25,28,17.0,Recovered,"['mental', 'status', 'change', 'mental status', 'status change']"
 26,28,17.0,Recovered,['meningitis']
 27,28,17.0,Recovered,"['pneumonia', 'staphylococcal', 'pneumonia staphylococcal']"
+28,29,17.0,Unknown,"['type', 'iv', 'hypersensitivity', 'reaction', 'type iv', 'iv hypersensitivity', 'hypersensitivity reaction']"
 29,29,17.0,Recovered,"['skin', 'toxicity', 'skin toxicity']"
 30,29,17.0,Recovered,"['palmar', 'plantar', 'erythrodysaesthesia', 'syndrome', 'palmar plantar', 'plantar erythrodysaesthesia', 'erythrodysaesthesia syndrome']"
 31,29,17.0,Recovering,"['nail', 'toxicity', 'nail toxicity']"
+32,29,17.0,Unknown,['arthralgia']
 33,29,17.0,Recovering,['myalgia']
 34,29,17.0,Recovering,['asthenia']
 35,29,17.0,Recovered,['diarrhoea']
@@ -35,67 +52,211 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 51,32,17.0,NotRecovered,"['neck', 'pain', 'neck pain']"
 52,32,17.0,NotRecovered,"['back', 'pain', 'back pain']"
 53,32,17.0,NotRecovered,['paraesthesia']
+54,34,18.1,Unknown,['swelling']
+55,36,18.1,Unknown,"['localised', 'oedema', 'localised oedema']"
+56,36,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
+57,36,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
+58,36,18.1,Unknown,"['nasal', 'congestion', 'nasal congestion']"
 59,39,17.0,Recovered,"['swollen', 'tongue', 'swollen tongue']"
 60,39,17.0,Recovered,['pruritus']
 61,39,17.0,Recovered,"['rash', 'generalised', 'rash generalised']"
+62,40,18.1,Unknown,['anaemia']
 63,41,17.0,Recovered,['listeriosis']
 64,41,17.0,Recovered,['pyrexia']
 65,41,17.0,Recovered,['diarrhoea']
 66,41,17.0,Recovered,['meningitis']
 67,44,18.1,Recovered,"['liver', 'function', 'test', 'abnormal', 'liver function', 'function test', 'test abnormal']"
+68,44,18.1,Unknown,"['liver', 'disorder', 'liver disorder']"
+69,45,18.1,Unknown,['headache']
 70,46,17.0,Recovering,['haematoma']
 71,46,17.0,Recovering,['thrombocytopenia']
 72,46,17.0,Recovering,"['international', 'normalised', 'ratio', 'increased', 'international normalised', 'normalised ratio', 'ratio increased']"
+73,53,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
+74,57,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
 75,58,17.0,Recovered,"['posterior', 'reversible', 'encephalopathy', 'syndrome', 'posterior reversible', 'reversible encephalopathy', 'encephalopathy syndrome']"
 76,58,17.0,RecoveredWithSequelae,"['cerebral', 'haemorrhage', 'cerebral haemorrhage']"
 77,58,17.0,RecoveredWithSequelae,"['subarachnoid', 'haemorrhage', 'subarachnoid haemorrhage']"
+78,61,18.1,Unknown,['hypertension']
 79,75,17.0,Recovered,"['loss', 'consciousness', 'loss consciousness']"
 80,75,17.0,Recovered,['listeriosis']
 81,75,17.0,Recovered,['pyrexia']
 82,75,17.0,Recovered,['headache']
 83,75,17.0,Recovered,['vomiting']
 84,75,17.0,Recovered,['meningitis']
+85,78,18.1,Unknown,['dyspnoea']
+86,78,18.1,Unknown,['tremor']
+87,78,18.1,Unknown,"['bone', 'pain', 'bone pain']"
+88,78,18.1,Unknown,['presyncope']
+89,79,18.1,Unknown,['nasopharyngitis']
 90,85,18.1,NotRecovered,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
 91,85,18.1,NotRecovered,['fatigue']
+92,89,18.1,Unknown,"['hepatic', 'enzyme', 'decreased', 'hepatic enzyme', 'enzyme decreased']"
 93,92,18.0,RecoveredWithSequelae,"['subdural', 'haematoma', 'subdural haematoma']"
 94,95,17.0,NotRecovered,['tremor']
 95,95,17.0,NotRecovered,"['dry', 'mouth', 'dry mouth']"
 96,97,17.0,Recovered,['sopor']
 97,97,17.0,Recovered,"['drug', 'abuse', 'drug abuse']"
 98,97,17.0,Recovered,['overdose']
+99,103,18.1,Unknown,['sinusitis']
 100,106,17.0,Recovering,"['cognitive', 'disorder', 'cognitive disorder']"
 101,106,17.0,Recovering,['alopecia']
 102,107,17.0,Recovered,"['ileus', 'paralytic', 'ileus paralytic']"
+103,107,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+104,107,17.0,Unknown,['nausea']
+105,109,18.1,Unknown,['dyspnoea']
+106,109,18.1,Unknown,"['abdominal', 'distension', 'abdominal distension']"
+107,109,18.1,Unknown,['swelling']
+108,111,18.1,Unknown,"['laboratory', 'test', 'abnormal', 'laboratory test', 'test abnormal']"
+109,112,18.1,Unknown,"['visual', 'impairment', 'visual impairment']"
+110,112,18.1,Unknown,"['adverse', 'reaction', 'adverse reaction']"
+111,118,18.1,Unknown,"['oxygen', 'consumption', 'increased', 'oxygen consumption', 'consumption increased']"
+112,118,18.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+113,119,18.1,Unknown,['anaemia']
+114,119,18.1,Unknown,['fatigue']
+115,119,18.1,Unknown,['fibrosis']
 116,119,18.1,NotRecovered,['dyspnoea']
+117,119,18.1,Unknown,"['weight', 'decreased', 'weight decreased']"
 118,120,18.1,Recovered,['headache']
 119,120,18.1,Recovered,['vomiting']
 120,120,18.1,Recovered,"['blood', 'pressure', 'decreased', 'blood pressure', 'pressure decreased']"
 121,120,18.1,Recovered,['nausea']
+122,122,18.1,Unknown,['rash']
+123,123,18.1,Unknown,['influenza']
+124,124,17.0,Unknown,"['foetal', 'death', 'foetal death']"
+125,124,17.0,Unknown,"['abortion', 'late', 'abortion late']"
+126,124,17.0,Unknown,"['amniotic', 'cavity', 'infection', 'amniotic cavity', 'cavity infection']"
+127,124,17.0,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+128,125,17.0,,"['breast', 'cancer', 'breast cancer']"
+129,125,17.0,,"['device', 'misuse', 'device misuse']"
+130,128,17.0,Unknown,"['foetal', 'distress', 'syndrome', 'foetal distress', 'distress syndrome']"
+131,128,17.0,Unknown,"['intraventricular', 'haemorrhage', 'neonatal', 'intraventricular haemorrhage', 'haemorrhage neonatal']"
+132,128,17.0,Unknown,"['low', 'birth', 'weight', 'baby', 'low birth', 'birth weight', 'weight baby']"
+133,128,17.0,Unknown,['listeriosis']
+134,128,17.0,Unknown,['pyrexia']
+135,128,17.0,Unknown,['sepsis']
+136,128,17.0,Unknown,['meningitis']
+137,128,17.0,Unknown,"['pneumonia', 'aspiration', 'pneumonia aspiration']"
+138,128,17.0,Unknown,"['oxygen', 'saturation', 'decreased', 'oxygen saturation', 'saturation decreased']"
+139,128,17.0,Unknown,"['foetal', 'exposure', 'pregnancy', 'foetal exposure', 'exposure pregnancy']"
+140,129,17.0,Unknown,"['meconium', 'stain', 'meconium stain']"
+141,129,17.0,Unknown,"['amniotic', 'cavity', 'infection', 'amniotic cavity', 'cavity infection']"
+142,129,17.0,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+143,135,18.1,Unknown,"['tooth', 'extraction', 'tooth extraction']"
+144,144,18.1,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
+145,144,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
+146,144,18.1,Unknown,['swelling']
+147,146,18.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+148,148,18.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+149,148,18.1,Unknown,['malaise']
 150,149,17.0,Recovered,['pyelonephritis']
+151,149,17.0,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+152,149,17.0,Unknown,"['normal', 'newborn', 'normal newborn']"
+153,152,18.1,Unknown,['fatigue']
+154,152,18.1,Unknown,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
+155,158,18.1,Unknown,"['fluid', 'overload', 'fluid overload']"
+156,162,18.1,Unknown,"['nasal', 'disorder', 'nasal disorder']"
+157,165,18.1,Unknown,['myalgia']
+158,165,18.1,Unknown,"['back', 'disorder', 'back disorder']"
+159,165,18.1,Unknown,['syncope']
+160,165,18.1,Unknown,"['intervertebral', 'disc', 'protrusion', 'intervertebral disc', 'disc protrusion']"
+161,165,18.1,Unknown,['malaise']
+162,165,18.1,Unknown,['dyspnoea']
 163,168,17.0,Recovered,"['renal', 'failure', 'acute', 'renal failure', 'failure acute']"
+164,172,18.1,Unknown,"['sinus', 'disorder', 'sinus disorder']"
+165,172,18.1,Unknown,['cough']
+166,172,18.1,Unknown,['dyspnoea']
+167,172,18.1,Unknown,['oedema']
 168,174,18.1,NotRecovered,['dyspnoea']
+169,181,18.1,Unknown,['hypotension']
+170,181,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
+171,183,18.1,Unknown,['epistaxis']
+172,183,18.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
 173,187,17.0,Recovered,['disorientation']
 174,187,17.0,Recovered,"['drug', 'prescribing', 'error', 'drug prescribing', 'prescribing error']"
 175,187,17.0,Recovered,"['incorrect', 'dose', 'administered', 'incorrect dose', 'dose administered']"
 176,187,17.0,Recovered,"['medication', 'error', 'medication error']"
+177,188,18.1,Unknown,['nasopharyngitis']
+178,188,18.1,Unknown,"['sinus', 'congestion', 'sinus congestion']"
+179,188,18.1,Unknown,['cough']
+180,190,17.0,Unknown,"['foetal', 'death', 'foetal death']"
+181,190,17.0,Unknown,"['amniotic', 'cavity', 'infection', 'amniotic cavity', 'cavity infection']"
+182,190,17.0,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+183,194,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+184,200,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+185,201,17.0,Unknown,"['label', 'use', 'label use']"
 186,201,17.0,Recovering,"['eye', 'haemorrhage', 'eye haemorrhage']"
+187,201,17.0,Unknown,"['blood', 'creatinine', 'increased', 'blood creatinine', 'creatinine increased']"
+188,201,17.0,Unknown,"['visual', 'acuity', 'reduced', 'visual acuity', 'acuity reduced']"
+189,201,17.0,Unknown,"['ophthalmological', 'examination', 'abnormal', 'ophthalmological examination', 'examination abnormal']"
+190,201,17.0,Unknown,"['alanine', 'aminotransferase', 'increased', 'alanine aminotransferase', 'aminotransferase increased']"
+191,201,17.0,Unknown,"['aspartate', 'aminotransferase', 'increased', 'aspartate aminotransferase', 'aminotransferase increased']"
+192,201,17.0,Unknown,"['feeling', 'abnormal', 'feeling abnormal']"
+193,201,17.0,Unknown,['somnolence']
+194,201,17.0,Unknown,"['drug', 'intolerance', 'drug intolerance']"
+195,208,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+196,208,17.0,Unknown,['headache']
 197,209,17.0,Fatal,"['acute', 'graft', 'versus', 'host', 'disease', 'acute graft', 'graft versus', 'versus host', 'host disease']"
 198,209,17.0,Fatal,"['chronic', 'graft', 'versus', 'host', 'disease', 'chronic graft', 'graft versus', 'versus host', 'host disease']"
+199,209,17.0,Unknown,"['lung', 'disorder', 'lung disorder']"
 200,209,17.0,Fatal,['death']
 201,209,17.0,Fatal,['infection']
+202,209,17.0,Unknown,"['mucosal', 'inflammation', 'mucosal inflammation']"
+203,209,17.0,Unknown,"['gastrointestinal', 'toxicity', 'gastrointestinal toxicity']"
+204,209,17.0,Unknown,['cardiotoxicity']
+205,209,17.0,Unknown,['neurotoxicity']
+206,209,17.0,Unknown,['hepatotoxicity']
+207,209,17.0,Unknown,"['nephropathy', 'toxic', 'nephropathy toxic']"
+208,209,17.0,Unknown,"['transplant', 'failure', 'transplant failure']"
+209,209,17.0,Unknown,"['venoocclusive', 'disease', 'venoocclusive disease']"
 210,209,17.0,Fatal,"['malignant', 'neoplasm', 'progression', 'malignant neoplasm', 'neoplasm progression']"
+211,209,17.0,Unknown,"['label', 'use', 'label use']"
 212,214,17.0,Recovered,"['pain', 'extremity', 'pain extremity']"
 213,214,17.0,Recovered,"['hereditary', 'angioedema', 'hereditary angioedema']"
 214,214,17.0,Recovered,['anxiety']
 215,214,17.0,Recovered,"['panic', 'attack', 'panic attack']"
 216,214,17.0,Recovered,['depression']
+217,217,18.1,Unknown,['hiccup']
+218,218,17.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
 219,219,17.0,Recovered,"['hepatocellular', 'injury', 'hepatocellular injury']"
+220,220,18.0,,"['adnexa', 'uterus', 'pain', 'adnexa uterus', 'uterus pain']"
+221,220,18.0,,"['drug', 'ineffective', 'drug ineffective']"
+222,220,18.0,,"['pregnancy', 'contraceptive', 'device', 'pregnancy contraceptive', 'contraceptive device']"
+223,220,18.0,,"['embedded', 'device', 'embedded device']"
+224,220,18.0,,"['ovarian', 'cyst', 'ovarian cyst']"
+225,220,18.0,,['injury']
+226,220,18.0,,['dyspareunia']
+227,220,18.0,,['pain']
+228,222,17.0,Unknown,"['endodontic', 'procedure', 'endodontic procedure']"
+229,225,17.0,,"['uterine', 'perforation', 'uterine perforation']"
+230,225,17.0,,"['post', 'procedural', 'discomfort', 'post procedural', 'procedural discomfort']"
+231,225,17.0,,['pain']
+232,225,17.0,,"['device', 'dislocation', 'device dislocation']"
 233,225,17.0,Recovered,"['pregnancy', 'contraceptive', 'device', 'pregnancy contraceptive', 'contraceptive device']"
+234,225,17.0,,"['drug', 'ineffective', 'drug ineffective']"
+235,225,17.0,,"['device', 'difficult', 'use', 'device difficult', 'difficult use']"
+236,225,17.0,,"['uterine', 'haemorrhage', 'uterine haemorrhage']"
+237,225,17.0,,['injury']
+238,225,17.0,,['depression']
+239,225,17.0,,['anxiety']
+240,225,17.0,,['stress']
+241,225,17.0,,"['device', 'issue', 'device issue']"
+242,226,17.0,Unknown,"['dry', 'mouth', 'dry mouth']"
+243,226,17.0,Unknown,"['dry', 'eye', 'dry eye']"
+244,226,17.0,Unknown,"['lip', 'dry', 'lip dry']"
+245,226,17.0,Unknown,"['dry', 'throat', 'dry throat']"
+246,226,17.0,Unknown,['insomnia']
+247,226,17.0,Unknown,"['depressed', 'mood', 'depressed mood']"
+248,226,17.0,Unknown,['odynophagia']
+249,226,17.0,Unknown,['cry']
+250,226,17.0,Unknown,"['feeling', 'abnormal', 'feeling abnormal']"
 251,226,17.0,Recovering,"['oesophageal', 'pain', 'oesophageal pain']"
 252,226,17.0,Recovering,"['oropharyngeal', 'pain', 'oropharyngeal pain']"
 253,226,17.0,Recovering,['nausea']
 254,226,17.0,Recovering,"['abdominal', 'distension', 'abdominal distension']"
+255,226,17.0,Unknown,['contusion']
 256,226,17.0,Recovering,"['blood', 'count', 'abnormal', 'blood count', 'count abnormal']"
+257,227,17.0,Unknown,"['hepatic', 'enzyme', 'increased', 'hepatic enzyme', 'enzyme increased']"
+258,228,18.1,Unknown,['headache']
 259,230,17.0,Recovered,"['oedema', 'peripheral', 'oedema peripheral']"
 260,230,17.0,NotRecovered,"['gait', 'disturbance', 'gait disturbance']"
 261,231,17.0,Fatal,"['plasma', 'cell', 'myeloma', 'plasma cell', 'cell myeloma']"
@@ -104,6 +265,15 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 264,232,18.0,Recovered,"['chest', 'pain', 'chest pain']"
 265,232,18.0,Recovered,"['oedema', 'peripheral', 'oedema peripheral']"
 266,232,18.0,Recovered,"['gastrooesophageal', 'reflux', 'disease', 'gastrooesophageal reflux', 'reflux disease']"
+267,234,17.0,Unknown,['gout']
+268,236,17.0,Unknown,['pollakiuria']
+269,237,18.1,Unknown,['palpitation']
+270,237,18.1,Unknown,['fatigue']
+271,240,17.0,Unknown,"['generalised', 'oedema', 'generalised oedema']"
+272,240,17.0,Unknown,['diarrhoea']
+273,242,18.1,Unknown,['somnolence']
+274,243,17.0,Unknown,"['balance', 'disorder', 'balance disorder']"
+275,243,17.0,Unknown,"['drug', 'level', 'increased', 'drug level', 'level increased']"
 276,253,18.1,Recovering,"['monocyte', 'count', 'decreased', 'monocyte count', 'count decreased']"
 277,253,18.1,Recovering,"['gamma', 'glutamyltransferase', 'increased', 'gamma glutamyltransferase', 'glutamyltransferase increased']"
 278,253,18.1,Recovering,"['b', 'lymphocyte', 'count', 'decreased', 'b lymphocyte', 'lymphocyte count', 'count decreased']"
@@ -115,36 +285,91 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 284,253,18.1,Recovering,"['neutrophil', 'count', 'decreased', 'neutrophil count', 'count decreased']"
 285,253,18.1,Recovering,"['lymphocyte', 'count', 'decreased', 'lymphocyte count', 'count decreased']"
 286,254,17.0,Recovering,"['linear', 'iga', 'disease', 'linear iga', 'iga disease']"
+287,256,17.0,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
+288,256,17.0,,"['weight', 'increased', 'weight increased']"
+289,257,17.0,Unknown,"['foetal', 'exposure', 'pregnancy', 'foetal exposure', 'exposure pregnancy']"
 290,257,17.0,Recovered,"['cardiac', 'murmur', 'cardiac murmur']"
+291,257,17.0,Unknown,"['postmature', 'baby', 'postmature baby']"
+292,259,17.0,Unknown,"['staphylococcal', 'infection', 'staphylococcal infection']"
+293,261,17.0,Unknown,"['bipolar', 'disorder', 'bipolar disorder']"
+294,262,18.0,Unknown,['asthenia']
+295,262,18.0,Unknown,['palpitation']
+296,262,18.0,Unknown,['thirst']
+297,262,18.0,Unknown,"['gait', 'disturbance', 'gait disturbance']"
 298,262,18.0,Fatal,['death']
+299,262,18.0,Unknown,['influenza']
+300,262,18.0,Unknown,"['weight', 'decreased', 'weight decreased']"
+301,262,18.0,Unknown,['nasopharyngitis']
+302,262,18.0,Unknown,['fall']
+303,262,18.0,Unknown,"['confusional', 'state', 'confusional state']"
 304,264,17.0,Recovering,['fatigue']
 305,264,17.0,Recovering,['insomnia']
 306,266,17.1,Recovered,"['platelet', 'count', 'increased', 'platelet count', 'count increased']"
+307,270,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
+308,275,17.0,Unknown,['tonsillectomy']
+309,277,18.1,Unknown,"['loss', 'consciousness', 'loss consciousness']"
 310,278,17.0,NotRecovered,['sneezing']
 311,278,17.0,NotRecovered,"['nasal', 'congestion', 'nasal congestion']"
+312,281,17.0,Unknown,"['balance', 'disorder', 'balance disorder']"
+313,281,17.0,Unknown,"['drug', 'level', 'increased', 'drug level', 'level increased']"
+314,282,17.0,Unknown,"['bone', 'density', 'decreased', 'bone density', 'density decreased']"
 315,284,17.0,Recovered,['surgery']
+316,285,17.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
 317,286,17.0,NotRecovered,"['deep', 'vein', 'thrombosis', 'deep vein', 'vein thrombosis']"
 318,286,17.0,NotRecovered,['splenomegaly']
 319,289,21.1,Recovered,"['atrioventricular', 'block', 'first', 'degree', 'atrioventricular block', 'block first', 'first degree']"
 320,289,21.1,Recovered,"['angina', 'pectoris', 'angina pectoris']"
+321,293,17.0,Unknown,['transfusion']
+322,295,18.1,Unknown,"['heart', 'rate', 'increased', 'heart rate', 'rate increased']"
+323,295,18.1,Unknown,"['ocular', 'hyperaemia', 'ocular hyperaemia']"
+324,295,18.1,Unknown,['flushing']
 325,296,17.0,Recovered,['convulsion']
+326,298,17.0,Unknown,"['increased', 'appetite', 'increased appetite']"
+327,298,17.0,Unknown,"['inappropriate', 'schedule', 'drug', 'administration', 'inappropriate schedule', 'schedule drug', 'drug administration']"
+328,298,17.0,Unknown,['alopecia']
+329,298,17.0,Unknown,"['abdominal', 'distension', 'abdominal distension']"
 330,298,17.0,Recovered,['headache']
+331,298,17.0,Unknown,"['weight', 'increased', 'weight increased']"
 332,303,17.0,NotRecovered,"['mental', 'disorder', 'mental disorder']"
 333,303,17.0,NotRecovered,"['panic', 'attack', 'panic attack']"
 334,303,17.0,NotRecovered,['depression']
 335,303,17.0,NotRecovered,['anxiety']
 336,303,17.0,NotRecovered,"['condition', 'aggravated', 'condition aggravated']"
+337,303,17.0,Unknown,"['label', 'use', 'label use']"
+338,306,17.0,Unknown,"['adverse', 'drug', 'reaction', 'adverse drug', 'drug reaction']"
+339,306,17.0,Unknown,['thrombocytopenia']
 340,307,17.0,Fatal,"['acute', 'respiratory', 'distress', 'syndrome', 'acute respiratory', 'respiratory distress', 'distress syndrome']"
 341,307,17.0,Fatal,"['multi', 'organ', 'failure', 'multi organ', 'organ failure']"
+342,307,17.0,Unknown,"['general', 'physical', 'health', 'deterioration', 'general physical', 'physical health', 'health deterioration']"
 343,314,17.1,Recovering,['hyperthyroidism']
+344,314,17.1,Unknown,"['diabetes', 'mellitus', 'diabetes mellitus']"
 345,315,17.0,Recovering,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+346,315,17.0,Unknown,['pyrexia']
+347,315,17.0,Unknown,['headache']
+348,316,17.0,Unknown,"['device', 'difficult', 'use', 'device difficult', 'difficult use']"
+349,316,17.0,Unknown,"['adverse', 'event', 'adverse event']"
+350,316,17.0,Unknown,"['product', 'quality', 'issue', 'product quality', 'quality issue']"
+351,317,17.0,Unknown,['alopecia']
 352,318,17.0,Fatal,['malnutrition']
 353,318,17.0,Fatal,"['multiple', 'sclerosis', 'multiple sclerosis']"
+354,318,17.0,Unknown,"['loss', 'consciousness', 'loss consciousness']"
+355,318,17.0,Unknown,"['weight', 'decreased', 'weight decreased']"
+356,319,17.0,Unknown,"['fibroadenoma', 'breast', 'fibroadenoma breast']"
+357,319,17.0,Unknown,"['label', 'use', 'label use']"
+358,320,17.0,Unknown,"['hyperthermia', 'malignant', 'hyperthermia malignant']"
+359,321,17.0,Unknown,"['liver', 'function', 'test', 'abnormal', 'liver function', 'function test', 'test abnormal']"
+360,324,17.0,Unknown,"['diabetes', 'mellitus', 'diabetes mellitus']"
 361,324,17.0,Recovered,"['endocarditis', 'staphylococcal', 'endocarditis staphylococcal']"
 362,330,17.0,Recovering,['influenza']
 363,330,17.0,Recovering,['pneumonia']
+364,332,18.1,Unknown,"['staphylococcal', 'infection', 'staphylococcal infection']"
+365,332,18.1,Unknown,"['oral', 'herpes', 'oral herpes']"
+366,333,18.1,Unknown,"['neutrophil', 'count', 'increased', 'neutrophil count', 'count increased']"
 367,333,18.1,NotRecovered,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
+368,333,18.1,Unknown,"['abnormal', 'behaviour', 'abnormal behaviour']"
 369,334,18.0,Recovered,['dehydration']
+370,337,17.0,Unknown,"['lower', 'limb', 'fracture', 'lower limb', 'limb fracture']"
+371,337,17.0,Unknown,['syncope']
 372,338,17.0,Recovering,['diarrhoea']
 373,338,17.0,Recovering,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
 374,340,17.0,Recovered,['osteomyelitis']
@@ -159,53 +384,140 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 383,349,17.0,NotRecovered,['asthenia']
 384,349,17.0,NotRecovered,"['weight', 'decreased', 'weight decreased']"
 385,351,17.0,Fatal,['death']
+386,354,17.0,Unknown,['somnolence']
+387,354,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
+388,357,18.1,Unknown,"['sleep', 'disorder', 'sleep disorder']"
+389,357,18.1,Unknown,"['sinus', 'disorder', 'sinus disorder']"
+390,360,17.0,Unknown,"['platelet', 'count', 'increased', 'platelet count', 'count increased']"
+391,360,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
+392,360,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 393,364,17.0,NotRecovered,"['reflux', 'laryngitis', 'reflux laryngitis']"
+394,367,17.0,Unknown,"['coeliac', 'disease', 'coeliac disease']"
 395,368,17.0,NotRecovered,['blindness']
+396,373,17.0,Unknown,"['implant', 'site', 'pruritus', 'implant site', 'site pruritus']"
+397,373,17.0,Unknown,"['implant', 'site', 'erythema', 'implant site', 'site erythema']"
 398,376,17.0,Fatal,"['neoplasm', 'malignant', 'neoplasm malignant']"
 399,376,17.0,Fatal,['metastasis']
+400,377,17.0,Unknown,['fall']
+401,377,17.0,Unknown,"['head', 'injury', 'head injury']"
+402,377,17.0,Unknown,['arthralgia']
+403,377,17.0,Unknown,"['urinary', 'tract', 'infection', 'urinary tract', 'tract infection']"
+404,378,18.1,Unknown,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
 405,381,17.0,NotRecovered,"['chronic', 'obstructive', 'pulmonary', 'disease', 'chronic obstructive', 'obstructive pulmonary', 'pulmonary disease']"
+406,381,17.0,Unknown,"['endotracheal', 'intubation', 'endotracheal intubation']"
 407,381,17.0,NotRecovered,"['acute', 'respiratory', 'failure', 'acute respiratory', 'respiratory failure']"
 408,381,17.0,NotRecovered,['hyperglycaemia']
 409,381,17.0,NotRecovered,"['bronchitis', 'pneumococcal', 'bronchitis pneumococcal']"
 410,381,17.0,NotRecovered,['bronchitis']
+411,387,17.0,Unknown,"['tooth', 'loss', 'tooth loss']"
+412,387,17.0,Unknown,['pain']
+413,389,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+414,390,17.0,Unknown,"['implant', 'site', 'irritation', 'implant site', 'site irritation']"
+415,390,17.0,Unknown,"['implant', 'site', 'bruising', 'implant site', 'site bruising']"
 416,393,17.0,NotRecovered,['nausea']
+417,395,17.0,Unknown,"['hyperthermia', 'malignant', 'hyperthermia malignant']"
+418,396,17.0,Unknown,"['fallot', 'tetralogy', 'fallot tetralogy']"
+419,396,17.0,Unknown,"['cleft', 'palate', 'cleft palate']"
 420,396,17.0,NotRecovered,['autism']
+421,396,17.0,Unknown,"['foetal', 'exposure', 'pregnancy', 'foetal exposure', 'exposure pregnancy']"
+422,398,17.0,Unknown,"['neuropathy', 'peripheral', 'neuropathy peripheral']"
+423,399,17.0,Unknown,"['chronic', 'obstructive', 'pulmonary', 'disease', 'chronic obstructive', 'obstructive pulmonary', 'pulmonary disease']"
+424,399,17.0,Unknown,['emphysema']
+425,399,17.0,Unknown,['bronchitis']
+426,399,17.0,Unknown,['dyspnoea']
+427,399,17.0,Unknown,['stress']
+428,399,17.0,Unknown,['anxiety']
+429,402,17.0,Unknown,"['hair', 'texture', 'abnormal', 'hair texture', 'texture abnormal']"
 430,406,17.0,Recovered,"['confusional', 'state', 'confusional state']"
 431,406,17.0,NotRecovered,['hyperammonaemia']
+432,407,17.0,Unknown,['diarrhoea']
 433,410,17.0,Fatal,"['respiratory', 'distress', 'respiratory distress']"
 434,410,17.0,Fatal,"['pulmonary', 'oedema', 'pulmonary oedema']"
+435,410,17.0,Unknown,['dyspnoea']
+436,410,17.0,Unknown,"['pulmonary', 'alveolar', 'haemorrhage', 'pulmonary alveolar', 'alveolar haemorrhage']"
+437,410,17.0,Unknown,"['pulmonary', 'veno', 'occlusive', 'disease', 'pulmonary veno', 'veno occlusive', 'occlusive disease']"
+438,410,17.0,Unknown,"['therapeutic', 'response', 'decreased', 'therapeutic response', 'response decreased']"
+439,410,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+440,411,17.0,Unknown,['rash']
+441,411,17.0,Unknown,['dyspnoea']
+442,412,17.0,Unknown,['hypersensitivity']
+443,413,17.0,Unknown,"['limb', 'discomfort', 'limb discomfort']"
+444,413,17.0,Unknown,['cry']
 445,415,17.0,NotRecovered,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+446,415,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+447,417,17.0,Unknown,['hyperammonaemia']
+448,419,17.0,Unknown,"['flat', 'affect', 'flat affect']"
+449,419,17.0,Unknown,"['thought', 'withdrawal', 'thought withdrawal']"
+450,419,17.0,Unknown,"['mental', 'impairment', 'mental impairment']"
+451,419,17.0,Unknown,['dyspnoea']
+452,419,17.0,Unknown,"['local', 'swelling', 'local swelling']"
+453,420,17.0,Unknown,['pneumonia']
+454,425,17.0,Unknown,['investigation']
+455,426,17.0,Unknown,['hyperammonaemia']
+456,427,17.0,Unknown,"['liver', 'disorder', 'liver disorder']"
+457,427,17.0,Unknown,"['transaminase', 'increased', 'transaminase increased']"
 458,428,17.0,Fatal,"['disease', 'progression', 'disease progression']"
+459,430,17.0,Unknown,['diarrhoea']
 460,431,17.0,Recovered,"['abortion', 'induced', 'abortion induced']"
 461,431,17.0,Recovered,"['unintended', 'pregnancy', 'unintended pregnancy']"
+462,431,17.0,Unknown,"['medical', 'device', 'complication', 'medical device', 'device complication']"
+463,431,17.0,Unknown,"['product', 'quality', 'issue', 'product quality', 'quality issue']"
+464,431,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
 465,432,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 466,434,17.0,Recovered,"['renal', 'failure', 'acute', 'renal failure', 'failure acute']"
+467,437,18.1,Unknown,['diarrhoea']
+468,441,18.1,Unknown,['headache']
+469,443,17.0,Unknown,['sedation']
 470,446,17.0,Recovering,"['bone', 'marrow', 'failure', 'bone marrow', 'marrow failure']"
 471,446,17.0,NotRecovered,"['bone', 'marrow', 'failure', 'bone marrow', 'marrow failure']"
 472,446,17.0,NotRecovered,"['neutrophil', 'count', 'decreased', 'neutrophil count', 'count decreased']"
 473,452,17.0,Recovering,['hypoacusis']
 474,453,17.0,Recovered,['pneumonia']
+475,457,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
 476,458,17.0,Fatal,"['disease', 'progression', 'disease progression']"
+477,460,17.0,Unknown,['pancytopenia']
+478,461,17.0,Unknown,"['incorrect', 'dosage', 'administered', 'incorrect dosage', 'dosage administered']"
+479,461,17.0,Unknown,"['product', 'compounding', 'quality', 'issue', 'product compounding', 'compounding quality', 'quality issue']"
 480,461,17.0,Recovered,"['adverse', 'event', 'adverse event']"
+481,462,18.0,Unknown,"['low', 'turnover', 'osteopathy', 'low turnover', 'turnover osteopathy']"
 482,462,18.0,Recovering,"['femur', 'fracture', 'femur fracture']"
+483,462,18.0,Unknown,"['reflux', 'laryngitis', 'reflux laryngitis']"
+484,462,18.0,Unknown,"['gingival', 'recession', 'gingival recession']"
+485,462,18.0,Unknown,"['intramedullary', 'rod', 'insertion', 'intramedullary rod', 'rod insertion']"
+486,462,18.0,Unknown,"['rib', 'fracture', 'rib fracture']"
+487,462,18.0,Unknown,"['bone', 'graft', 'bone graft']"
+488,462,18.0,Unknown,"['squamous', 'cell', 'carcinoma', 'skin', 'squamous cell', 'cell carcinoma', 'carcinoma skin']"
+489,462,18.0,Unknown,['osteoporosis']
+490,462,18.0,Unknown,"['periodontal', 'operation', 'periodontal operation']"
 491,465,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 492,470,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 493,472,17.0,Recovered,['dizziness']
 494,474,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 495,475,17.0,Recovered,"['device', 'difficult', 'use', 'device difficult', 'difficult use']"
+496,476,17.0,Unknown,"['label', 'use', 'label use']"
+497,476,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+498,478,17.0,Unknown,"['device', 'expulsion', 'device expulsion']"
+499,478,17.0,Unknown,"['inappropriate', 'schedule', 'drug', 'administration', 'inappropriate schedule', 'schedule drug', 'drug administration']"
+500,478,17.0,Unknown,"['adverse', 'event', 'adverse event']"
 501,480,17.0,Fatal,"['disease', 'progression', 'disease progression']"
+502,482,17.0,Unknown,['investigation']
 503,484,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 504,485,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 505,487,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 506,488,17.0,Recovered,['arthropathy']
+507,488,17.0,Unknown,['osteonecrosis']
 508,490,17.0,Recovered,"['grand', 'mal', 'convulsion', 'grand mal', 'mal convulsion']"
 509,490,17.0,Recovered,['vomiting']
 510,490,17.0,NotRecovered,['amnesia']
+511,491,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
 512,492,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 513,494,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 514,497,17.0,Fatal,"['neurological', 'decompensation', 'neurological decompensation']"
 515,497,17.0,Fatal,"['disease', 'progression', 'disease progression']"
+516,499,17.0,Unknown,['thrombosis']
 517,499,17.0,NotRecovered,"['device', 'issue', 'device issue']"
+518,499,17.0,Unknown,"['arteriovenous', 'fistula', 'site', 'complication', 'arteriovenous fistula', 'fistula site', 'site complication']"
+519,502,17.0,Unknown,"['rib', 'fracture', 'rib fracture']"
 520,505,17.0,Recovered,"['fluid', 'overload', 'fluid overload']"
 521,505,17.0,Recovered,"['infected', 'cyst', 'infected cyst']"
 522,505,17.0,Recovered,"['febrile', 'neutropenia', 'febrile neutropenia']"
@@ -218,7 +530,13 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 529,508,17.0,Recovering,['irritability']
 530,508,17.0,Recovering,"['affective', 'disorder', 'affective disorder']"
 531,508,17.0,Recovering,"['condition', 'aggravated', 'condition aggravated']"
+532,516,17.0,Unknown,['anger']
+533,516,17.0,Unknown,['hallucination']
+534,517,17.0,Unknown,"['mixed', 'liver', 'injury', 'mixed liver', 'liver injury']"
+535,520,17.0,Unknown,['headache']
+536,520,17.0,Unknown,['toothache']
 537,520,17.0,Recovering,['peritonitis']
+538,520,17.0,Unknown,"['peritoneal', 'dialysis', 'complication', 'peritoneal dialysis', 'dialysis complication']"
 539,525,17.0,Fatal,['haemorrhage']
 540,525,17.0,Fatal,"['haematocrit', 'decreased', 'haematocrit decreased']"
 541,525,17.0,Fatal,"['rectal', 'haemorrhage', 'rectal haemorrhage']"
@@ -226,10 +544,15 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 543,525,17.0,Fatal,"['mouth', 'haemorrhage', 'mouth haemorrhage']"
 544,525,17.0,Fatal,['epistaxis']
 545,525,17.0,NotRecovered,['pyrexia']
+546,526,17.0,Unknown,"['stevens', 'johnson', 'syndrome', 'stevens johnson', 'johnson syndrome']"
 547,527,17.0,Fatal,"['myocardial', 'infarction', 'myocardial infarction']"
 548,528,17.0,NotRecovered,"['mycobacterium', 'tuberculosis', 'complex', 'test', 'positive', 'mycobacterium tuberculosis', 'tuberculosis complex', 'complex test', 'test positive']"
 549,528,17.0,NotRecovered,['headache']
 550,528,17.0,NotRecovered,"['chest', 'discomfort', 'chest discomfort']"
+551,530,17.0,Unknown,['nausea']
+552,530,17.0,Unknown,['vomiting']
+553,532,17.0,Unknown,"['balance', 'disorder', 'balance disorder']"
+554,534,17.0,Unknown,"['incorrect', 'route', 'drug', 'administration', 'incorrect route', 'route drug', 'drug administration']"
 555,535,17.1,Fatal,['death']
 556,537,17.0,Recovering,['parotitis']
 557,537,17.0,Recovering,"['salivary', 'hypersecretion', 'salivary hypersecretion']"
@@ -242,50 +565,124 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 564,537,17.0,Recovering,['anaemia']
 565,537,17.0,Recovering,['tachycardia']
 566,537,17.0,Recovering,"['schizoaffective', 'disorder', 'bipolar', 'type', 'schizoaffective disorder', 'disorder bipolar', 'bipolar type']"
+567,537,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+568,540,17.0,Unknown,['bursitis']
+569,540,17.0,Unknown,"['abscess', 'bacterial', 'abscess bacterial']"
+570,540,17.0,Unknown,"['staphylococcal', 'infection', 'staphylococcal infection']"
 571,541,17.0,Recovering,['fall']
 572,541,17.0,Recovering,['rhabdomyolysis']
 573,541,17.0,Recovering,['somnolence']
+574,545,17.0,Unknown,"['platelet', 'count', 'abnormal', 'platelet count', 'count abnormal']"
+575,545,17.0,Unknown,['haematochezia']
+576,547,17.0,Unknown,['transfusion']
+577,547,17.0,Unknown,"['vision', 'blurred', 'vision blurred']"
+578,547,17.0,Unknown,"['intraocular', 'pressure', 'increased', 'intraocular pressure', 'pressure increased']"
+579,548,17.0,Unknown,['rectocele']
 580,551,17.0,Fatal,"['cardiac', 'arrest', 'cardiac arrest']"
 581,551,17.0,Fatal,['arrhythmia']
+582,551,17.0,Unknown,['acidosis']
+583,551,17.0,Unknown,"['respiratory', 'distress', 'respiratory distress']"
+584,551,17.0,Unknown,"['status', 'epilepticus', 'status epilepticus']"
 585,553,17.0,Fatal,['death']
+586,554,17.0,Unknown,"['blood', 'pressure', 'increased', 'blood pressure', 'pressure increased']"
+587,554,17.0,Unknown,"['ear', 'congestion', 'ear congestion']"
+588,554,17.0,Unknown,['arthralgia']
+589,554,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+590,554,17.0,Unknown,"['thinking', 'abnormal', 'thinking abnormal']"
+591,554,17.0,Unknown,"['drug', 'dispensing', 'error', 'drug dispensing', 'dispensing error']"
+592,554,17.0,Unknown,['epistaxis']
+593,554,17.0,Unknown,['contusion']
+594,554,17.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+595,554,17.0,,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
+596,556,17.0,Unknown,['hypersensitivity']
+597,561,17.0,Unknown,['rash']
+598,561,17.0,Unknown,['hypersensitivity']
+599,564,17.0,Unknown,"['subdural', 'haematoma', 'subdural haematoma']"
 600,566,17.0,NotRecovered,['dizziness']
+601,570,17.0,Unknown,['malaise']
 602,573,17.0,Recovered,"['international', 'normalised', 'ratio', 'fluctuation', 'international normalised', 'normalised ratio', 'ratio fluctuation']"
 603,574,17.0,Recovered,['fall']
 604,574,17.0,NotRecovered,['concussion']
 605,574,17.0,Recovered,"['clavicle', 'fracture', 'clavicle fracture']"
+606,574,17.0,Unknown,"['hip', 'fracture', 'hip fracture']"
 607,574,17.0,NotRecovered,['parkinsonism']
+608,574,17.0,Unknown,"['mobility', 'decreased', 'mobility decreased']"
+609,574,17.0,Unknown,"['faecal', 'incontinence', 'faecal incontinence']"
+610,574,17.0,Unknown,"['urinary', 'incontinence', 'urinary incontinence']"
+611,574,17.0,Unknown,['depression']
 612,574,17.0,Recovered,"['memory', 'impairment', 'memory impairment']"
+613,574,17.0,Unknown,['fatigue']
+614,574,17.0,Unknown,['fall']
+615,574,17.0,Unknown,['pain']
+616,574,17.0,Unknown,['fall']
 617,574,17.0,Recovering,['fall']
 618,574,17.0,Recovered,"['gait', 'disturbance', 'gait disturbance']"
+619,574,17.0,Unknown,"['emotional', 'distress', 'emotional distress']"
 620,582,17.0,Recovering,"['gastrointestinal', 'haemorrhage', 'gastrointestinal haemorrhage']"
 621,582,17.0,Recovering,['pneumonia']
 622,582,17.0,Recovering,"['pulmonary', 'oedema', 'pulmonary oedema']"
 623,582,17.0,Recovering,"['failure', 'thrive', 'failure thrive']"
 624,582,17.0,Recovering,['hypophagia']
 625,583,17.0,Recovered,"['ammonia', 'increased', 'ammonia increased']"
+626,586,17.0,Unknown,"['cautery', 'nose', 'cautery nose']"
 627,586,17.0,Recovered,['epistaxis']
+628,588,18.0,Unknown,"['neoplasm', 'malignant', 'neoplasm malignant']"
+629,588,18.0,Unknown,"['pain', 'extremity', 'pain extremity']"
+630,588,18.0,Unknown,['anaemia']
 631,588,18.0,Fatal,['death']
+632,588,18.0,Unknown,"['histiocytosis', 'haematophagic', 'histiocytosis haematophagic']"
+633,590,17.0,Unknown,['fatigue']
 634,592,17.0,Recovered,"['ventricular', 'tachycardia', 'ventricular tachycardia']"
+635,593,17.0,Unknown,['pain']
+636,593,17.0,Unknown,['anaemia']
 637,594,17.0,Recovering,['melaena']
 638,594,17.0,Recovering,['asthenia']
 639,594,17.0,Recovering,['vertigo']
 640,594,17.0,Recovering,"['duodenal', 'ulcer', 'duodenal ulcer']"
 641,594,17.0,Recovering,"['gastritis', 'erosive', 'gastritis erosive']"
 642,594,17.0,Recovering,"['gastrointestinal', 'haemorrhage', 'gastrointestinal haemorrhage']"
+643,601,17.0,Unknown,['dizziness']
 644,601,17.0,Recovered,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+645,601,17.0,Unknown,"['blood', 'urine', 'present', 'blood urine', 'urine present']"
+646,601,17.0,Unknown,['mass']
+647,601,17.0,Unknown,['vomiting']
+648,601,17.0,Unknown,"['feeling', 'hot', 'feeling hot']"
 649,601,17.0,NotRecovered,['contusion']
 650,602,17.0,NotRecovered,"['psychotic', 'behaviour', 'psychotic behaviour']"
 651,602,17.0,NotRecovered,"['cognitive', 'disorder', 'cognitive disorder']"
+652,606,17.0,Unknown,"['hospice', 'care', 'hospice care']"
 653,614,17.0,Recovered,"['circulatory', 'collapse', 'circulatory collapse']"
 654,614,17.0,Recovered,"['pneumonia', 'aspiration', 'pneumonia aspiration']"
 655,614,17.0,Recovered,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
 656,614,17.0,Recovered,"['neutrophil', 'count', 'increased', 'neutrophil count', 'count increased']"
 657,614,17.0,Recovered,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+658,615,17.1,Unknown,"['blood', 'lactate', 'dehydrogenase', 'increased', 'blood lactate', 'lactate dehydrogenase', 'dehydrogenase increased']"
+659,615,17.1,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
 660,615,17.1,Recovering,['epistaxis']
+661,615,17.1,Unknown,['headache']
 662,615,17.1,Recovering,['influenza']
 663,615,17.1,Recovered,['nausea']
+664,615,17.1,Unknown,['contusion']
+665,615,17.1,Unknown,"['wound', 'haemorrhage', 'wound haemorrhage']"
+666,615,17.1,Unknown,"['blood', 'smear', 'test', 'abnormal', 'blood smear', 'smear test', 'test abnormal']"
 667,615,17.1,Recovering,['fatigue']
 668,615,17.1,Recovering,"['adverse', 'drug', 'reaction', 'adverse drug', 'drug reaction']"
+669,615,17.1,Unknown,"['disease', 'progression', 'disease progression']"
+670,621,19.1,Unknown,"['increased', 'appetite', 'increased appetite']"
+671,621,19.1,Unknown,['incontinence']
+672,621,19.1,Unknown,"['label', 'use', 'label use']"
+673,621,19.1,Unknown,['epistaxis']
+674,621,19.1,Unknown,['blindness']
+675,621,19.1,Unknown,"['weight', 'increased', 'weight increased']"
+676,621,19.1,Unknown,"['skin', 'cancer', 'skin cancer']"
+677,621,19.1,Unknown,['nasopharyngitis']
+678,621,19.1,Unknown,['dizziness']
+679,621,19.1,Unknown,"['dry', 'eye', 'dry eye']"
+680,621,19.1,Unknown,"['wrong', 'technique', 'product', 'usage', 'process', 'wrong technique', 'technique product', 'product usage', 'usage process']"
+681,621,19.1,Unknown,['pruritus']
+682,621,19.1,Unknown,"['increased', 'tendency', 'bruise', 'increased tendency', 'tendency bruise']"
+683,621,19.1,Unknown,['diarrhoea']
+684,621,19.1,Unknown,['constipation']
 685,629,17.1,Recovered,['frustration']
 686,629,17.1,NotRecovered,['anger']
 687,629,17.1,NotRecovered,"['drug', 'level', 'decreased', 'drug level', 'level decreased']"
@@ -303,9 +700,18 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 699,629,17.1,NotRecovered,['fatigue']
 700,629,17.1,NotRecovered,"['eating', 'disorder', 'eating disorder']"
 701,629,17.1,NotRecovered,['anxiety']
+702,630,20.1,Unknown,"['memory', 'impairment', 'memory impairment']"
+703,630,20.1,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
+704,635,17.0,Unknown,['nasopharyngitis']
+705,635,17.0,Unknown,"['productive', 'cough', 'productive cough']"
 706,635,17.0,Recovering,"['chronic', 'sinusitis', 'chronic sinusitis']"
+707,636,17.0,Unknown,"['cardiac', 'arrest', 'cardiac arrest']"
+708,636,17.0,Unknown,"['anaphylactic', 'reaction', 'anaphylactic reaction']"
+709,638,17.0,Unknown,"['therapeutic', 'response', 'unexpected', 'therapeutic response', 'response unexpected']"
 710,639,17.0,Recovered,"['interstitial', 'lung', 'disease', 'interstitial lung', 'lung disease']"
 711,639,17.0,Recovered,['dyspnoea']
+712,639,17.0,Unknown,"['general', 'physical', 'health', 'deterioration', 'general physical', 'physical health', 'health deterioration']"
+713,639,17.0,Unknown,"['pleural', 'effusion', 'pleural effusion']"
 714,639,17.0,Recovered,['oedema']
 715,639,17.0,Recovered,"['aphthous', 'stomatitis', 'aphthous stomatitis']"
 716,644,17.0,Recovered,"['mucosal', 'inflammation', 'mucosal inflammation']"
@@ -315,53 +721,151 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 720,645,17.0,NotRecovered,"['gingival', 'bleeding', 'gingival bleeding']"
 721,645,17.0,Recovering,"['gingival', 'pain', 'gingival pain']"
 722,645,17.0,Recovering,"['gingival', 'hyperplasia', 'gingival hyperplasia']"
+723,648,17.0,Unknown,['pancreatitis']
+724,649,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 725,652,17.0,NotRecovered,"['feeling', 'cold', 'feeling cold']"
 726,652,17.0,NotRecovered,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
 727,652,17.0,NotRecovered,['dizziness']
 728,653,17.0,Recovering,"['hepatocellular', 'injury', 'hepatocellular injury']"
 729,653,17.0,Recovering,['cholestasis']
+730,653,17.0,Unknown,['pyrexia']
 731,656,17.0,Fatal,"['kaposi', 'sarcoma', 'kaposi sarcoma']"
 732,659,17.0,Recovered,"['medication', 'residue', 'present', 'medication residue', 'residue present']"
 733,661,17.0,NotRecovered,['nausea']
 734,661,17.0,NotRecovered,['vomiting']
 735,661,17.0,NotRecovered,['diarrhoea']
 736,662,17.0,Recovered,"['neutrophil', 'count', 'decreased', 'neutrophil count', 'count decreased']"
+737,663,17.0,Unknown,['tinnitus']
+738,663,17.0,Unknown,['palpitation']
+739,664,17.0,Unknown,"['abnormal', 'behaviour', 'abnormal behaviour']"
+740,664,17.0,Unknown,"['drug', 'level', 'increased', 'drug level', 'level increased']"
+741,664,17.0,Unknown,['lethargy']
+742,664,17.0,Unknown,['irritability']
+743,664,17.0,Unknown,"['obsessive', 'compulsive', 'disorder', 'obsessive compulsive', 'compulsive disorder']"
+744,664,17.0,Unknown,['dermatillomania']
+745,664,17.0,Unknown,"['activity', 'daily', 'living', 'impaired', 'activity daily', 'daily living', 'living impaired']"
+746,664,17.0,Unknown,"['memory', 'impairment', 'memory impairment']"
+747,664,17.0,Unknown,['bradykinesia']
+748,664,17.0,Unknown,"['muscular', 'weakness', 'muscular weakness']"
+749,664,17.0,Unknown,['insomnia']
+750,664,17.0,Unknown,"['drug', 'interaction', 'drug interaction']"
 751,665,17.0,Fatal,['death']
+752,668,17.0,Unknown,"['breast', 'cancer', 'breast cancer']"
+753,668,17.0,Unknown,"['second', 'primary', 'malignancy', 'second primary', 'primary malignancy']"
+754,668,17.0,Unknown,"['metastasis', 'pleura', 'metastasis pleura']"
+755,668,17.0,Unknown,"['metastasis', 'lymph', 'node', 'metastasis lymph', 'lymph node']"
 756,674,17.0,Recovered,['hypomagnesaemia']
+757,674,17.0,Unknown,"['drug', 'interaction', 'drug interaction']"
+758,678,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 759,683,17.0,Recovered,['asthenia']
 760,683,17.0,Recovered,"['cold', 'sweat', 'cold sweat']"
 761,683,17.0,Recovered,['nausea']
 762,683,17.0,Recovered,['palpitation']
+763,684,17.0,Unknown,"['drug', 'intolerance', 'drug intolerance']"
+764,684,17.0,,"['medication', 'error', 'medication error']"
+765,685,17.0,Unknown,['neuralgia']
+766,690,17.0,Unknown,['diarrhoea']
+767,690,17.0,Unknown,['dyspepsia']
+768,690,17.0,Unknown,['nausea']
+769,690,17.0,Unknown,['headache']
+770,691,17.0,Unknown,"['metastasis', 'bone', 'metastasis bone']"
 771,691,17.0,Recovered,"['osteonecrosis', 'jaw', 'osteonecrosis jaw']"
+772,696,17.0,Unknown,"['feeling', 'abnormal', 'feeling abnormal']"
+773,696,17.0,Unknown,['pneumonia']
+774,696,17.0,Unknown,"['suicidal', 'ideation', 'suicidal ideation']"
+775,696,17.0,Unknown,"['psychotic', 'disorder', 'psychotic disorder']"
+776,696,17.0,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+777,696,17.0,Unknown,"['unevaluable', 'event', 'unevaluable event']"
+778,696,17.0,Unknown,['malaise']
+779,696,17.0,Unknown,"['drug', 'level', 'increased', 'drug level', 'level increased']"
+780,696,17.0,Unknown,['asthenia']
+781,696,17.0,Unknown,['apathy']
+782,696,17.0,Unknown,['pain']
 783,697,17.0,NotRecovered,"['joint', 'dislocation', 'joint dislocation']"
+784,698,18.1,Unknown,['scab']
+785,699,17.0,Unknown,"['adverse', 'reaction', 'adverse reaction']"
 786,700,17.0,NotRecovered,['stomatitis']
 787,702,17.0,Recovered,['epilepsy']
+788,702,17.0,Unknown,"['mood', 'altered', 'mood altered']"
 789,702,17.0,Recovering,['stomatitis']
+790,703,17.0,Unknown,['nasopharyngitis']
+791,703,17.0,Unknown,"['nasal', 'congestion', 'nasal congestion']"
 792,704,17.0,Recovering,['nausea']
 793,704,17.0,Recovering,['vomiting']
 794,704,17.0,Recovering,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
 795,704,17.0,Recovering,['fatigue']
 796,704,17.0,Recovering,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+797,705,17.0,Unknown,"['cardiac', 'disorder', 'cardiac disorder']"
 798,709,17.0,Recovered,['investigation']
+799,710,17.0,Unknown,"['pulmonary', 'congestion', 'pulmonary congestion']"
+800,710,17.0,Unknown,"['ear', 'congestion', 'ear congestion']"
 801,711,17.0,Recovered,"['foot', 'deformity', 'foot deformity']"
+802,712,17.0,Unknown,['dyspnoea']
+803,712,17.0,Unknown,['tachycardia']
+804,712,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
 805,713,17.0,NotRecovered,"['medication', 'residue', 'present', 'medication residue', 'residue present']"
+806,714,17.0,Unknown,"['testicular', 'torsion', 'testicular torsion']"
 807,715,17.0,Recovered,['epistaxis']
 808,720,17.0,NotRecovered,"['pain', 'jaw', 'pain jaw']"
 809,720,17.0,NotRecovered,['pyrexia']
 810,720,17.0,NotRecovered,['flatulence']
 811,720,17.0,NotRecovered,['diarrhoea']
+812,721,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
 813,723,17.0,Fatal,"['bronchial', 'carcinoma', 'bronchial carcinoma']"
 814,724,17.0,Fatal,['pneumonitis']
+815,724,17.0,,"['pleural', 'effusion', 'pleural effusion']"
+816,724,17.0,,"['radiation', 'pneumonitis', 'radiation pneumonitis']"
+817,724,17.0,,['oesophagitis']
+818,724,17.0,,['pericarditis']
+819,726,17.0,Unknown,"['muscle', 'spasm', 'muscle spasm']"
+820,726,17.0,Unknown,"['pain', 'extremity', 'pain extremity']"
+821,726,17.0,Unknown,['polycythaemia']
 822,727,17.0,Recovered,"['embedded', 'device', 'embedded device']"
 823,727,17.0,Recovered,"['device', 'breakage', 'device breakage']"
+824,727,17.0,Unknown,"['back', 'pain', 'back pain']"
+825,728,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
 826,729,17.0,Fatal,['pneumonia']
+827,729,17.0,Unknown,"['cytomegalovirus', 'infection', 'cytomegalovirus infection']"
+828,729,17.0,Unknown,"['cystitis', 'haemorrhagic', 'cystitis haemorrhagic']"
+829,729,17.0,Unknown,"['acute', 'graft', 'versus', 'host', 'disease', 'acute graft', 'graft versus', 'versus host', 'host disease']"
+830,730,17.0,Unknown,"['memory', 'impairment', 'memory impairment']"
+831,730,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
 832,731,17.0,Fatal,['death']
+833,735,17.0,Unknown,['chill']
+834,735,17.0,Unknown,['myalgia']
+835,735,17.0,Unknown,['headache']
+836,735,17.0,Unknown,['dizziness']
+837,735,17.0,Unknown,['nausea']
+838,735,17.0,Unknown,['myalgia']
+839,735,17.0,Unknown,['chill']
 840,736,17.0,Recovered,['bronchospasm']
 841,736,17.0,Recovered,['discomfort']
 842,736,17.0,Recovered,['rash']
 843,736,17.0,Recovered,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+844,737,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 845,738,17.0,NotRecovered,"['device', 'breakage', 'device breakage']"
+846,738,17.0,Unknown,"['adverse', 'event', 'adverse event']"
+847,740,17.0,Unknown,['pain']
+848,740,17.0,Unknown,['pruritus']
+849,740,17.0,Unknown,['dizziness']
+850,740,17.0,Unknown,['pyrexia']
+851,740,17.0,Unknown,['asthenia']
+852,740,17.0,Unknown,['nausea']
+853,741,17.0,Unknown,"['aortic', 'dissection', 'aortic dissection']"
+854,743,17.1,Unknown,['rash']
+855,743,17.1,Unknown,['discomfort']
+856,743,17.1,Unknown,['constipation']
+857,743,17.1,Unknown,"['skin', 'disorder', 'skin disorder']"
+858,743,17.1,Unknown,"['skin', 'sensitisation', 'skin sensitisation']"
+859,743,17.1,Unknown,['blister']
+860,743,17.1,Unknown,['jaundice']
+861,745,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
+862,745,17.0,Unknown,"['product', 'packaging', 'quantity', 'issue', 'product packaging', 'packaging quantity', 'quantity issue']"
+863,745,17.0,Unknown,"['adverse', 'event', 'adverse event']"
 864,748,17.0,Fatal,['death']
+865,749,17.0,Unknown,['pain']
+866,749,17.0,Unknown,['dizziness']
+867,749,17.0,Unknown,['headache']
 868,750,17.0,Recovering,['hypoaesthesia']
 869,750,17.0,Recovering,['tremor']
 870,750,17.0,Recovering,"['feeling', 'hot', 'feeling hot']"
@@ -369,7 +873,15 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 872,750,17.0,Recovering,"['mobility', 'decreased', 'mobility decreased']"
 873,750,17.0,Recovering,['asthenia']
 874,750,17.0,Recovering,"['local', 'swelling', 'local swelling']"
+875,756,17.0,Unknown,"['blood', 'fibrinogen', 'decreased', 'blood fibrinogen', 'fibrinogen decreased']"
+876,758,17.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+877,763,17.0,Unknown,"['diabetes', 'mellitus', 'diabetes mellitus']"
+878,763,17.0,Unknown,"['urinary', 'tract', 'infection', 'urinary tract', 'tract infection']"
+879,765,17.1,Unknown,"['foetal', 'heart', 'rate', 'decreased', 'foetal heart', 'heart rate', 'rate decreased']"
 880,765,17.1,NotRecovered,"['foetal', 'exposure', 'pregnancy', 'foetal exposure', 'exposure pregnancy']"
+881,765,17.1,Unknown,"['foetal', 'heart', 'rate', 'increased', 'foetal heart', 'heart rate', 'rate increased']"
+882,767,17.0,Unknown,"['device', 'breakage', 'device breakage']"
+883,767,17.0,Unknown,"['adverse', 'event', 'adverse event']"
 884,770,17.0,Recovered,['vertigo']
 885,770,17.0,Recovered,['erythema']
 886,772,17.0,NotRecovered,"['tooth', 'disorder', 'tooth disorder']"
@@ -388,6 +900,9 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 899,782,17.0,Recovered,"['lower', 'gastrointestinal', 'haemorrhage', 'lower gastrointestinal', 'gastrointestinal haemorrhage']"
 900,785,17.0,Fatal,"['pulmonary', 'alveolar', 'haemorrhage', 'pulmonary alveolar', 'alveolar haemorrhage']"
 901,785,17.0,Fatal,"['graft', 'versus', 'host', 'disease', 'graft versus', 'versus host', 'host disease']"
+902,785,17.0,Unknown,"['cystitis', 'haemorrhagic', 'cystitis haemorrhagic']"
+903,785,17.0,Unknown,"['adenovirus', 'infection', 'adenovirus infection']"
+904,785,17.0,Unknown,"['bk', 'virus', 'infection', 'bk virus', 'virus infection']"
 905,788,17.0,Recovering,"['bone', 'marrow', 'failure', 'bone marrow', 'marrow failure']"
 906,788,17.0,Recovered,['pyrexia']
 907,788,17.0,Recovered,['neutropenia']
@@ -402,15 +917,31 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 916,788,17.0,Recovering,['odynophagia']
 917,788,17.0,Recovered,['lymphadenopathy']
 918,788,17.0,Recovering,"['productive', 'cough', 'productive cough']"
+919,790,17.0,Unknown,"['hyperthermia', 'malignant', 'hyperthermia malignant']"
 920,792,17.0,Fatal,['death']
+921,792,17.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
+922,792,17.0,Unknown,"['cerebral', 'haemorrhage', 'cerebral haemorrhage']"
+923,792,17.0,Unknown,['drooling']
 924,793,17.0,Recovered,['haematochezia']
 925,793,17.0,Recovered,['diverticulum']
+926,796,17.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
 927,797,17.1,Fatal,['death']
+928,798,17.0,Unknown,['rash']
 929,799,17.0,NotRecovered,"['blood', 'alkaline', 'phosphatase', 'increased', 'blood alkaline', 'alkaline phosphatase', 'phosphatase increased']"
 930,799,17.0,NotRecovered,"['transaminase', 'increased', 'transaminase increased']"
 931,799,17.0,NotRecovered,"['gamma', 'glutamyltransferase', 'increased', 'gamma glutamyltransferase', 'glutamyltransferase increased']"
+932,800,17.0,Unknown,"['electrocardiogram', 'abnormal', 'electrocardiogram abnormal']"
+933,800,17.0,Unknown,"['left', 'ventricular', 'dysfunction', 'left ventricular', 'ventricular dysfunction']"
+934,800,17.0,Unknown,"['sinus', 'tachycardia', 'sinus tachycardia']"
+935,802,17.0,Unknown,"['foetal', 'cardiac', 'disorder', 'foetal cardiac', 'cardiac disorder']"
+936,802,17.0,Unknown,"['label', 'use', 'label use']"
+937,802,17.0,Unknown,"['exposure', 'pregnancy', 'exposure pregnancy']"
 938,803,17.0,Recovering,"['eye', 'haemorrhage', 'eye haemorrhage']"
+939,811,17.0,Unknown,"['oral', 'mucosal', 'erythema', 'oral mucosal', 'mucosal erythema']"
+940,811,17.0,Unknown,"['oral', 'pain', 'oral pain']"
+941,811,17.0,Unknown,"['abdominal', 'tenderness', 'abdominal tenderness']"
 942,813,17.1,Recovered,['thrombocytopenia']
+943,813,17.1,Unknown,['petechia']
 944,817,18.1,Recovered,"['acute', 'myocardial', 'infarction', 'acute myocardial', 'myocardial infarction']"
 945,818,17.0,Fatal,"['malignant', 'neoplasm', 'progression', 'malignant neoplasm', 'neoplasm progression']"
 946,818,17.0,NotRecovered,"['general', 'physical', 'health', 'deterioration', 'general physical', 'physical health', 'health deterioration']"
@@ -422,14 +953,25 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 952,820,17.0,NotRecovered,"['injection', 'site', 'pruritus', 'injection site', 'site pruritus']"
 953,820,17.0,NotRecovered,"['unevaluable', 'event', 'unevaluable event']"
 954,821,17.0,Recovered,"['device', 'difficult', 'use', 'device difficult', 'difficult use']"
+955,821,17.0,Unknown,"['product', 'quality', 'issue', 'product quality', 'quality issue']"
 956,822,17.0,Recovered,['dizziness']
 957,822,17.0,Recovered,['hypoaesthesia']
+958,825,17.0,Unknown,"['device', 'expulsion', 'device expulsion']"
 959,826,17.0,Recovered,"['infusion', 'site', 'erythema', 'infusion site', 'site erythema']"
 960,826,17.0,Recovered,['chill']
+961,827,17.1,Unknown,"['laboratory', 'test', 'abnormal', 'laboratory test', 'test abnormal']"
 962,827,17.1,NotRecovered,['contusion']
+963,827,17.1,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
 964,827,17.1,NotRecovered,"['platelet', 'count', 'increased', 'platelet count', 'count increased']"
 965,827,17.1,NotRecovered,['hypertension']
+966,827,17.1,Unknown,"['treatment', 'noncompliance', 'treatment noncompliance']"
 967,827,17.1,NotRecovered,"['eye', 'disorder', 'eye disorder']"
+968,827,17.1,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
+969,827,17.1,Unknown,['pain']
+970,828,17.1,,"['emotional', 'distress', 'emotional distress']"
+971,828,17.1,,['pain']
+972,828,17.1,,"['embedded', 'device', 'embedded device']"
+973,828,17.1,,['injury']
 974,832,18.0,Recovered,"['drug', 'eruption', 'drug eruption']"
 975,833,17.0,Recovered,"['oropharyngeal', 'spasm', 'oropharyngeal spasm']"
 976,833,17.0,Recovered,"['respiratory', 'disorder', 'respiratory disorder']"
@@ -442,8 +984,14 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 983,835,17.0,Recovering,['pneumonia']
 984,835,17.0,Recovering,['anaemia']
 985,837,17.0,Recovered,['nausea']
+986,837,17.0,Unknown,"['drug', 'administration', 'error', 'drug administration', 'administration error']"
+987,838,18.0,Unknown,"['hepatic', 'lesion', 'hepatic lesion']"
 988,838,18.0,NotRecovered,"['malignant', 'neoplasm', 'progression', 'malignant neoplasm', 'neoplasm progression']"
 989,838,18.0,NotRecovered,"['gastric', 'cancer', 'gastric cancer']"
+990,838,18.0,Unknown,"['product', 'use', 'issue', 'product use', 'use issue']"
+991,839,17.0,Unknown,"['seizure', 'like', 'phenomenon', 'seizure like', 'like phenomenon']"
+992,839,17.0,Unknown,['myoclonus']
+993,848,17.0,Unknown,"['therapeutic', 'response', 'unexpected', 'therapeutic response', 'response unexpected']"
 994,849,17.0,Recovered,['urticaria']
 995,849,17.0,Recovered,['erythema']
 996,849,17.0,Recovered,['pruritus']
@@ -451,11 +999,17 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 998,852,17.1,Fatal,['death']
 999,860,17.0,Recovered,"['decreased', 'appetite', 'decreased appetite']"
 1000,860,17.0,Recovered,['depression']
+1001,866,17.0,Unknown,"['influenza', 'like', 'illness', 'influenza like', 'like illness']"
+1002,866,17.0,Unknown,"['local', 'swelling', 'local swelling']"
 1003,867,17.0,Recovering,"['transient', 'ischaemic', 'attack', 'transient ischaemic', 'ischaemic attack']"
 1004,869,17.0,Recovered,"['traumatic', 'haematoma', 'traumatic haematoma']"
 1005,872,17.1,Recovered,"['skin', 'discolouration', 'skin discolouration']"
 1006,872,17.1,Recovered,['rash']
 1007,873,17.0,Fatal,['death']
+1008,874,18.1,Unknown,['malaise']
+1009,874,18.1,Unknown,['insomnia']
+1010,874,18.1,Unknown,['fatigue']
+1011,874,18.1,Unknown,['asthenia']
 1012,877,17.1,Recovered,['overdose']
 1013,877,17.1,Recovered,['dyspnoea']
 1014,877,17.1,Recovered,"['lung', 'infection', 'lung infection']"
@@ -466,14 +1020,57 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1019,885,17.0,Recovered,"['blood', 'testosterone', 'free', 'decreased', 'blood testosterone', 'testosterone free', 'free decreased']"
 1020,885,17.0,Recovered,"['tri', 'iodothyronine', 'uptake', 'increased', 'tri iodothyronine', 'iodothyronine uptake', 'uptake increased']"
 1021,885,17.0,NotRecovered,"['back', 'pain', 'back pain']"
+1022,885,17.0,Unknown,"['type', '2', 'diabetes', 'mellitus', 'type 2', '2 diabetes', 'diabetes mellitus']"
+1023,885,17.0,Unknown,"['hepatitis', 'c', 'hepatitis c']"
+1024,885,17.0,Unknown,['insomnia']
+1025,885,17.0,Unknown,"['blood', 'cholesterol', 'increased', 'blood cholesterol', 'cholesterol increased']"
+1026,885,17.0,Unknown,"['benign', 'prostatic', 'hyperplasia', 'benign prostatic', 'prostatic hyperplasia']"
+1027,885,17.0,Unknown,"['urinary', 'tract', 'obstruction', 'urinary tract', 'tract obstruction']"
+1028,885,17.0,Unknown,"['drug', 'dependence', 'drug dependence']"
+1029,885,17.0,Unknown,"['erectile', 'dysfunction', 'erectile dysfunction']"
+1030,886,18.1,Unknown,"['heart', 'rate', 'increased', 'heart rate', 'rate increased']"
 1031,891,17.0,Recovered,"['adverse', 'event', 'adverse event']"
+1032,891,17.0,,"['bone', 'marrow', 'transplant', 'bone marrow', 'marrow transplant']"
 1033,893,17.0,Recovered,"['infusion', 'related', 'reaction', 'infusion related', 'related reaction']"
 1034,893,17.0,Recovered,"['generalised', 'erythema', 'generalised erythema']"
 1035,893,17.0,Recovered,['pruritus']
 1036,893,17.0,Recovered,['macroglossia']
 1037,893,17.0,Recovered,['dyspnoea']
+1038,895,17.0,Unknown,"['platelet', 'count', 'abnormal', 'platelet count', 'count abnormal']"
+1039,895,17.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1040,895,17.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+1041,897,18.1,Unknown,['fall']
+1042,897,18.1,Unknown,['injury']
+1043,899,17.0,Unknown,['blister']
+1044,899,17.0,Unknown,['hyperhidrosis']
+1045,899,17.0,Unknown,"['skin', 'irritation', 'skin irritation']"
+1046,899,17.0,Unknown,['anaemia']
+1047,900,17.0,Unknown,"['malignant', 'neoplasm', 'progression', 'malignant neoplasm', 'neoplasm progression']"
+1048,900,17.0,Unknown,['pancytopenia']
 1049,904,17.0,NotRecovered,['pregnancy']
+1050,910,17.0,Unknown,"['ovarian', 'germ', 'cell', 'cancer', 'stage', 'ii', 'ovarian germ', 'germ cell', 'cell cancer', 'cancer stage', 'stage ii']"
+1051,910,17.0,Unknown,['amenorrhoea']
+1052,910,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+1053,910,17.0,Unknown,['tremor']
+1054,910,17.0,Unknown,['galactorrhoea']
+1055,910,17.0,Unknown,['dyspnoea']
+1056,910,17.0,Unknown,"['blood', 'prolactin', 'increased', 'blood prolactin', 'prolactin increased']"
+1057,910,17.0,Unknown,['palpitation']
+1058,910,17.0,Unknown,['dyskinesia']
+1059,910,17.0,Unknown,['dysuria']
+1060,910,17.0,Unknown,['swelling']
+1061,910,17.0,Unknown,"['muscle', 'spasm', 'muscle spasm']"
+1062,910,17.0,Unknown,"['breast', 'enlargement', 'breast enlargement']"
+1063,910,17.0,Unknown,['fatigue']
+1064,910,17.0,Unknown,"['muscular', 'weakness', 'muscular weakness']"
+1065,910,17.0,Unknown,['agitation']
+1066,910,17.0,Unknown,['aggression']
+1067,910,17.0,Unknown,['hyperhidrosis']
+1068,910,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+1069,918,17.0,Unknown,"['chest', 'pain', 'chest pain']"
 1070,918,17.0,Recovered,['palpitation']
+1071,918,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+1072,919,17.0,Unknown,"['wrong', 'technique', 'drug', 'usage', 'process', 'wrong technique', 'technique drug', 'drug usage', 'usage process']"
 1073,920,17.0,Fatal,['death']
 1074,923,17.0,Fatal,"['malignant', 'neoplasm', 'progression', 'malignant neoplasm', 'neoplasm progression']"
 1075,925,17.0,RecoveredWithSequelae,['syncope']
@@ -489,42 +1086,111 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1085,945,17.0,Recovering,"['sinus', 'tachycardia', 'sinus tachycardia']"
 1086,945,17.0,Recovering,['dizziness']
 1087,945,17.0,Recovering,['asthenia']
+1088,947,17.0,Unknown,['alopecia']
+1089,947,17.0,Unknown,"['rash', 'papular', 'rash papular']"
+1090,947,17.0,Unknown,['contusion']
+1091,955,17.0,Unknown,['diarrhoea']
+1092,955,17.0,Unknown,['rhinorrhoea']
+1093,956,17.0,Unknown,"['breast', 'cancer', 'breast cancer']"
 1094,959,17.0,Recovering,['erythema']
 1095,959,17.0,Recovering,['pruritus']
+1096,962,18.1,Unknown,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
 1097,964,18.1,NotRecovered,"['hepatic', 'enzyme', 'increased', 'hepatic enzyme', 'enzyme increased']"
 1098,966,17.0,NotRecovered,"['abdominal', 'pain', 'abdominal pain']"
+1099,966,17.0,Unknown,"['muscle', 'spasm', 'muscle spasm']"
+1100,966,17.0,Unknown,['splenectomy']
 1101,966,17.0,NotRecovered,['splenomegaly']
 1102,966,17.0,Recovered,"['packed', 'red', 'blood', 'cell', 'transfusion', 'packed red', 'red blood', 'blood cell', 'cell transfusion']"
+1103,966,17.0,Unknown,"['post', 'procedural', 'haemorrhage', 'post procedural', 'procedural haemorrhage']"
+1104,966,17.0,Unknown,"['cold', 'agglutinin', 'cold agglutinin']"
+1105,966,17.0,Unknown,['pyrexia']
+1106,966,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
+1107,966,17.0,Unknown,"['haematocrit', 'decreased', 'haematocrit decreased']"
+1108,966,17.0,Unknown,['bronchitis']
+1109,966,17.0,Unknown,"['disease', 'progression', 'disease progression']"
+1110,966,17.0,Unknown,['pseudolymphoma']
+1111,966,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 1112,966,17.0,NotRecovered,['haemoglobinuria']
+1113,966,17.0,Unknown,"['night', 'sweat', 'night sweat']"
+1114,966,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+1115,966,17.0,Unknown,['fatigue']
+1116,966,17.0,Unknown,['cough']
 1117,973,17.0,Recovered,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1118,981,18.1,Unknown,"['lung', 'transplant', 'lung transplant']"
+1119,983,17.0,Unknown,['bronchiolitis']
 1120,983,17.0,Recovered,['apnoea']
 1121,983,17.0,Recovered,['cyanosis']
+1122,983,17.0,Unknown,['rhinorrhoea']
+1123,983,17.0,Unknown,"['umbilical', 'hernia', 'umbilical hernia']"
+1124,983,17.0,Unknown,"['inguinal', 'hernia', 'inguinal hernia']"
+1125,983,17.0,Unknown,"['oedema', 'genital', 'oedema genital']"
+1126,995,17.0,Unknown,['hypoaesthesia']
+1127,995,17.0,Unknown,['anaemia']
 1128,997,18.0,Recovered,"['renal', 'impairment', 'renal impairment']"
 1129,997,18.0,Recovered,['hyperkalaemia']
+1130,997,18.0,Unknown,"['iron', 'deficiency', 'anaemia', 'iron deficiency', 'deficiency anaemia']"
+1131,997,18.0,Unknown,"['chronic', 'gastritis', 'chronic gastritis']"
+1132,998,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+1133,1000,18.1,Unknown,['diarrhoea']
 1134,1006,19.0,Recovered,"['renal', 'artery', 'thrombosis', 'renal artery', 'artery thrombosis']"
+1135,1008,17.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
+1136,1011,17.0,Unknown,"['lip', 'blister', 'lip blister']"
+1137,1011,17.0,Unknown,['pyrexia']
+1138,1014,18.1,Unknown,['fatigue']
+1139,1015,17.0,Unknown,"['purulent', 'discharge', 'purulent discharge']"
+1140,1015,17.0,Unknown,['scab']
+1141,1015,17.0,Unknown,"['skin', 'irritation', 'skin irritation']"
+1142,1015,17.0,Unknown,"['application', 'site', 'erythema', 'application site', 'site erythema']"
+1143,1015,17.0,Unknown,['rash']
+1144,1015,17.0,Unknown,['dermatitis']
+1145,1015,17.0,Unknown,['rash']
+1146,1019,18.1,Unknown,['oedema']
 1147,1032,17.0,Fatal,['death']
+1148,1033,19.1,Unknown,['lymphopenia']
 1149,1033,19.1,Recovered,"['blood', 'cholesterol', 'increased', 'blood cholesterol', 'cholesterol increased']"
 1150,1033,19.1,Recovering,['hypertension']
 1151,1033,19.1,Recovered,['nausea']
 1152,1033,19.1,Recovered,"['low', 'density', 'lipoprotein', 'increased', 'low density', 'density lipoprotein', 'lipoprotein increased']"
 1153,1033,19.1,NotRecovered,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
+1154,1034,17.0,Unknown,['deafness']
+1155,1034,17.0,Unknown,"['ear', 'injury', 'ear injury']"
 1156,1035,17.0,Recovered,"['mental', 'status', 'change', 'mental status', 'status change']"
+1157,1036,18.1,Unknown,"['hearing', 'impaired', 'hearing impaired']"
+1158,1040,17.0,Unknown,"['retinal', 'detachment', 'retinal detachment']"
+1159,1040,17.0,Unknown,"['visual', 'field', 'defect', 'visual field', 'field defect']"
+1160,1040,17.0,Unknown,['fibromyalgia']
+1161,1040,17.0,Unknown,"['eye', 'disorder', 'eye disorder']"
+1162,1046,17.0,Unknown,"['heart', 'rate', 'irregular', 'heart rate', 'rate irregular']"
+1163,1048,18.1,Unknown,['hordeolum']
+1164,1049,17.0,Unknown,['constipation']
+1165,1049,17.0,Unknown,"['bone', 'loss', 'bone loss']"
+1166,1050,18.0,Unknown,['seizure']
 1167,1066,17.0,Recovered,"['loss', 'consciousness', 'loss consciousness']"
 1168,1070,17.0,Recovered,['deafness']
+1169,1078,17.1,Unknown,['palpitation']
 1170,1078,17.1,NotRecovered,"['decreased', 'appetite', 'decreased appetite']"
 1171,1078,17.1,Recovered,"['atrial', 'fibrillation', 'atrial fibrillation']"
 1172,1078,17.1,NotRecovered,['insomnia']
 1173,1078,17.1,Recovered,"['painful', 'erection', 'painful erection']"
+1174,1078,17.1,Unknown,"['chest', 'pain', 'chest pain']"
 1175,1078,17.1,NotRecovered,['tic']
+1176,1078,17.1,Unknown,['dyspnoea']
 1177,1078,17.1,Recovered,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
 1178,1080,18.1,NotRecovered,['oedema']
+1179,1084,17.0,Unknown,"['feeling', 'hot', 'feeling hot']"
+1180,1084,17.0,Unknown,"['cold', 'sweat', 'cold sweat']"
+1181,1090,18.1,Unknown,"['feeling', 'abnormal', 'feeling abnormal']"
 1182,1090,18.1,NotRecovered,['dyspnoea']
 1183,1090,18.1,NotRecovered,"['head', 'discomfort', 'head discomfort']"
 1184,1090,18.1,NotRecovered,['cough']
+1185,1096,17.0,Unknown,['mania']
+1186,1099,18.1,Unknown,['rhinorrhoea']
 1187,1110,17.0,Fatal,"['hepatic', 'failure', 'hepatic failure']"
 1188,1118,17.1,Fatal,['death']
 1189,1120,18.1,Recovered,"['unevaluable', 'event', 'unevaluable event']"
 1190,1137,17.0,Recovered,"['electrocardiogram', 'qt', 'prolonged', 'electrocardiogram qt', 'qt prolonged']"
+1191,1140,18.1,Unknown,"['haemoglobin', 'increased', 'haemoglobin increased']"
+1192,1147,18.1,Unknown,"['oral', 'mucosal', 'blistering', 'oral mucosal', 'mucosal blistering']"
 1193,1148,17.1,Recovered,"['drug', 'interaction', 'drug interaction']"
 1194,1148,17.1,Recovered,"['oedematous', 'pancreatitis', 'oedematous pancreatitis']"
 1195,1148,17.1,Recovered,"['amylase', 'increased', 'amylase increased']"
@@ -532,16 +1198,39 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1197,1150,17.0,NotRecovered,"['pigmentation', 'disorder', 'pigmentation disorder']"
 1198,1150,17.0,NotRecovered,['acne']
 1199,1150,17.0,NotRecovered,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1200,1153,18.1,Unknown,"['feeling', 'abnormal', 'feeling abnormal']"
 1201,1154,17.0,NotRecovered,"['skin', 'papilloma', 'skin papilloma']"
+1202,1158,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
+1203,1158,18.1,Unknown,['oedema']
+1204,1158,18.1,Unknown,"['weight', 'decreased', 'weight decreased']"
 1205,1159,17.0,Recovered,['depression']
+1206,1159,17.0,Unknown,"['disease', 'progression', 'disease progression']"
+1207,1159,17.0,Unknown,"['psychotic', 'disorder', 'psychotic disorder']"
+1208,1162,17.0,Unknown,"['ear', 'pain', 'ear pain']"
+1209,1163,18.1,Unknown,['malaise']
+1210,1164,17.0,Unknown,"['blood', 'potassium', 'decreased', 'blood potassium', 'potassium decreased']"
+1211,1164,17.0,Unknown,"['intentional', 'drug', 'misuse', 'intentional drug', 'drug misuse']"
+1212,1164,17.0,Unknown,['pruritus']
+1213,1164,17.0,Unknown,['malaise']
+1214,1164,17.0,Unknown,['hypocalcaemia']
+1215,1165,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
 1216,1166,18.0,NotRecovered,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+1217,1169,17.0,Unknown,"['blood', 'count', 'abnormal', 'blood count', 'count abnormal']"
+1218,1174,17.0,Unknown,['diarrhoea']
+1219,1174,17.0,Unknown,['fatigue']
+1220,1174,17.0,Unknown,['furuncle']
 1221,1175,17.0,Recovered,"['device', 'dislocation', 'device dislocation']"
 1222,1175,17.0,Recovered,"['pelvic', 'pain', 'pelvic pain']"
 1223,1180,17.0,Recovered,['nausea']
 1224,1180,17.0,Recovering,['chill']
 1225,1180,17.0,Recovering,"['abdominal', 'pain', 'abdominal pain']"
 1226,1180,17.0,Recovering,['headache']
+1227,1185,17.0,Unknown,"['cardiac', 'disorder', 'cardiac disorder']"
 1228,1186,17.0,Fatal,"['renal', 'failure', 'renal failure']"
+1229,1191,17.0,Unknown,['haematuria']
+1230,1191,17.0,Unknown,['pyrexia']
+1231,1191,17.0,Unknown,['myalgia']
+1232,1191,17.0,Unknown,"['urinary', 'tract', 'infection', 'urinary tract', 'tract infection']"
 1233,1194,17.0,Recovered,['mania']
 1234,1194,17.0,Recovered,"['mobility', 'decreased', 'mobility decreased']"
 1235,1200,17.0,NotRecovered,"['blood', 'pressure', 'increased', 'blood pressure', 'pressure increased']"
@@ -562,36 +1251,105 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1250,1200,17.0,NotRecovered,['dyspnoea']
 1251,1200,17.0,NotRecovered,"['oral', 'mucosal', 'blistering', 'oral mucosal', 'mucosal blistering']"
 1252,1200,17.0,NotRecovered,"['rash', 'generalised', 'rash generalised']"
+1253,1201,17.0,Unknown,"['mood', 'swing', 'mood swing']"
+1254,1201,17.0,Unknown,"['performance', 'status', 'decreased', 'performance status', 'status decreased']"
+1255,1201,17.0,Unknown,"['drug', 'intolerance', 'drug intolerance']"
+1256,1201,17.0,Unknown,"['erythema', 'nodosum', 'erythema nodosum']"
+1257,1201,17.0,Unknown,['cushingoid']
+1258,1201,17.0,Unknown,"['renal', 'impairment', 'renal impairment']"
 1259,1206,17.0,Fatal,"['cardiac', 'arrest', 'cardiac arrest']"
+1260,1210,17.0,Unknown,"['drug', 'interaction', 'drug interaction']"
+1261,1210,17.0,Unknown,['cardiomyopathy']
+1262,1214,18.1,Unknown,"['dry', 'throat', 'dry throat']"
+1263,1215,17.0,Unknown,['anorgasmia']
+1264,1218,18.0,Unknown,['surgery']
+1265,1218,18.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
 1266,1219,17.0,Fatal,"['basal', 'ganglion', 'haemorrhage', 'basal ganglion', 'ganglion haemorrhage']"
 1267,1219,17.0,Fatal,"['intraventricular', 'haemorrhage', 'intraventricular haemorrhage']"
 1268,1219,17.0,Fatal,"['brain', 'injury', 'brain injury']"
+1269,1221,18.1,Unknown,"['heart', 'rate', 'increased', 'heart rate', 'rate increased']"
+1270,1221,18.1,Unknown,['dizziness']
+1271,1221,18.1,Unknown,"['respiratory', 'rate', 'increased', 'respiratory rate', 'rate increased']"
+1272,1221,18.1,Unknown,['nausea']
+1273,1223,17.0,Unknown,['mania']
+1274,1225,18.1,Unknown,"['localised', 'infection', 'localised infection']"
+1275,1225,18.1,Unknown,['nasopharyngitis']
+1276,1227,18.1,Unknown,"['therapeutic', 'response', 'therapeutic response']"
 1277,1227,18.1,Recovering,['aphonia']
+1278,1227,18.1,Unknown,['pyrexia']
+1279,1227,18.1,Unknown,['dizziness']
+1280,1234,18.1,Unknown,['dyspnoea']
+1281,1234,18.1,Unknown,['dizziness']
+1282,1234,18.1,Unknown,['malaise']
+1283,1238,17.0,Unknown,"['respiratory', 'disorder', 'respiratory disorder']"
+1284,1243,17.0,Unknown,"['intestinal', 'ischaemia', 'intestinal ischaemia']"
 1285,1243,17.0,RecoveredWithSequelae,"['enterocolitis', 'bacterial', 'enterocolitis bacterial']"
 1286,1243,17.0,Recovered,['dyspnoea']
+1287,1243,17.0,Unknown,"['protein', 'total', 'increased', 'protein total', 'total increased']"
 1288,1249,17.0,Recovered,['haemorrhage']
 1289,1249,17.0,Recovered,"['renal', 'failure', 'renal failure']"
+1290,1250,18.1,Unknown,['rash']
+1291,1252,17.0,Unknown,"['label', 'use', 'label use']"
+1292,1252,17.0,Unknown,"['therapeutic', 'response', 'unexpected', 'therapeutic response', 'response unexpected']"
+1293,1254,17.0,Unknown,"['bone', 'pain', 'bone pain']"
 1294,1254,17.0,NotRecovered,['arthralgia']
+1295,1254,17.0,Unknown,['diarrhoea']
+1296,1259,17.0,Unknown,"['carpal', 'tunnel', 'syndrome', 'carpal tunnel', 'tunnel syndrome']"
 1297,1259,17.0,NotRecovered,['arthropathy']
 1298,1259,17.0,NotRecovered,['fatigue']
 1299,1259,17.0,NotRecovered,['myalgia']
 1300,1259,17.0,NotRecovered,['sinusitis']
+1301,1259,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+1302,1260,18.1,Unknown,['pyrexia']
+1303,1260,18.1,Unknown,"['liver', 'disorder', 'liver disorder']"
+1304,1260,18.1,Unknown,"['blood', 'alkaline', 'phosphatase', 'increased', 'blood alkaline', 'alkaline phosphatase', 'phosphatase increased']"
+1305,1260,18.1,Unknown,"['liver', 'function', 'test', 'abnormal', 'liver function', 'function test', 'test abnormal']"
+1306,1260,18.1,Unknown,['malaise']
+1307,1262,17.0,Unknown,"['pneumonia', 'klebsiella', 'pneumonia klebsiella']"
+1308,1262,17.0,Unknown,"['pseudomonas', 'test', 'positive', 'pseudomonas test', 'test positive']"
+1309,1262,17.0,Unknown,"['drug', 'administered', 'patient', 'inappropriate', 'age', 'drug administered', 'administered patient', 'patient inappropriate', 'inappropriate age']"
+1310,1262,17.0,Unknown,"['staphylococcus', 'test', 'positive', 'staphylococcus test', 'test positive']"
 1311,1264,17.0,Recovered,['haemoptysis']
 1312,1264,17.0,Recovered,"['drug', 'ineffective', 'drug ineffective']"
 1313,1264,17.0,Recovered,['pain']
 1314,1269,17.1,Recovered,"['intentional', 'overdose', 'intentional overdose']"
 1315,1269,17.1,Recovered,['sopor']
+1316,1271,17.0,Unknown,['flatulence']
 1317,1275,17.0,NotRecovered,['constipation']
+1318,1277,17.1,Unknown,['nephrolithiasis']
+1319,1277,17.1,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
 1320,1277,17.1,Recovering,['headache']
 1321,1277,17.1,Recovered,['sinusitis']
+1322,1279,17.0,Unknown,"['hepatic', 'enzyme', 'increased', 'hepatic enzyme', 'enzyme increased']"
+1323,1283,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+1324,1285,17.0,Unknown,"['electrolyte', 'imbalance', 'electrolyte imbalance']"
+1325,1285,17.0,Unknown,['neutropenia']
+1326,1285,17.0,Unknown,"['dermatitis', 'acneiform', 'dermatitis acneiform']"
+1327,1285,17.0,Unknown,"['decreased', 'appetite', 'decreased appetite']"
+1328,1286,17.0,Unknown,"['bradycardia', 'foetal', 'bradycardia foetal']"
 1329,1286,17.0,Recovered,"['foetal', 'exposure', 'pregnancy', 'foetal exposure', 'exposure pregnancy']"
+1330,1290,17.0,Unknown,['flatulence']
+1331,1290,17.0,Unknown,"['abdominal', 'distension', 'abdominal distension']"
 1332,1291,17.0,Fatal,"['septic', 'shock', 'septic shock']"
+1333,1291,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 1334,1292,17.0,NotRecovered,['dysgeusia']
 1335,1293,17.0,NotRecovered,"['skin', 'irritation', 'skin irritation']"
 1336,1293,17.0,NotRecovered,"['skin', 'exfoliation', 'skin exfoliation']"
 1337,1293,17.0,NotRecovered,"['rash', 'erythematous', 'rash erythematous']"
 1338,1293,17.0,NotRecovered,"['rash', 'generalised', 'rash generalised']"
+1339,1296,18.0,Unknown,['nasopharyngitis']
+1340,1296,18.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+1341,1296,18.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1342,1301,17.0,Unknown,['incontinence']
+1343,1301,17.0,Unknown,"['urinary', 'tract', 'infection', 'urinary tract', 'tract infection']"
+1344,1302,17.0,Unknown,['haematuria']
 1345,1302,17.0,Recovered,['haemorrhage']
+1346,1302,17.0,Unknown,['contusion']
+1347,1302,17.0,Unknown,"['toxicity', 'various', 'agent', 'toxicity various', 'various agent']"
+1348,1302,17.0,Unknown,"['drug', 'interaction', 'drug interaction']"
+1349,1304,17.0,Unknown,"['laboratory', 'test', 'abnormal', 'laboratory test', 'test abnormal']"
+1350,1306,17.0,Unknown,"['tooth', 'disorder', 'tooth disorder']"
+1351,1307,17.0,Unknown,['dysgeusia']
 1352,1308,17.0,Recovered,"['drug', 'reaction', 'eosinophilia', 'systemic', 'symptom', 'drug reaction', 'reaction eosinophilia', 'eosinophilia systemic', 'systemic symptom']"
 1353,1308,17.0,Recovered,['rash']
 1354,1308,17.0,Recovered,"['skin', 'lesion', 'skin lesion']"
@@ -601,16 +1359,30 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1358,1308,17.0,Recovered,['lymphadenopathy']
 1359,1308,17.0,Recovered,"['skin', 'exfoliation', 'skin exfoliation']"
 1360,1308,17.0,Recovered,['pyrexia']
+1361,1312,17.0,Unknown,"['therapeutic', 'response', 'unexpected', 'therapeutic response', 'response unexpected']"
+1362,1315,17.0,Unknown,['lymphocele']
 1363,1319,17.1,NotRecovered,"['ovarian', 'failure', 'ovarian failure']"
 1364,1321,17.0,Recovered,['diarrhoea']
 1365,1323,17.0,Recovered,"['gastrointestinal', 'haemorrhage', 'gastrointestinal haemorrhage']"
+1366,1323,17.0,Unknown,['dementia']
+1367,1323,17.0,Unknown,['agitation']
+1368,1323,17.0,Unknown,"['confusional', 'state', 'confusional state']"
 1369,1324,17.0,NotRecovered,['nephrolithiasis']
+1370,1326,17.0,Unknown,['dyspepsia']
+1371,1326,17.0,Unknown,['contusion']
 1372,1329,17.1,Recovered,['angioedema']
+1373,1329,17.1,Unknown,['flushing']
 1374,1329,17.1,Recovered,['erythema']
 1375,1329,17.1,Recovered,"['skin', 'exfoliation', 'skin exfoliation']"
 1376,1329,17.1,Recovered,"['skin', 'toxicity', 'skin toxicity']"
 1377,1329,17.1,Recovered,['swelling']
 1378,1329,17.1,Recovered,['pruritus']
+1379,1331,18.1,Unknown,['pain']
+1380,1331,18.1,Unknown,['constipation']
+1381,1332,17.0,Unknown,['hypertension']
+1382,1332,17.0,Unknown,"['increased', 'appetite', 'increased appetite']"
+1383,1332,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+1384,1332,17.0,,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
 1385,1334,17.0,Recovered,['vomiting']
 1386,1334,17.0,Recovered,['diplopia']
 1387,1334,17.0,Recovered,"['gait', 'disturbance', 'gait disturbance']"
@@ -618,47 +1390,125 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1389,1334,17.0,Recovered,['dyspnoea']
 1390,1334,17.0,Recovered,['gastroenteritis']
 1391,1334,17.0,Recovered,['dizziness']
+1392,1339,17.0,Unknown,['splenomegaly']
+1393,1339,17.0,Unknown,['malaise']
+1394,1339,17.0,Unknown,['pain']
+1395,1339,17.0,Unknown,"['feeling', 'cold', 'feeling cold']"
+1396,1339,17.0,Unknown,['nausea']
+1397,1339,17.0,Unknown,['diarrhoea']
+1398,1339,17.0,Unknown,"['gastroenteritis', 'viral', 'gastroenteritis viral']"
+1399,1339,17.0,Unknown,"['blood', 'count', 'abnormal', 'blood count', 'count abnormal']"
+1400,1339,17.0,Unknown,"['red', 'blood', 'cell', 'count', 'decreased', 'red blood', 'blood cell', 'cell count', 'count decreased']"
+1401,1341,17.0,Unknown,"['femur', 'fracture', 'femur fracture']"
+1402,1341,17.0,Unknown,"['incorrect', 'drug', 'administration', 'duration', 'incorrect drug', 'drug administration', 'administration duration']"
 1403,1353,17.0,Recovered,"['hepatitis', 'e', 'hepatitis e']"
+1404,1353,17.0,Unknown,['necrosis']
+1405,1353,17.0,Unknown,['cholangitis']
+1406,1353,17.0,Unknown,"['transplant', 'rejection', 'transplant rejection']"
 1407,1353,17.0,Recovered,"['hepatic', 'enzyme', 'increased', 'hepatic enzyme', 'enzyme increased']"
+1408,1353,17.0,Unknown,"['gallbladder', 'disorder', 'gallbladder disorder']"
+1409,1353,17.0,Unknown,"['endothelin', 'abnormal', 'endothelin abnormal']"
+1410,1355,17.0,Unknown,"['cervix', 'operation', 'cervix operation']"
 1411,1355,17.0,Recovered,"['product', 'colour', 'issue', 'product colour', 'colour issue']"
+1412,1359,17.0,Unknown,"['coronary', 'artery', 'occlusion', 'coronary artery', 'artery occlusion']"
+1413,1359,17.0,Unknown,"['transient', 'ischaemic', 'attack', 'transient ischaemic', 'ischaemic attack']"
+1414,1359,17.0,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
+1415,1359,17.0,Unknown,"['coronary', 'artery', 'disease', 'coronary artery', 'artery disease']"
+1416,1359,17.0,Unknown,"['aortic', 'aneurysm', 'aortic aneurysm']"
+1417,1361,17.0,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
+1418,1361,17.0,Unknown,"['atrioventricular', 'block', 'second', 'degree', 'atrioventricular block', 'block second', 'second degree']"
+1419,1361,17.0,Unknown,"['pleural', 'effusion', 'pleural effusion']"
+1420,1363,18.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1421,1363,18.0,Unknown,['dyspnoea']
 1422,1363,18.0,NotRecovered,['haemolysis']
+1423,1363,18.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
+1424,1363,18.0,Unknown,['nasopharyngitis']
+1425,1364,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
+1426,1365,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
+1427,1365,17.0,Unknown,"['coronary', 'artery', 'disease', 'coronary artery', 'artery disease']"
+1428,1366,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
 1429,1367,17.0,Fatal,['death']
+1430,1367,17.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
 1431,1370,17.1,Fatal,"['non', 'hodgkin', 'lymphoma', 'non hodgkin', 'hodgkin lymphoma']"
+1432,1372,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
+1433,1372,17.0,Unknown,"['ischaemic', 'cardiomyopathy', 'ischaemic cardiomyopathy']"
+1434,1372,17.0,Unknown,"['angina', 'pectoris', 'angina pectoris']"
+1435,1372,17.0,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
 1436,1374,17.0,Recovered,"['throat', 'tightness', 'throat tightness']"
 1437,1374,17.0,Recovered,['rash']
+1438,1376,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
+1439,1376,17.0,Unknown,"['coronary', 'artery', 'disease', 'coronary artery', 'artery disease']"
+1440,1377,17.0,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
 1441,1378,17.1,Recovered,['arteritis']
+1442,1379,17.0,Unknown,"['myocardial', 'infarction', 'myocardial infarction']"
+1443,1379,17.0,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
+1444,1379,17.0,Unknown,"['cardiac', 'disorder', 'cardiac disorder']"
 1445,1380,17.0,Fatal,['hypotension']
+1446,1380,17.0,Unknown,"['cardiac', 'failure', 'congestive', 'cardiac failure', 'failure congestive']"
+1447,1380,17.0,Unknown,"['coronary', 'artery', 'disease', 'coronary artery', 'artery disease']"
+1448,1380,17.0,Unknown,"['angina', 'unstable', 'angina unstable']"
+1449,1381,17.0,Unknown,['amnesia']
 1450,1382,17.1,Recovered,['subileus']
 1451,1384,17.1,Recovering,"['loss', 'consciousness', 'loss consciousness']"
 1452,1384,17.1,Recovering,"['psychomotor', 'hyperactivity', 'psychomotor hyperactivity']"
 1453,1386,17.0,Recovered,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
 1454,1386,17.0,Recovered,['sepsis']
+1455,1387,23.1,Unknown,"['energy', 'increased', 'energy increased']"
 1456,1387,23.1,Recovering,['tension']
 1457,1387,23.1,Recovering,['irritability']
+1458,1387,23.1,Unknown,"['libido', 'increased', 'libido increased']"
 1459,1387,23.1,Recovering,"['abnormal', 'behaviour', 'abnormal behaviour']"
 1460,1387,23.1,Recovering,"['psychomotor', 'hyperactivity', 'psychomotor hyperactivity']"
+1461,1387,23.1,Unknown,"['drug', 'interaction', 'drug interaction']"
 1462,1394,17.0,Fatal,['death']
 1463,1410,17.0,Recovered,"['device', 'dislocation', 'device dislocation']"
 1464,1410,17.0,Recovered,['dyspareunia']
 1465,1411,17.0,Recovering,['dysuria']
+1466,1411,17.0,Unknown,['pain']
+1467,1411,17.0,Unknown,"['catheter', 'placement', 'catheter placement']"
+1468,1411,17.0,Unknown,"['bladder', 'pain', 'bladder pain']"
+1469,1411,17.0,Unknown,"['genital', 'pain', 'genital pain']"
+1470,1411,17.0,Unknown,['nocturia']
+1471,1412,17.0,Unknown,"['mental', 'status', 'change', 'mental status', 'status change']"
+1472,1412,17.0,Unknown,['dehydration']
+1473,1412,17.0,Unknown,['anaemia']
 1474,1414,17.0,Recovered,['angioedema']
 1475,1414,17.0,Recovered,"['metabolic', 'acidosis', 'metabolic acidosis']"
 1476,1414,17.0,Recovered,['dyspnoea']
 1477,1414,17.0,Recovered,"['drug', 'ineffective', 'drug ineffective']"
+1478,1418,17.0,Unknown,['haematuria']
+1479,1418,17.0,Unknown,['epistaxis']
+1480,1418,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+1481,1418,17.0,Unknown,"['gastrooesophageal', 'reflux', 'disease', 'gastrooesophageal reflux', 'reflux disease']"
+1482,1418,17.0,Unknown,"['concomitant', 'disease', 'aggravated', 'concomitant disease', 'disease aggravated']"
+1483,1418,17.0,Unknown,"['lower', 'gastrointestinal', 'haemorrhage', 'lower gastrointestinal', 'gastrointestinal haemorrhage']"
+1484,1418,17.0,Unknown,"['pelvic', 'discomfort', 'pelvic discomfort']"
+1485,1418,17.0,Unknown,"['accidental', 'exposure', 'product', 'accidental exposure', 'exposure product']"
+1486,1418,17.0,Unknown,"['drug', 'dispensing', 'error', 'drug dispensing', 'dispensing error']"
 1487,1420,17.0,Recovered,['headache']
 1488,1420,17.0,Recovered,"['visual', 'impairment', 'visual impairment']"
 1489,1420,17.0,Recovered,['papilloedema']
+1490,1430,17.0,Unknown,"['breast', 'cancer', 'breast cancer']"
 1491,1431,24.0,Recovered,['palpitation']
 1492,1431,24.0,Recovered,"['chest', 'pain', 'chest pain']"
 1493,1432,17.0,Recovered,['pouchitis']
+1494,1433,17.0,Unknown,"['breast', 'cancer', 'breast cancer']"
+1495,1438,17.0,Unknown,"['lupus', 'like', 'syndrome', 'lupus like', 'like syndrome']"
+1496,1440,17.0,Unknown,"['pneumonitis', 'chemical', 'pneumonitis chemical']"
+1497,1440,17.0,Unknown,['sluggishness']
+1498,1440,17.0,Unknown,"['pulmonary', 'oedema', 'pulmonary oedema']"
 1499,1444,17.0,Recovered,['colitis']
 1500,1445,17.1,NotRecovered,"['small', 'intestinal', 'stenosis', 'small intestinal', 'intestinal stenosis']"
+1501,1445,17.1,Unknown,['diarrhoea']
 1502,1445,17.1,Recovered,"['oedema', 'peripheral', 'oedema peripheral']"
+1503,1455,17.0,Unknown,"['interstitial', 'lung', 'disease', 'interstitial lung', 'lung disease']"
 1504,1459,17.0,Recovered,['haemorrhage']
 1505,1459,17.0,Recovered,"['normochromic', 'normocytic', 'anaemia', 'normochromic normocytic', 'normocytic anaemia']"
 1506,1459,17.0,Recovered,['haematoma']
 1507,1459,17.0,Recovered,"['flank', 'pain', 'flank pain']"
+1508,1462,17.1,Unknown,['petechia']
 1509,1462,17.1,Recovered,['thrombocytopenia']
+1510,1462,17.1,Unknown,"['intra', 'abdominal', 'haematoma', 'intra abdominal', 'abdominal haematoma']"
 1511,1465,17.0,Recovering,"['toxic', 'skin', 'eruption', 'toxic skin', 'skin eruption']"
 1512,1465,17.0,Recovering,"['rash', 'macular', 'rash macular']"
 1513,1465,17.0,Recovering,"['hepatocellular', 'injury', 'hepatocellular injury']"
@@ -670,13 +1520,27 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1519,1466,17.0,Recovered,['nausea']
 1520,1466,17.0,Recovered,"['muscle', 'disorder', 'muscle disorder']"
 1521,1466,17.0,Recovered,"['eye', 'disorder', 'eye disorder']"
+1522,1466,17.0,Unknown,"['drug', 'dispensing', 'error', 'drug dispensing', 'dispensing error']"
+1523,1466,17.0,Unknown,"['incorrect', 'dose', 'administered', 'incorrect dose', 'dose administered']"
+1524,1466,17.0,Unknown,"['medication', 'error', 'medication error']"
+1525,1470,17.0,Unknown,"['sudden', 'onset', 'sleep', 'sudden onset', 'onset sleep']"
+1526,1471,17.0,Unknown,['delirium']
+1527,1471,17.0,Unknown,['delusion']
 1528,1472,17.0,Fatal,"['intra', 'abdominal', 'haemorrhage', 'intra abdominal', 'abdominal haemorrhage']"
 1529,1472,17.0,NotRecovered,['malaise']
 1530,1472,17.0,NotRecovered,"['decreased', 'appetite', 'decreased appetite']"
 1531,1472,17.0,NotRecovered,['cachexia']
+1532,1473,18.1,Unknown,['swelling']
+1533,1474,17.0,Unknown,"['growth', 'retardation', 'growth retardation']"
+1534,1474,17.0,Unknown,"['weight', 'decreased', 'weight decreased']"
 1535,1475,17.0,Recovered,['hemiplegia']
 1536,1475,17.0,Recovered,['leukoencephalopathy']
 1537,1475,17.0,Recovered,['aphasia']
+1538,1477,17.0,Unknown,"['pulmonary', 'embolism', 'pulmonary embolism']"
+1539,1477,17.0,Unknown,"['hepatic', 'enzyme', 'increased', 'hepatic enzyme', 'enzyme increased']"
+1540,1477,17.0,Unknown,['hypertension']
+1541,1477,17.0,Unknown,['haemoptysis']
+1542,1479,17.0,Unknown,"['autoimmune', 'haemolytic', 'anaemia', 'autoimmune haemolytic', 'haemolytic anaemia']"
 1543,1480,17.0,NotRecovered,['dizziness']
 1544,1481,17.0,Recovered,['erythema']
 1545,1481,17.0,Recovered,['pruritus']
@@ -690,13 +1554,34 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1553,1485,17.0,RecoveredWithSequelae,"['lip', 'oedema', 'lip oedema']"
 1554,1485,17.0,RecoveredWithSequelae,"['throat', 'tightness', 'throat tightness']"
 1555,1487,17.0,RecoveredWithSequelae,['investigation']
+1556,1487,17.0,Unknown,"['disease', 'progression', 'disease progression']"
+1557,1489,17.0,Unknown,['ascites']
+1558,1490,17.1,Unknown,"['blood', 'pressure', 'decreased', 'blood pressure', 'pressure decreased']"
+1559,1490,17.1,Unknown,['anaemia']
+1560,1490,17.1,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+1561,1490,17.1,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
 1562,1490,17.1,Recovering,"['abdominal', 'wall', 'haematoma', 'abdominal wall', 'wall haematoma']"
 1563,1490,17.1,Recovered,"['shock', 'haemorrhagic', 'shock haemorrhagic']"
+1564,1490,17.1,Unknown,['dyspnoea']
+1565,1492,17.0,Unknown,"['electrocardiogram', 'qt', 'prolonged', 'electrocardiogram qt', 'qt prolonged']"
+1566,1493,17.0,Unknown,['encephalopathy']
 1567,1496,17.0,Recovered,['sopor']
 1568,1496,17.0,Recovered,"['drug', 'abuse', 'drug abuse']"
+1569,1500,17.0,Unknown,"['bone', 'loss', 'bone loss']"
+1570,1500,17.0,Unknown,"['rib', 'fracture', 'rib fracture']"
+1571,1500,17.0,Unknown,['osteoporosis']
+1572,1500,17.0,Unknown,['osteopenia']
+1573,1500,17.0,Unknown,['azotaemia']
+1574,1500,17.0,Unknown,['anxiety']
 1575,1502,17.0,Recovered,['periarthritis']
+1576,1502,17.0,Unknown,"['joint', 'range', 'motion', 'decreased', 'joint range', 'range motion', 'motion decreased']"
+1577,1502,17.0,Unknown,['oedema']
+1578,1502,17.0,Unknown,['synovitis']
 1579,1505,17.0,Recovering,"['intraventricular', 'haemorrhage', 'neonatal', 'intraventricular haemorrhage', 'haemorrhage neonatal']"
+1580,1506,17.0,Unknown,['diarrhoea']
+1581,1506,17.0,Unknown,"['weight', 'decreased', 'weight decreased']"
 1582,1506,17.0,Fatal,['death']
+1583,1511,23.1,Unknown,"['intestinal', 'obstruction', 'intestinal obstruction']"
 1584,1513,17.0,Recovered,"['serum', 'sickness', 'like', 'reaction', 'serum sickness', 'sickness like', 'like reaction']"
 1585,1513,17.0,Recovered,['nausea']
 1586,1513,17.0,Recovered,['vomiting']
@@ -726,6 +1611,9 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1610,1513,17.0,Recovered,"['chest', 'discomfort', 'chest discomfort']"
 1611,1516,17.0,Recovering,['myalgia']
 1612,1516,17.0,Recovering,"['muscular', 'weakness', 'muscular weakness']"
+1613,1516,17.0,Unknown,['fall']
+1614,1516,17.0,Unknown,"['blood', 'sodium', 'decreased', 'blood sodium', 'sodium decreased']"
+1615,1520,18.1,Unknown,['pleurisy']
 1616,1521,17.0,NotRecovered,"['ileal', 'stenosis', 'ileal stenosis']"
 1617,1521,17.0,NotRecovered,"['crohn', 'disease', 'crohn disease']"
 1618,1521,17.0,Recovering,"['abdominal', 'distension', 'abdominal distension']"
@@ -736,7 +1624,16 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1623,1524,19.1,Recovered,['enterocolitis']
 1624,1525,17.0,Fatal,"['myocardial', 'infarction', 'myocardial infarction']"
 1625,1528,17.0,Fatal,"['cardiac', 'disorder', 'cardiac disorder']"
+1626,1529,18.1,Unknown,['nasopharyngitis']
+1627,1529,18.1,Unknown,['malaise']
 1628,1538,17.0,NotRecovered,"['congestive', 'cardiomyopathy', 'congestive cardiomyopathy']"
+1629,1538,17.0,Unknown,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
+1630,1551,17.0,Unknown,"['incorrect', 'drug', 'administration', 'duration', 'incorrect drug', 'drug administration', 'administration duration']"
+1631,1551,17.1,Unknown,"['therapeutic', 'response', 'changed', 'therapeutic response', 'response changed']"
+1632,1551,17.0,Unknown,"['product', 'odour', 'abnormal', 'product odour', 'odour abnormal']"
+1633,1551,17.0,Unknown,"['product', 'taste', 'abnormal', 'product taste', 'taste abnormal']"
+1634,1551,17.0,Unknown,"['product', 'solubility', 'abnormal', 'product solubility', 'solubility abnormal']"
+1635,1555,18.1,Unknown,['malaise']
 1636,1559,17.0,Recovered,"['acute', 'respiratory', 'distress', 'syndrome', 'acute respiratory', 'respiratory distress', 'distress syndrome']"
 1637,1559,17.0,Recovered,"['respiratory', 'distress', 'respiratory distress']"
 1638,1559,17.0,Recovered,['hypoxia']
@@ -750,14 +1647,19 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1646,1559,17.0,Recovered,['hyperhidrosis']
 1647,1559,17.0,Recovered,['agitation']
 1648,1559,17.0,Recovered,"['toxicity', 'various', 'agent', 'toxicity various', 'various agent']"
+1649,1559,17.0,Unknown,"['accidental', 'overdose', 'accidental overdose']"
 1650,1559,17.0,Recovered,['rale']
 1651,1560,17.0,Recovered,['cough']
 1652,1560,17.0,Recovered,['cyanosis']
 1653,1560,17.0,Recovered,['tachycardia']
 1654,1560,17.0,Recovered,"['swelling', 'face', 'swelling face']"
 1655,1560,17.0,Recovered,['dyspnoea']
+1656,1565,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+1657,1574,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+1658,1584,17.0,Unknown,"['brain', 'neoplasm', 'brain neoplasm']"
 1659,1584,17.0,Recovered,"['brain', 'neoplasm', 'benign', 'brain neoplasm', 'neoplasm benign']"
 1660,1585,17.0,Recovered,"['blood', 'pressure', 'decreased', 'blood pressure', 'pressure decreased']"
+1661,1587,21.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
 1662,1589,17.0,Recovered,"['rash', 'morbilliform', 'rash morbilliform']"
 1663,1589,17.0,Recovered,['pruritus']
 1664,1589,17.0,Recovered,"['oedema', 'peripheral', 'oedema peripheral']"
@@ -766,73 +1668,204 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1667,1589,17.0,Recovered,"['skin', 'exfoliation', 'skin exfoliation']"
 1668,1594,17.0,NotRecovered,"['breast', 'cancer', 'recurrent', 'breast cancer', 'cancer recurrent']"
 1669,1594,17.0,NotRecovered,"['metastasis', 'bone', 'metastasis bone']"
+1670,1594,17.0,Unknown,"['pathological', 'fracture', 'pathological fracture']"
+1671,1594,17.0,Unknown,"['rib', 'fracture', 'rib fracture']"
+1672,1596,18.1,Unknown,"['loss', 'consciousness', 'loss consciousness']"
 1673,1597,18.1,Recovered,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
+1674,1597,18.1,,"['embolism', 'arterial', 'embolism arterial']"
+1675,1598,17.0,Unknown,"['gallbladder', 'disorder', 'gallbladder disorder']"
+1676,1598,17.0,Unknown,['pneumonia']
 1677,1600,17.0,NotRecovered,"['weight', 'decreased', 'weight decreased']"
 1678,1600,17.0,Recovering,['subileus']
 1679,1600,17.0,Recovered,['sedation']
+1680,1600,17.0,Unknown,['somnolence']
+1681,1600,17.0,Unknown,['constipation']
+1682,1600,17.0,Unknown,['akathisia']
+1683,1600,17.0,Unknown,"['abnormal', 'behaviour', 'abnormal behaviour']"
+1684,1600,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+1685,1603,17.0,Unknown,"['movement', 'disorder', 'movement disorder']"
+1686,1603,17.0,Unknown,['metastasis']
+1687,1603,17.0,Unknown,"['disease', 'progression', 'disease progression']"
+1688,1604,17.0,Unknown,"['toxic', 'skin', 'eruption', 'toxic skin', 'skin eruption']"
+1689,1606,18.1,Unknown,"['weight', 'decreased', 'weight decreased']"
+1690,1606,18.1,Unknown,['scleroderma']
+1691,1606,18.1,Unknown,['fatigue']
+1692,1606,18.1,Unknown,"['gastrointestinal', 'disorder', 'gastrointestinal disorder']"
+1693,1606,18.1,Unknown,"['weight', 'gain', 'poor', 'weight gain', 'gain poor']"
+1694,1606,18.1,Unknown,['dizziness']
+1695,1606,18.1,Unknown,"['blood', 'iron', 'decreased', 'blood iron', 'iron decreased']"
+1696,1606,18.1,Unknown,"['gait', 'disturbance', 'gait disturbance']"
+1697,1606,18.1,Unknown,['pain']
+1698,1607,17.0,Unknown,"['exposure', 'pregnancy', 'exposure pregnancy']"
+1699,1611,17.0,Unknown,['apraxia']
+1700,1611,17.0,Unknown,"['cerebral', 'haemorrhage', 'cerebral haemorrhage']"
+1701,1611,17.0,Unknown,"['subarachnoid', 'haemorrhage', 'subarachnoid haemorrhage']"
+1702,1611,17.0,Unknown,"['confusional', 'state', 'confusional state']"
+1703,1617,18.0,,"['device', 'issue', 'device issue']"
+1704,1617,18.0,,['scar']
+1705,1617,18.0,,"['uterine', 'perforation', 'uterine perforation']"
+1706,1617,18.0,,"['abortion', 'spontaneous', 'abortion spontaneous']"
+1707,1617,18.0,,['pain']
+1708,1617,18.0,,['anxiety']
+1709,1617,18.0,,"['emotional', 'distress', 'emotional distress']"
+1710,1617,18.0,,"['device', 'breakage', 'device breakage']"
+1711,1617,18.0,,['injury']
+1712,1617,18.0,,"['uterine', 'injury', 'uterine injury']"
 1713,1618,17.0,Recovering,"['weight', 'increased', 'weight increased']"
 1714,1620,17.0,Recovering,"['chest', 'pain', 'chest pain']"
 1715,1620,17.0,Recovering,['dysphagia']
 1716,1620,17.0,Recovering,['pyrexia']
+1717,1624,18.1,Unknown,"['product', 'packaging', 'issue', 'product packaging', 'packaging issue']"
+1718,1624,18.1,Unknown,['arthritis']
+1719,1627,18.1,Unknown,['headache']
+1720,1627,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
+1721,1629,17.0,Unknown,"['adverse', 'reaction', 'adverse reaction']"
+1722,1630,18.1,Unknown,"['nasal', 'congestion', 'nasal congestion']"
+1723,1632,17.0,Unknown,['infection']
 1724,1635,17.0,Recovered,"['neutrophil', 'count', 'decreased', 'neutrophil count', 'count decreased']"
 1725,1635,17.0,Recovered,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
+1726,1636,17.0,Unknown,"['megakaryocyte', 'decreased', 'megakaryocyte decreased']"
+1727,1636,17.0,Unknown,"['aplastic', 'anaemia', 'aplastic anaemia']"
+1728,1636,17.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1729,1636,17.0,Unknown,"['blood', 'potassium', 'abnormal', 'blood potassium', 'potassium abnormal']"
+1730,1636,17.0,Unknown,"['aspartate', 'aminotransferase', 'increased', 'aspartate aminotransferase', 'aminotransferase increased']"
+1731,1636,17.0,Unknown,"['alanine', 'aminotransferase', 'abnormal', 'alanine aminotransferase', 'aminotransferase abnormal']"
+1732,1636,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'decreased', 'white blood', 'blood cell', 'cell count', 'count decreased']"
+1733,1636,17.0,Unknown,"['blood', 'creatinine', 'increased', 'blood creatinine', 'creatinine increased']"
+1734,1636,17.0,Unknown,"['immunosuppressant', 'drug', 'level', 'decreased', 'immunosuppressant drug', 'drug level', 'level decreased']"
+1735,1641,17.0,Unknown,['hallucination']
+1736,1641,17.0,Unknown,['nightmare']
+1737,1643,18.1,Unknown,['bronchitis']
 1738,1644,17.0,NotRecovered,"['oral', 'discomfort', 'oral discomfort']"
 1739,1644,17.0,NotRecovered,"['muscle', 'spasm', 'muscle spasm']"
+1740,1644,17.0,Unknown,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
+1741,1644,17.0,Unknown,['fatigue']
+1742,1644,17.0,Unknown,"['dyspnoea', 'exertional', 'dyspnoea exertional']"
+1743,1644,17.0,Unknown,['nausea']
+1744,1644,17.0,Unknown,"['decreased', 'appetite', 'decreased appetite']"
 1745,1647,17.0,Fatal,['death']
+1746,1649,18.1,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
+1747,1649,18.1,Unknown,"['chest', 'discomfort', 'chest discomfort']"
+1748,1649,18.1,Unknown,['dyspnoea']
+1749,1649,18.1,Unknown,['dizziness']
 1750,1650,17.0,Recovering,"['pulmonary', 'embolism', 'pulmonary embolism']"
+1751,1660,17.0,Unknown,"['blood', 'urea', 'increased', 'blood urea', 'urea increased']"
 1752,1660,17.0,Recovered,"['blood', 'potassium', 'increased', 'blood potassium', 'potassium increased']"
 1753,1660,17.0,Recovered,"['blood', 'creatinine', 'increased', 'blood creatinine', 'creatinine increased']"
 1754,1660,17.0,Recovered,"['fluid', 'retention', 'fluid retention']"
 1755,1661,17.0,Fatal,"['plasma', 'cell', 'myeloma', 'plasma cell', 'cell myeloma']"
 1756,1661,17.0,Fatal,"['respiratory', 'failure', 'respiratory failure']"
+1757,1662,17.0,Unknown,['asthenia']
+1758,1662,17.0,Unknown,['dyspnoea']
+1759,1662,17.0,Unknown,['anaemia']
+1760,1662,17.0,Unknown,"['drug', 'administration', 'error', 'drug administration', 'administration error']"
 1761,1663,17.0,Recovered,"['device', 'expulsion', 'device expulsion']"
+1762,1663,17.0,Unknown,['metrorrhagia']
+1763,1664,18.1,Unknown,"['urinary', 'tract', 'infection', 'urinary tract', 'tract infection']"
+1764,1664,18.1,Unknown,"['bladder', 'discomfort', 'bladder discomfort']"
 1765,1665,17.0,Recovered,['constipation']
+1766,1666,18.1,Unknown,['cough']
+1767,1667,17.0,Unknown,"['respiratory', 'tract', 'congestion', 'respiratory tract', 'tract congestion']"
+1768,1671,18.1,Unknown,['influenza']
 1769,1672,17.0,Fatal,"['neurological', 'decompensation', 'neurological decompensation']"
 1770,1672,17.0,Fatal,"['disease', 'progression', 'disease progression']"
 1771,1678,18.1,Recovered,"['pharyngeal', 'oedema', 'pharyngeal oedema']"
+1772,1678,18.1,Unknown,['dyspnoea']
 1773,1678,18.1,Recovered,"['nasal', 'congestion', 'nasal congestion']"
+1774,1681,18.1,Unknown,"['upper', 'respiratory', 'tract', 'infection', 'upper respiratory', 'respiratory tract', 'tract infection']"
+1775,1681,18.1,Unknown,['cough']
 1776,1685,17.0,Recovered,"['heart', 'rate', 'irregular', 'heart rate', 'rate irregular']"
 1777,1685,17.0,Recovered,"['atrioventricular', 'block', 'second', 'degree', 'atrioventricular block', 'block second', 'second degree']"
+1778,1685,17.0,Unknown,['dyspnoea']
+1779,1686,18.1,Unknown,['cough']
+1780,1690,18.1,Unknown,['dyspnoea']
+1781,1690,18.1,Unknown,['anxiety']
+1782,1690,18.1,Unknown,['malaise']
+1783,1690,18.1,Unknown,['tremor']
+1784,1690,18.1,Unknown,['nervousness']
+1785,1690,18.1,Unknown,['fatigue']
+1786,1690,18.1,Unknown,['fatigue']
+1787,1690,18.1,Unknown,['dyspnoea']
+1788,1692,17.0,Unknown,['flatulence']
+1789,1692,17.0,Unknown,"['decreased', 'appetite', 'decreased appetite']"
+1790,1692,17.0,Unknown,['nausea']
+1791,1692,17.0,Unknown,['constipation']
+1792,1699,18.1,Unknown,['arthritis']
 1793,1700,17.0,Recovered,"['small', 'date', 'baby', 'small date', 'date baby']"
 1794,1700,17.0,NotRecovered,['micropenis']
 1795,1700,17.0,NotRecovered,['hypospadias']
 1796,1700,17.0,Recovering,['cryptorchism']
 1797,1700,17.0,Recovered,"['exposure', 'pregnancy', 'exposure pregnancy']"
+1798,1701,17.0,Unknown,['pneumonia']
 1799,1704,19.1,Recovered,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+1800,1704,19.1,Unknown,"['label', 'use', 'label use']"
 1801,1704,19.1,Recovered,['abortion']
+1802,1705,18.1,Unknown,"['chest', 'pain', 'chest pain']"
 1803,1705,18.1,NotRecovered,"['initial', 'insomnia', 'initial insomnia']"
 1804,1705,18.1,NotRecovered,['arthralgia']
+1805,1707,19.1,Unknown,"['label', 'use', 'label use']"
+1806,1707,19.1,Unknown,['abortion']
+1807,1707,19.1,Unknown,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+1808,1710,18.1,Unknown,"['liver', 'function', 'test', 'abnormal', 'liver function', 'function test', 'test abnormal']"
 1809,1711,19.1,Recovered,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+1810,1711,19.1,Unknown,"['label', 'use', 'label use']"
 1811,1711,19.1,Recovered,['abortion']
 1812,1712,17.0,Recovered,['oedema']
 1813,1712,17.0,Recovered,['pyrexia']
+1814,1712,17.0,Unknown,['overdose']
+1815,1714,18.1,Unknown,['oedema']
 1816,1715,19.1,Recovered,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+1817,1715,19.1,Unknown,"['label', 'use', 'label use']"
 1818,1715,19.1,Recovered,['abortion']
 1819,1716,17.0,Recovering,"['fluid', 'overload', 'fluid overload']"
+1820,1717,19.1,Unknown,"['ectopic', 'pregnancy', 'ectopic pregnancy']"
 1821,1717,19.1,Recovered,"['maternal', 'exposure', 'pregnancy', 'maternal exposure', 'exposure pregnancy']"
+1822,1717,19.1,Unknown,"['label', 'use', 'label use']"
 1823,1729,18.1,Recovered,['nausea']
+1824,1731,17.0,Unknown,"['tongue', 'ulceration', 'tongue ulceration']"
+1825,1735,17.0,Unknown,['haemoptysis']
+1826,1735,17.0,Unknown,"['pulmonary', 'haemorrhage', 'pulmonary haemorrhage']"
 1827,1736,17.0,Recovered,"['pulseless', 'electrical', 'activity', 'pulseless electrical', 'electrical activity']"
 1828,1736,17.0,Fatal,"['cardiac', 'arrest', 'cardiac arrest']"
 1829,1736,17.0,Fatal,"['septic', 'shock', 'septic shock']"
 1830,1737,17.0,NotRecovered,"['penile', 'torsion', 'penile torsion']"
+1831,1738,17.0,Unknown,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
+1832,1742,17.0,Unknown,"['lung', 'transplant', 'lung transplant']"
+1833,1746,17.0,Unknown,"['procedural', 'pain', 'procedural pain']"
+1834,1747,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
+1835,1748,18.1,Unknown,['sneezing']
 1836,1754,17.0,NotRecovered,"['pulmonary', 'valve', 'stenosis', 'congenital', 'pulmonary valve', 'valve stenosis', 'stenosis congenital']"
 1837,1754,17.0,Recovering,"['atrial', 'septal', 'defect', 'atrial septal', 'septal defect']"
 1838,1754,17.0,Recovered,"['feeding', 'disorder', 'neonatal', 'feeding disorder', 'disorder neonatal']"
 1839,1754,17.0,Recovered,"['exposure', 'pregnancy', 'exposure pregnancy']"
+1840,1757,17.0,Unknown,['disability']
+1841,1757,17.0,Unknown,"['multiple', 'sclerosis', 'relapse', 'multiple sclerosis', 'sclerosis relapse']"
 1842,1763,17.0,NotRecovered,['osteonecrosis']
 1843,1764,17.0,Fatal,"['bronchopulmonary', 'aspergillosis', 'bronchopulmonary aspergillosis']"
 1844,1766,17.0,Recovered,"['international', 'normalised', 'ratio', 'increased', 'international normalised', 'normalised ratio', 'ratio increased']"
 1845,1767,17.0,Recovered,"['atrial', 'fibrillation', 'atrial fibrillation']"
 1846,1769,17.0,Fatal,"['myelodysplastic', 'syndrome', 'myelodysplastic syndrome']"
+1847,1769,17.0,Unknown,['abasia']
+1848,1769,17.0,Unknown,"['chronic', 'obstructive', 'pulmonary', 'disease', 'chronic obstructive', 'obstructive pulmonary', 'pulmonary disease']"
+1849,1769,17.0,Unknown,"['diabetes', 'mellitus', 'diabetes mellitus']"
+1850,1769,17.0,Unknown,['pancytopenia']
+1851,1769,17.0,Unknown,['asthenia']
 1852,1770,17.0,Recovered,['haematochezia']
 1853,1770,17.0,RecoveredWithSequelae,"['urinary', 'retention', 'urinary retention']"
 1854,1775,17.0,Recovering,"['diet', 'refusal', 'diet refusal']"
+1855,1776,17.0,Unknown,"['drug', 'hypersensitivity', 'drug hypersensitivity']"
 1856,1778,17.1,Recovering,['cardioversion']
 1857,1778,17.1,Recovering,"['atrial', 'fibrillation', 'atrial fibrillation']"
 1858,1778,17.1,Recovering,"['atrial', 'flutter', 'atrial flutter']"
 1859,1778,17.1,Recovering,"['cardiac', 'ablation', 'cardiac ablation']"
+1860,1781,17.0,Unknown,"['coronary', 'arterial', 'stent', 'insertion', 'coronary arterial', 'arterial stent', 'stent insertion']"
+1861,1781,17.0,Unknown,"['renal', 'failure', 'renal failure']"
+1862,1782,18.1,Unknown,['pertussis']
+1863,1782,18.1,Unknown,['cough']
+1864,1782,18.1,Unknown,"['oropharyngeal', 'pain', 'oropharyngeal pain']"
 1865,1784,17.0,Fatal,['aneurysm']
 1866,1785,17.0,Fatal,['death']
+1867,1786,18.1,Unknown,['depression']
 1868,1788,17.0,NotRecovered,"['atrial', 'fibrillation', 'atrial fibrillation']"
 1869,1788,17.0,Recovered,['vomiting']
 1870,1788,17.0,Recovered,['dehydration']
@@ -844,14 +1877,27 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1876,1788,17.0,Recovering,['anaemia']
 1877,1788,17.0,Recovered,['hypomagnesaemia']
 1878,1790,17.0,Recovering,['lymphoma']
+1879,1791,18.1,Unknown,"['ocular', 'hyperaemia', 'ocular hyperaemia']"
+1880,1791,18.1,Unknown,['headache']
+1881,1791,18.1,Unknown,"['musculoskeletal', 'stiffness', 'musculoskeletal stiffness']"
 1882,1794,18.1,NotRecovered,"['chest', 'discomfort', 'chest discomfort']"
 1883,1794,18.1,Recovered,"['liver', 'function', 'test', 'abnormal', 'liver function', 'function test', 'test abnormal']"
 1884,1794,18.1,NotRecovered,['dyspnoea']
+1885,1800,17.0,Unknown,"['pulmonary', 'embolism', 'pulmonary embolism']"
 1886,1800,17.0,Recovered,['gastroenteritis']
 1887,1800,17.0,Recovered,['dehydration']
+1888,1802,18.1,Unknown,"['hot', 'flush', 'hot flush']"
+1889,1802,18.1,Unknown,"['nasal', 'congestion', 'nasal congestion']"
+1890,1802,18.1,Unknown,['pruritus']
+1891,1802,18.1,Unknown,"['decreased', 'appetite', 'decreased appetite']"
+1892,1802,18.1,Unknown,['nausea']
+1893,1802,18.1,Unknown,['vomiting']
+1894,1802,18.1,Unknown,"['abdominal', 'pain', 'upper', 'abdominal pain', 'pain upper']"
 1895,1804,19.0,Recovered,"['intestinal', 'mucosal', 'hypertrophy', 'intestinal mucosal', 'mucosal hypertrophy']"
+1896,1804,19.0,Unknown,"['gastrointestinal', 'inflammation', 'gastrointestinal inflammation']"
 1897,1804,19.0,Recovering,"['adenocarcinoma', 'colon', 'adenocarcinoma colon']"
 1898,1804,19.0,Recovered,"['intestinal', 'obstruction', 'intestinal obstruction']"
+1899,1804,19.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
 1900,1808,17.1,NotRecovered,['fall']
 1901,1808,17.1,NotRecovered,"['injection', 'site', 'haemorrhage', 'injection site', 'site haemorrhage']"
 1902,1808,17.1,NotRecovered,"['abdominal', 'pain', 'abdominal pain']"
@@ -862,18 +1908,26 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1907,1808,17.1,NotRecovered,"['neuropathy', 'peripheral', 'neuropathy peripheral']"
 1908,1808,17.1,NotRecovered,"['movement', 'disorder', 'movement disorder']"
 1909,1808,17.1,NotRecovered,"['muscular', 'weakness', 'muscular weakness']"
+1910,1808,17.1,Unknown,['hyperhidrosis']
 1911,1808,17.1,NotRecovered,"['lung', 'disorder', 'lung disorder']"
 1912,1808,17.1,NotRecovered,['dizziness']
 1913,1808,17.1,NotRecovered,"['injection', 'site', 'pain', 'injection site', 'site pain']"
 1914,1808,17.1,NotRecovered,"['psoriatic', 'arthropathy', 'psoriatic arthropathy']"
+1915,1808,17.1,Unknown,['hepatitis']
+1916,1808,17.1,Unknown,['tuberculosis']
 1917,1808,17.1,Recovering,['dyspnoea']
+1918,1808,17.1,Unknown,['epididymitis']
 1919,1808,17.1,NotRecovered,['dysuria']
 1920,1808,17.1,NotRecovered,"['bladder', 'discomfort', 'bladder discomfort']"
+1921,1808,17.1,Unknown,"['suicidal', 'ideation', 'suicidal ideation']"
 1922,1808,17.1,NotRecovered,"['gait', 'disturbance', 'gait disturbance']"
+1923,1808,17.1,Unknown,"['feeling', 'hot', 'feeling hot']"
 1924,1808,17.1,NotRecovered,['dizziness']
 1925,1808,17.1,NotRecovered,['tinnitus']
 1926,1808,17.1,NotRecovered,['aphasia']
 1927,1808,17.1,NotRecovered,"['nerve', 'injury', 'nerve injury']"
+1928,1808,17.1,Unknown,['dysphemia']
+1929,1808,17.1,Unknown,"['abdominal', 'discomfort', 'abdominal discomfort']"
 1930,1808,17.1,NotRecovered,"['emotional', 'disorder', 'emotional disorder']"
 1931,1808,17.1,NotRecovered,"['disturbance', 'attention', 'disturbance attention']"
 1932,1808,17.1,NotRecovered,['arthralgia']
@@ -883,6 +1937,7 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1936,1808,17.1,Recovered,['gonorrhoea']
 1937,1808,17.1,NotRecovered,"['oedema', 'peripheral', 'oedema peripheral']"
 1938,1808,17.1,NotRecovered,['nausea']
+1939,1808,17.1,Unknown,['orchitis']
 1940,1808,17.1,NotRecovered,"['feeling', 'abnormal', 'feeling abnormal']"
 1941,1808,17.1,NotRecovered,"['nervous', 'system', 'disorder', 'nervous system', 'system disorder']"
 1942,1808,17.1,NotRecovered,"['balance', 'disorder', 'balance disorder']"
@@ -892,27 +1947,82 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 1946,1808,17.1,NotRecovered,['fatigue']
 1947,1808,17.1,NotRecovered,"['injection', 'site', 'pain', 'injection site', 'site pain']"
 1948,1808,17.1,NotRecovered,"['peripheral', 'swelling', 'peripheral swelling']"
+1949,1808,17.1,Unknown,"['cerebrovascular', 'accident', 'cerebrovascular accident']"
+1950,1808,17.1,Unknown,"['unevaluable', 'event', 'unevaluable event']"
 1951,1808,17.1,NotRecovered,"['injection', 'site', 'pain', 'injection site', 'site pain']"
 1952,1808,17.1,NotRecovered,['psoriasis']
+1953,1813,18.1,Unknown,"['fluid', 'retention', 'fluid retention']"
 1954,1814,17.0,Fatal,['death']
+1955,1816,18.1,Unknown,['hypersensitivity']
+1956,1817,18.1,Unknown,['cough']
+1957,1817,18.1,Unknown,"['chest', 'discomfort', 'chest discomfort']"
+1958,1817,18.1,Unknown,"['back', 'pain', 'back pain']"
+1959,1817,18.1,Unknown,"['throat', 'irritation', 'throat irritation']"
 1960,1820,17.0,Recovered,"['device', 'dislocation', 'device dislocation']"
+1961,1826,18.1,Unknown,['dyspnoea']
+1962,1826,18.1,Unknown,['malaise']
+1963,1829,18.1,Unknown,['infection']
+1964,1830,18.0,Unknown,"['alcohol', 'abuse', 'alcohol abuse']"
+1965,1830,18.0,Unknown,"['herpes', 'simplex', 'herpes simplex']"
+1966,1830,18.0,Unknown,['hyperlipidaemia']
+1967,1830,18.0,Unknown,"['pancreatic', 'disorder', 'pancreatic disorder']"
 1968,1830,18.0,NotRecovered,"['post', 'traumatic', 'stress', 'disorder', 'post traumatic', 'traumatic stress', 'stress disorder']"
+1969,1830,18.0,Unknown,['anxiety']
+1970,1830,18.0,Unknown,"['diabetes', 'mellitus', 'inadequate', 'control', 'diabetes mellitus', 'mellitus inadequate', 'inadequate control']"
+1971,1830,18.0,Unknown,['tachycardia']
+1972,1830,18.0,Unknown,"['erectile', 'dysfunction', 'erectile dysfunction']"
+1973,1830,18.0,Unknown,"['back', 'injury', 'back injury']"
+1974,1830,18.0,Unknown,"['romberg', 'test', 'positive', 'romberg test', 'test positive']"
+1975,1830,18.0,Unknown,"['substance', 'abuse', 'substance abuse']"
+1976,1830,18.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
+1977,1830,18.0,Unknown,"['joint', 'injury', 'joint injury']"
+1978,1830,18.0,Unknown,['hepatitis']
+1979,1830,18.0,Unknown,"['sensory', 'loss', 'sensory loss']"
+1980,1830,18.0,Unknown,"['panic', 'reaction', 'panic reaction']"
+1981,1830,18.0,Unknown,['hypertension']
+1982,1830,18.0,Unknown,['osteoarthritis']
+1983,1830,18.0,Unknown,"['hepatitis', 'c', 'hepatitis c']"
+1984,1830,18.0,Unknown,"['loss', 'libido', 'loss libido']"
 1985,1830,18.0,NotRecovered,"['back', 'pain', 'back pain']"
+1986,1830,18.0,Unknown,"['treatment', 'noncompliance', 'treatment noncompliance']"
+1987,1830,18.0,Unknown,"['diabetes', 'mellitus', 'diabetes mellitus']"
+1988,1830,18.0,Unknown,['sinusitis']
+1989,1830,18.0,Unknown,['depression']
+1990,1830,18.0,Unknown,['asthenia']
 1991,1830,18.0,NotRecovered,"['sexual', 'dysfunction', 'sexual dysfunction']"
+1992,1830,18.0,Unknown,['headache']
+1993,1830,18.0,Unknown,"['hepatic', 'function', 'abnormal', 'hepatic function', 'function abnormal']"
+1994,1830,18.0,Unknown,"['intentional', 'product', 'misuse', 'intentional product', 'product misuse']"
 1995,1833,18.1,Recovering,"['oedema', 'peripheral', 'oedema peripheral']"
+1996,1834,17.0,Unknown,['overdose']
+1997,1835,17.0,Unknown,['phlebitis']
+1998,1835,17.0,Unknown,['pyrexia']
 1999,1837,18.1,NotRecovered,"['chest', 'discomfort', 'chest discomfort']"
+2000,1837,18.1,Unknown,['oedema']
 2001,1837,18.1,NotRecovered,"['generalised', 'oedema', 'generalised oedema']"
 2002,1837,18.1,NotRecovered,['dyspnoea']
+2003,1837,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
 2004,1840,17.0,Recovered,"['respiratory', 'depression', 'respiratory depression']"
 2005,1840,17.0,Recovered,"['heparin', 'induced', 'thrombocytopenia', 'heparin induced', 'induced thrombocytopenia']"
 2006,1840,17.0,Recovered,"['platelet', 'count', 'decreased', 'platelet count', 'count decreased']"
 2007,1840,17.0,Recovered,['hypercoagulation']
 2008,1840,17.0,Recovered,['thrombosis']
+2009,1842,17.0,Unknown,"['umbilical', 'hernia', 'umbilical hernia']"
+2010,1842,17.0,Unknown,"['keloid', 'scar', 'keloid scar']"
+2011,1845,18.1,Unknown,['dizziness']
+2012,1845,18.1,Unknown,['dyspnoea']
+2013,1845,18.1,Unknown,['palpitation']
 2014,1846,17.0,Fatal,['death']
+2015,1846,17.0,Unknown,"['lung', 'disorder', 'lung disorder']"
+2016,1846,17.0,Unknown,['splenomegaly']
+2017,1846,17.0,Unknown,"['confusional', 'state', 'confusional state']"
+2018,1846,17.0,Unknown,['hepatomegaly']
 2019,1846,17.0,NotRecovered,"['right', 'ventricular', 'failure', 'right ventricular', 'ventricular failure']"
+2020,1846,17.0,Unknown,['nasopharyngitis']
 2021,1850,17.0,Fatal,['death']
 2022,1853,17.0,NotRecovered,['hyperkalaemia']
 2023,1853,17.0,NotRecovered,['neutropenia']
+2024,1854,18.1,Unknown,"['atrial', 'septal', 'defect', 'atrial septal', 'septal defect']"
 2025,1857,17.0,Recovered,"['impulse', 'control', 'disorder', 'impulse control', 'control disorder']"
 2026,1857,17.0,Recovered,"['pathological', 'gambling', 'pathological gambling']"
 2027,1858,17.1,Fatal,['death']
@@ -920,6 +2030,17 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2029,1859,17.0,Recovered,['hypotension']
 2030,1859,17.0,Recovered,['syncope']
 2031,1861,17.0,Recovered,['pneumonia']
+2032,1865,17.0,Unknown,['fall']
+2033,1865,17.0,Unknown,"['spinal', 'compression', 'fracture', 'spinal compression', 'compression fracture']"
+2034,1865,17.0,Unknown,"['spinal', 'fracture', 'spinal fracture']"
+2035,1865,17.0,Unknown,"['ventricular', 'extrasystole', 'ventricular extrasystole']"
+2036,1865,17.0,Unknown,"['heart', 'rate', 'decreased', 'heart rate', 'rate decreased']"
+2037,1865,17.0,Unknown,"['weight', 'increased', 'weight increased']"
+2038,1865,17.0,Unknown,"['restless', 'leg', 'syndrome', 'restless leg', 'leg syndrome']"
+2039,1865,17.0,Unknown,"['blood', 'potassium', 'decreased', 'blood potassium', 'potassium decreased']"
+2040,1865,17.0,Unknown,"['muscle', 'spasm', 'muscle spasm']"
+2041,1869,17.0,Unknown,['convulsion']
+2042,1869,17.0,Unknown,"['drug', 'abuse', 'drug abuse']"
 2043,1870,17.0,NotRecovered,"['joint', 'swelling', 'joint swelling']"
 2044,1870,17.0,NotRecovered,['bedridden']
 2045,1870,17.0,NotRecovered,['pyrexia']
@@ -927,34 +2048,54 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2047,1872,18.0,Recovered,['pyrexia']
 2048,1872,18.0,Recovered,['melaena']
 2049,1872,18.0,Recovered,['pancytopenia']
+2050,1873,18.1,Unknown,"['oedema', 'peripheral', 'oedema peripheral']"
+2051,1875,17.0,Unknown,['meningioma']
 2052,1876,17.0,Recovered,"['posterior', 'reversible', 'encephalopathy', 'syndrome', 'posterior reversible', 'reversible encephalopathy', 'encephalopathy syndrome']"
 2053,1876,17.0,Recovered,"['grand', 'mal', 'convulsion', 'grand mal', 'mal convulsion']"
 2054,1876,17.0,Recovered,"['brain', 'oedema', 'brain oedema']"
+2055,1876,17.0,Unknown,"['blood', 'pressure', 'increased', 'blood pressure', 'pressure increased']"
 2056,1881,18.0,Recovered,"['abdominal', 'pain', 'lower', 'abdominal pain', 'pain lower']"
 2057,1881,18.0,Recovered,"['embedded', 'device', 'embedded device']"
 2058,1883,17.0,Recovered,"['epiglottic', 'oedema', 'epiglottic oedema']"
 2059,1883,17.0,Recovered,"['tongue', 'oedema', 'tongue oedema']"
 2060,1883,17.0,Recovered,"['swelling', 'face', 'swelling face']"
 2061,1883,17.0,Recovered,['rash']
+2062,1889,17.0,Unknown,"['hearing', 'impaired', 'hearing impaired']"
+2063,1889,17.0,Unknown,['dizziness']
+2064,1892,17.0,Unknown,['splenomegaly']
+2065,1892,17.0,Unknown,"['abdominal', 'pain', 'abdominal pain']"
+2066,1892,17.0,Unknown,"['abdominal', 'distension', 'abdominal distension']"
+2067,1892,17.0,Unknown,['aphagia']
+2068,1892,17.0,Unknown,"['weight', 'decreased', 'weight decreased']"
+2069,1892,17.0,Unknown,"['blood', 'count', 'abnormal', 'blood count', 'count abnormal']"
 2070,1893,17.0,Recovered,"['nasal', 'congestion', 'nasal congestion']"
 2071,1893,17.0,Recovered,['constipation']
 2072,1893,17.0,Recovered,['spondylitis']
+2073,1893,17.0,Unknown,"['weight', 'increased', 'weight increased']"
 2074,1897,17.0,Recovering,"['schizophrenia', 'undifferentiated', 'type', 'schizophrenia undifferentiated', 'undifferentiated type']"
 2075,1897,17.0,Recovering,['irritability']
 2076,1897,17.0,Recovering,['aggression']
 2077,1897,17.0,Recovering,['insomnia']
 2078,1897,17.0,Recovering,['suspiciousness']
 2079,1897,17.0,Recovering,"['abnormal', 'behaviour', 'abnormal behaviour']"
+2080,1897,17.0,Unknown,['akathisia']
+2081,1897,17.0,Unknown,"['salivary', 'hypersecretion', 'salivary hypersecretion']"
+2082,1897,17.0,Unknown,"['drug', 'ineffective', 'drug ineffective']"
 2083,1900,20.0,NotRecovered,['fatigue']
+2084,1900,20.0,Unknown,"['blood', 'count', 'abnormal', 'blood count', 'count abnormal']"
+2085,1900,20.0,Unknown,"['tooth', 'discolouration', 'tooth discolouration']"
 2086,1903,17.0,NotRecovered,['dyskinesia']
 2087,1903,17.0,Recovered,['parkinsonism']
 2088,1903,17.0,NotRecovered,"['speech', 'disorder', 'speech disorder']"
 2089,1903,17.0,NotRecovered,"['tardive', 'dyskinesia', 'tardive dyskinesia']"
 2090,1903,17.0,NotRecovered,['dyskinesia']
+2091,1904,17.0,Unknown,"['breast', 'cancer', 'breast cancer']"
 2092,1907,17.0,Fatal,['death']
 2093,1909,17.0,Recovering,['cataract']
 2094,1909,17.0,Recovering,"['skin', 'exfoliation', 'skin exfoliation']"
 2095,1909,17.0,Recovering,['dermatitis']
+2096,1909,17.0,Unknown,['erythema']
+2097,1909,17.0,Unknown,['eczema']
 2098,1909,17.0,Recovering,['pruritus']
 2099,1912,18.0,Recovered,"['faecal', 'incontinence', 'faecal incontinence']"
 2100,1912,18.0,Recovered,"['neck', 'surgery', 'neck surgery']"
@@ -962,7 +2103,13 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2102,1912,18.0,Recovered,"['abdominal', 'pain', 'abdominal pain']"
 2103,1912,18.0,Recovered,['diarrhoea']
 2104,1912,18.0,Recovered,['cellulitis']
+2105,1913,17.0,Unknown,"['chronic', 'obstructive', 'pulmonary', 'disease', 'chronic obstructive', 'obstructive pulmonary', 'pulmonary disease']"
 2106,1913,17.0,Recovered,['dyspnoea']
+2107,1917,17.0,Unknown,['pyrexia']
+2108,1917,17.0,Unknown,"['drug', 'dose', 'omission', 'drug dose', 'dose omission']"
+2109,1918,18.1,Unknown,"['blood', 'pressure', 'decreased', 'blood pressure', 'pressure decreased']"
+2110,1920,17.0,Unknown,"['adverse', 'drug', 'reaction', 'adverse drug', 'drug reaction']"
+2111,1921,18.1,Unknown,['dizziness']
 2112,1922,17.0,NotRecovered,"['upper', 'limb', 'fracture', 'upper limb', 'limb fracture']"
 2113,1923,17.0,Recovering,['nasopharyngitis']
 2114,1924,17.0,NotRecovered,"['local', 'swelling', 'local swelling']"
@@ -971,12 +2118,22 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2117,1924,17.0,NotRecovered,['dizziness']
 2118,1928,17.0,RecoveredWithSequelae,"['multiple', 'sclerosis', 'relapse', 'multiple sclerosis', 'sclerosis relapse']"
 2119,1928,17.0,RecoveredWithSequelae,"['central', 'nervous', 'system', 'lesion', 'central nervous', 'nervous system', 'system lesion']"
+2120,1928,17.0,Unknown,['restlessness']
+2121,1928,17.0,Unknown,['ataxia']
+2122,1928,17.0,Unknown,"['iiird', 'nerve', 'disorder', 'iiird nerve', 'nerve disorder']"
+2123,1928,17.0,Unknown,['paresis']
+2124,1928,17.0,Unknown,['hypoaesthesia']
+2125,1928,17.0,Unknown,"['speech', 'disorder', 'speech disorder']"
+2126,1928,17.0,Unknown,['nystagmus']
 2127,1930,17.0,NotRecovered,"['foot', 'fracture', 'foot fracture']"
 2128,1930,17.0,NotRecovered,"['abdominal', 'pain', 'abdominal pain']"
 2129,1930,17.0,NotRecovered,"['weight', 'increased', 'weight increased']"
 2130,1935,18.0,NotRecovered,"['sexual', 'dysfunction', 'sexual dysfunction']"
 2131,1935,18.0,Recovered,['depression']
 2132,1935,18.0,NotRecovered,"['erectile', 'dysfunction', 'erectile dysfunction']"
+2133,1935,18.0,Unknown,"['libido', 'decreased', 'libido decreased']"
+2134,1940,17.0,Unknown,"['oropharyngeal', 'pain', 'oropharyngeal pain']"
+2135,1940,17.0,Unknown,"['haemoglobin', 'decreased', 'haemoglobin decreased']"
 2136,1941,17.0,NotRecovered,['osteonecrosis']
 2137,1945,17.0,NotRecovered,"['chest', 'pain', 'chest pain']"
 2138,1945,17.0,Recovered,['pyrexia']
@@ -986,9 +2143,18 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2142,1948,19.1,Recovered,['dysstasia']
 2143,1948,19.1,Recovered,"['uterine', 'leiomyoma', 'uterine leiomyoma']"
 2144,1948,19.1,Recovered,"['fallopian', 'tube', 'cyst', 'fallopian tube', 'tube cyst']"
+2145,1948,19.1,Unknown,"['confusional', 'state', 'confusional state']"
+2146,1948,19.1,Unknown,['irritability']
 2147,1948,19.1,Recovered,"['sensory', 'loss', 'sensory loss']"
 2148,1948,19.1,Recovered,"['musculoskeletal', 'stiffness', 'musculoskeletal stiffness']"
 2149,1948,19.1,Recovered,"['weight', 'decreased', 'weight decreased']"
+2150,1949,17.0,Unknown,['hypersensitivity']
+2151,1949,17.0,Unknown,"['acute', 'phase', 'reaction', 'acute phase', 'phase reaction']"
+2152,1949,17.0,Unknown,['angioedema']
+2153,1949,17.0,Unknown,"['transaminase', 'increased', 'transaminase increased']"
+2154,1949,17.0,Unknown,['hypocalcaemia']
+2155,1954,17.0,Unknown,"['cardiac', 'arrest', 'cardiac arrest']"
+2156,1954,17.0,Unknown,"['loss', 'consciousness', 'loss consciousness']"
 2157,1957,17.0,Recovered,"['acute', 'generalised', 'exanthematous', 'pustulosis', 'acute generalised', 'generalised exanthematous', 'exanthematous pustulosis']"
 2158,1957,17.0,Recovered,['pyrexia']
 2159,1957,17.0,Recovered,['tremor']
@@ -996,24 +2162,53 @@ patient_reaction_id,event_id,version_medDRA,outcome,reaction_processed
 2161,1958,17.0,Recovered,"['injection', 'site', 'swelling', 'injection site', 'site swelling']"
 2162,1958,17.0,Recovered,"['injection', 'site', 'erythema', 'injection site', 'site erythema']"
 2163,1958,17.0,Recovered,"['injection', 'site', 'warmth', 'injection site', 'site warmth']"
+2164,1960,17.0,Unknown,['osteonecrosis']
 2165,1961,17.0,NotRecovered,"['infective', 'pulmonary', 'exacerbation', 'cystic', 'fibrosis', 'infective pulmonary', 'pulmonary exacerbation', 'exacerbation cystic', 'cystic fibrosis']"
+2166,1965,18.1,Unknown,"['peripheral', 'swelling', 'peripheral swelling']"
+2167,1967,17.0,Unknown,"['hyperthermia', 'malignant', 'hyperthermia malignant']"
 2168,1968,17.0,Fatal,['death']
+2169,1968,17.0,Unknown,"['neoplasm', 'malignant', 'neoplasm malignant']"
+2170,1968,17.0,Unknown,"['hospice', 'care', 'hospice care']"
+2171,1969,17.0,Unknown,['infection']
 2172,1971,18.1,Recovered,"['circulatory', 'collapse', 'circulatory collapse']"
+2173,1973,17.0,Unknown,"['breast', 'cancer', 'metastatic', 'breast cancer', 'cancer metastatic']"
+2174,1973,17.0,Unknown,"['white', 'blood', 'cell', 'count', 'increased', 'white blood', 'blood cell', 'cell count', 'count increased']"
 2175,1974,17.0,Recovered,['bromhidrosis']
+2176,1978,17.1,Unknown,"['cardio', 'respiratory', 'arrest', 'cardio respiratory', 'respiratory arrest']"
 2177,1978,17.1,Fatal,['death']
+2178,1978,17.1,Unknown,"['septic', 'shock', 'septic shock']"
+2179,1978,17.1,Unknown,"['respiratory', 'failure', 'respiratory failure']"
 2180,1979,18.1,NotRecovered,"['psychiatric', 'symptom', 'psychiatric symptom']"
 2181,1979,18.1,Fatal,['vomiting']
+2182,1979,18.1,Unknown,['choking']
 2183,1979,18.1,NotRecovered,"['condition', 'aggravated', 'condition aggravated']"
 2184,1979,18.1,Fatal,['asphyxia']
+2185,1979,18.1,Unknown,['fall']
 2186,1979,18.1,Recovering,['thirst']
 2187,1979,18.1,NotRecovered,"['salivary', 'hypersecretion', 'salivary hypersecretion']"
+2188,1979,18.1,Unknown,"['lymphocyte', 'percentage', 'decreased', 'lymphocyte percentage', 'percentage decreased']"
+2189,1979,18.1,Unknown,"['blood', 'pressure', 'diastolic', 'increased', 'blood pressure', 'pressure diastolic', 'diastolic increased']"
 2190,1979,18.1,Fatal,['aspiration']
+2191,1979,18.1,Unknown,"['cardio', 'respiratory', 'arrest', 'cardio respiratory', 'respiratory arrest']"
+2192,1979,18.1,Unknown,['malaise']
+2193,1979,18.1,Unknown,"['blood', 'prolactin', 'increased', 'blood prolactin', 'prolactin increased']"
 2194,1979,18.1,Recovering,['constipation']
+2195,1979,18.1,Unknown,"['neutrophil', 'percentage', 'increased', 'neutrophil percentage', 'percentage increased']"
+2196,1979,18.1,Unknown,"['loss', 'consciousness', 'loss consciousness']"
+2197,1979,18.1,Unknown,"['eosinophil', 'percentage', 'decreased', 'eosinophil percentage', 'percentage decreased']"
 2198,1979,18.1,Recovered,"['heart', 'rate', 'increased', 'heart rate', 'rate increased']"
 2199,1979,18.1,Recovered,"['red', 'blood', 'cell', 'count', 'decreased', 'red blood', 'blood cell', 'cell count', 'count decreased']"
 2200,1980,17.0,Fatal,['death']
+2201,1980,17.0,Unknown,"['acute', 'myocardial', 'infarction', 'acute myocardial', 'myocardial infarction']"
 2202,1984,17.1,Recovering,"['diabetes', 'mellitus', 'diabetes mellitus']"
 2203,1984,17.1,Recovering,"['interstitial', 'lung', 'disease', 'interstitial lung', 'lung disease']"
+2204,1988,17.0,,['anaemia']
+2205,1988,17.0,,"['supraventricular', 'tachycardia', 'supraventricular tachycardia']"
+2206,1988,17.0,,"['radiation', 'skin', 'injury', 'radiation skin', 'skin injury']"
+2207,1990,17.0,Unknown,['adhesion']
+2208,1997,17.0,Unknown,['diarrhoea']
+2209,1997,17.0,Unknown,"['disease', 'progression', 'disease progression']"
+2210,1998,17.0,Unknown,['hypokalaemia']
 2211,2000,17.0,NotRecovered,['tremor']
 2212,2000,17.0,NotRecovered,"['muscle', 'disorder', 'muscle disorder']"
 2213,2000,17.0,NotRecovered,"['injection', 'site', 'erythema', 'injection site', 'site erythema']"
