@@ -6,7 +6,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9,2015,2,1,us,59.0,2,NonSerious,['gilead']
 14,2015,2,1,us,81.0,2,NonSerious,['gilead']
 18,2014,1,3,us,46.0,1,Serious,['glaxosmithkline']
-19,2014,1,1,br,59.0,2,Serious,['glaxosmithkline']
+19,2014,1,1,br,59.0,2,Death,['glaxosmithkline']
 23,2015,2,1,us,61.0,2,NonSerious,['gilead']
 25,2015,2,1,us,57.0,2,NonSerious,['gilead']
 27,2014,1,3,cn,29.0,2,Serious,['pubhosp']
@@ -70,7 +70,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 200,2014,2,1,us,,2,NonSerious,"['pfizer', 'inc']"
 201,2014,2,3,us,55.0,2,Serious,"['pfizer', 'inc']"
 208,2014,2,3,us,68.0,2,NonSerious,"['incyte', 'corporation']"
-209,2014,1,3,fr,,0,NonSerious,['otsuka']
+209,2014,1,3,fr,,0,Death,['otsuka']
 214,2014,1,1,us,29.0,1,Serious,"['viropharma', 'incorporated']"
 217,2015,2,1,us,4.0,1,NonSerious,['gilead']
 218,2014,2,1,us,,2,Serious,"['incyte', 'corporation']"
@@ -96,7 +96,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 257,2014,2,3,us,,1,NonSerious,['abbvie']
 259,2014,2,3,us,54.0,2,NonSerious,"['incyte', 'corporation']"
 261,2014,2,3,us,,0,NonSerious,['abbvie']
-262,2015,1,3,ca,73.0,2,Serious,['pubhosp']
+262,2015,1,3,ca,73.0,2,Death,['pubhosp']
 264,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 266,2015,2,3,us,48.0,2,NonSerious,"['incyte', 'corporation']"
 270,2015,2,1,us,61.0,2,NonSerious,['gilead']
@@ -115,7 +115,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 298,2014,2,3,us,,2,NonSerious,"['incyte', 'corporation']"
 303,2014,1,3,dk,57.0,1,Serious,['fri']
 306,2014,2,1,us,81.0,2,NonSerious,"['incyte', 'corporation']"
-307,2014,1,1,in,23.0,1,NonSerious,['pubhosp']
+307,2014,1,1,in,23.0,1,Death,['pubhosp']
 314,2015,1,3,jp,69.0,1,Serious,"['pfizer', 'inc']"
 315,2014,2,1,us,82.0,2,Serious,"['incyte', 'corporation']"
 316,2014,2,3,us,,0,NonSerious,
@@ -133,7 +133,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 338,2014,2,1,us,,2,NonSerious,
 340,2014,1,1,us,66.0,2,Serious,"['pfizer', 'inc']"
 342,2014,1,3,za,,0,Death,['pubhosp']
-345,2018,1,1,se,74.0,1,Serious,['pubhosp']
+345,2018,1,1,se,74.0,1,Death,['pubhosp']
 347,2014,1,1,gb,19.0,1,Serious,['pubhosp']
 349,2014,1,3,,46.0,1,Serious,['abbvie']
 351,2014,1,1,in,38.0,2,Death,['pubhosp']
@@ -144,7 +144,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 367,2014,1,3,us,,0,Serious,['teva']
 368,2014,1,1,se,,2,Serious,['abbvie']
 373,2014,2,1,us,22.0,2,NonSerious,
-376,2014,1,1,ph,,1,NonSerious,['phl']
+376,2014,1,1,ph,,1,Death,['phl']
 377,2014,1,1,us,,2,Serious,['gilead']
 378,2015,2,3,us,82.0,2,NonSerious,['gilead']
 381,2014,1,3,us,60.0,1,Serious,
@@ -159,7 +159,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 402,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 406,2014,2,1,us,,0,Serious,['abbvie']
 407,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
-410,2014,1,3,jp,11.0,2,Serious,['pubhosp']
+410,2014,1,3,jp,11.0,2,Death,['pubhosp']
 411,2014,2,3,us,,2,NonSerious,"['incyte', 'corporation']"
 412,2014,2,3,us,,2,NonSerious,['abbvie']
 413,2014,2,1,us,7.0,1,NonSerious,['lundbeck']
@@ -211,7 +211,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 516,2014,2,2,us,8.0,2,NonSerious,['abbvie']
 517,2014,1,2,ir,63.0,2,Serious,['actavis']
 520,2014,1,3,us,,2,Serious,['baxter']
-525,2014,1,1,ec,81.0,1,NonSerious,['pubhosp']
+525,2014,1,1,ec,81.0,1,Death,['pubhosp']
 526,2014,2,1,us,,0,Serious,['abbvie']
 527,2014,1,3,us,,1,Death,['baxter']
 528,2014,1,1,,72.0,2,Serious,['abbvie']
@@ -225,7 +225,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 545,2014,2,1,us,51.0,1,NonSerious,"['incyte', 'corporation']"
 547,2014,2,1,us,68.0,1,Serious,"['incyte', 'corporation']"
 548,2014,1,3,,,2,Serious,['abbvie']
-551,2014,1,1,us,,2,Serious,['lundbeck']
+551,2014,1,1,us,,2,Death,['lundbeck']
 553,2014,1,3,us,39.0,1,Death,['baxter']
 554,2014,2,3,us,84.0,1,NonSerious,"['incyte', 'corporation']"
 556,2014,2,1,us,,0,NonSerious,['abbvie']
@@ -238,7 +238,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 582,2014,1,3,us,45.0,1,Serious,['baxter']
 583,2014,2,2,,46.0,2,NonSerious,['abbvie']
 586,2014,2,3,us,47.0,2,NonSerious,['abbvie']
-588,2015,1,3,ca,53.0,2,Serious,['pubhosp']
+588,2015,1,3,ca,53.0,2,Death,['pubhosp']
 590,2014,2,3,us,,1,NonSerious,"['incyte', 'corporation']"
 592,2014,1,1,jp,69.0,1,Serious,['otsuka']
 593,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
@@ -295,13 +295,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 720,2014,2,1,us,68.0,2,NonSerious,"['incyte', 'corporation']"
 721,2014,2,1,us,,0,NonSerious,"['incyte', 'corporation']"
 723,2014,1,1,de,,1,Death,['abbvie']
-724,2014,1,1,jp,,0,NonSerious,"['spectrum', 'pharmaceuticals', 'inc']"
+724,2014,1,1,jp,,0,Death,"['spectrum', 'pharmaceuticals', 'inc']"
 726,2014,2,3,us,82.0,2,NonSerious,"['incyte', 'corporation']"
 727,2014,2,1,us,47.0,2,Serious,['teva']
 728,2014,2,1,us,81.0,1,NonSerious,"['incyte', 'corporation']"
-729,2014,1,3,jp,50.0,1,NonSerious,['pubhosp']
+729,2014,1,3,jp,50.0,1,Death,['pubhosp']
 730,2014,2,3,us,54.0,2,NonSerious,"['incyte', 'corporation']"
-731,2014,1,2,de,77.0,2,Serious,['gilead']
+731,2014,1,2,de,77.0,2,Death,['gilead']
 735,2014,2,3,us,52.0,2,NonSerious,
 736,2014,1,1,it,57.0,2,Serious,['mylanlabs']
 737,2014,2,2,us,,1,NonSerious,"['pfizer', 'inc']"
@@ -326,10 +326,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 778,2014,1,2,gb,62.0,2,Serious,['pubhosp']
 780,2014,1,1,de,,0,Serious,['pubhosp']
 782,2014,1,1,de,,0,Serious,['pubhosp']
-785,2014,1,3,jp,49.0,2,NonSerious,['pubhosp']
+785,2014,1,3,jp,49.0,2,Death,['pubhosp']
 788,2014,1,3,mx,22.0,1,Serious,['pubhosp']
 790,2014,1,1,us,,0,Serious,['baxter']
-792,2014,1,1,us,87.0,1,Serious,['jnjfoc']
+792,2014,1,1,us,87.0,1,Death,['jnjfoc']
 793,2014,1,1,be,85.0,1,Serious,"['bi', 'pharmaceuticals']"
 796,2014,1,1,it,87.0,2,Serious,"['bi', 'pharmaceuticals']"
 797,2015,1,3,cn,69.0,2,Death,['pubhosp']
@@ -341,7 +341,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 811,2014,2,1,us,72.0,2,NonSerious,"['incyte', 'corporation']"
 813,2015,1,3,fr,65.0,1,Serious,['pubhosp']
 817,2015,1,1,pl,61.0,1,Serious,['pubhosp']
-818,2014,1,1,fr,78.0,1,Serious,['pubhosp']
+818,2014,1,1,fr,78.0,1,Death,['pubhosp']
 820,2014,1,3,us,54.0,2,Serious,
 821,2014,2,3,us,,0,NonSerious,
 822,2014,1,1,de,,2,NonSerious,['pubhosp']
@@ -447,7 +447,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1175,2014,2,3,us,34.0,2,Serious,['teva']
 1180,2014,2,1,us,62.0,2,NonSerious,"['incyte', 'corporation']"
 1185,2014,2,1,us,,2,NonSerious,"['pfizer', 'inc']"
-1186,2014,1,2,gb,42.0,2,Serious,['celgeneus']
+1186,2014,1,2,gb,42.0,2,Death,['celgeneus']
 1191,2014,1,2,gb,48.0,1,Serious,"['pfizer', 'inc']"
 1194,2014,1,3,fr,64.0,2,Serious,"['pfizer', 'inc']"
 1200,2014,1,3,us,52.0,2,Serious,['jnjfoc']
@@ -521,13 +521,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1377,2014,1,2,us,55.0,2,Serious,['glaxosmithkline']
 1378,2015,1,2,gb,60.0,2,Serious,
 1379,2014,1,2,us,52.0,1,Serious,['glaxosmithkline']
-1380,2014,1,3,us,50.0,1,Serious,['glaxosmithkline']
+1380,2014,1,3,us,50.0,1,Death,['glaxosmithkline']
 1381,2014,1,1,us,,1,Serious,['celgeneus']
 1382,2015,1,1,at,71.0,2,Serious,"['pfizer', 'inc']"
 1384,2015,1,3,it,29.0,2,Serious,['lundbeck']
 1386,2014,1,1,mw,35.0,1,Serious,['gilead']
 1387,2021,1,3,pl,23.0,1,Serious,['pubhosp']
-1394,2014,1,1,ke,41.0,1,NonSerious,['gilead']
+1394,2014,1,1,ke,41.0,1,Death,['gilead']
 1410,2014,2,3,us,22.0,2,Serious,['teva']
 1411,2014,1,2,ca,69.0,1,Serious,['glaxosmithkline']
 1412,2014,1,3,us,56.0,1,Serious,['glaxosmithkline']
@@ -646,7 +646,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1729,2015,2,1,us,62.0,2,NonSerious,['gilead']
 1731,2014,2,3,us,57.0,1,NonSerious,"['incyte', 'corporation']"
 1735,2014,1,3,de,18.0,1,Serious,['mylanlabs']
-1736,2014,1,1,fr,73.0,1,Serious,['baxter']
+1736,2014,1,1,fr,73.0,1,Death,['baxter']
 1737,2014,1,3,de,,0,Serious,['gxkr']
 1738,2014,2,1,us,,1,Serious,"['incyte', 'corporation']"
 1742,2014,1,3,nl,,1,Serious,['gilead']
@@ -659,7 +659,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1764,2014,1,1,it,,0,Death,['baxter']
 1766,2014,1,2,gb,52.0,2,Serious,['mylanlabs']
 1767,2014,1,1,jp,72.0,1,Serious,['allergan']
-1769,2014,1,1,us,68.0,2,Serious,['celgeneus']
+1769,2014,1,1,us,68.0,2,Death,['celgeneus']
 1770,2014,1,1,us,96.0,2,Serious,"['bi', 'pharmaceuticals']"
 1775,2014,1,3,de,,0,Serious,['gxkr']
 1776,2014,2,1,us,,2,NonSerious,"['roxane', 'laboratories', 'inc']"
@@ -692,7 +692,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1840,2014,1,3,us,44.0,2,Serious,['pubhosp']
 1842,2014,1,3,ca,16.0,2,Serious,"['bristol', 'myers', 'squibb']"
 1845,2015,2,3,us,42.0,1,NonSerious,['gilead']
-1846,2014,1,3,us,74.0,2,Serious,['actelion']
+1846,2014,1,3,us,74.0,2,Death,['actelion']
 1850,2014,1,3,us,76.0,2,Death,['actelion']
 1853,2014,1,3,pl,67.0,1,Serious,['pubhosp']
 1854,2015,2,1,us,58.0,2,NonSerious,['gilead']
@@ -716,7 +716,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1900,2017,2,2,us,,0,NonSerious,"['incyte', 'corporation']"
 1903,2014,1,1,de,60.0,1,Serious,['teva']
 1904,2014,1,1,fr,,0,Serious,"['emd', 'serono', 'inc']"
-1907,2014,1,1,us,,1,NonSerious,['gilead']
+1907,2014,1,1,us,,1,Death,['gilead']
 1909,2014,1,1,jp,,2,Serious,['pubhosp']
 1912,2015,2,1,,60.0,2,Serious,['abbvie']
 1913,2014,1,1,us,60.0,2,Serious,
@@ -742,14 +742,14 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 1961,2014,1,1,us,,1,Serious,['pubhosp']
 1965,2015,2,3,us,69.0,1,NonSerious,['gilead']
 1967,2014,1,1,us,,0,Serious,['baxter']
-1968,2014,1,1,us,85.0,1,NonSerious,['amgen']
+1968,2014,1,1,us,85.0,1,Death,['amgen']
 1969,2014,2,1,us,,0,NonSerious,['lundbeck']
 1971,2015,1,1,de,85.0,2,Serious,['teva']
 1973,2014,1,1,us,,2,Serious,['pubhosp']
 1974,2014,1,1,gb,54.0,2,Serious,['mylanlabs']
-1978,2015,1,1,us,54.0,1,Serious,['celgeneus']
-1979,2016,1,1,jp,62.0,2,NonSerious,['pubhosp']
-1980,2014,1,3,us,,1,Serious,['baxter']
+1978,2015,1,1,us,54.0,1,Death,['celgeneus']
+1979,2016,1,1,jp,62.0,2,Death,['pubhosp']
+1980,2014,1,3,us,,1,Death,['baxter']
 1984,2015,1,1,jp,74.0,1,Serious,['bayer']
 1988,2014,1,3,us,,0,Serious,['bayer']
 1990,2014,2,3,us,,2,NonSerious,['baxter']
@@ -798,7 +798,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2092,2014,2,1,us,,0,NonSerious,"['biogenidec', 'bi']"
 2104,2014,1,3,es,,1,Death,['fri']
 2105,2014,1,3,it,35.0,0,Death,['gilead']
-2108,2014,1,1,us,34.0,1,NonSerious,['gilead']
+2108,2014,1,1,us,34.0,1,Death,['gilead']
 2109,2015,1,3,gb,68.0,2,Serious,['amgen']
 2111,2014,1,3,us,,1,Serious,['ranbaxy']
 2112,2018,1,3,jp,71.0,1,Serious,['pubhosp']
@@ -807,12 +807,12 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2117,2014,1,1,us,51.0,2,Serious,['roche']
 2118,2017,1,1,fr,55.0,1,Serious,['roche']
 2121,2014,1,3,nl,74.0,2,Serious,['amgen']
-2122,2014,1,1,ca,41.0,2,Serious,['roche']
+2122,2014,1,1,ca,41.0,2,Death,['roche']
 2123,2014,2,1,us,,0,NonSerious,"['bi', 'pharmaceuticals']"
 2124,2014,1,3,nl,66.0,2,Death,['amgen']
 2125,2014,1,1,hu,,2,Serious,['roche']
-2126,2014,1,1,jp,54.0,2,Serious,['roche']
-2127,2014,1,3,nl,71.0,1,Serious,['amgen']
+2126,2014,1,1,jp,54.0,2,Death,['roche']
+2127,2014,1,3,nl,71.0,1,Death,['amgen']
 2131,2014,1,3,au,59.0,1,Serious,['pubhosp']
 2132,2014,1,3,us,,1,Serious,['amgen']
 2133,2014,1,3,nl,70.0,1,Serious,['amgen']
@@ -846,7 +846,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2191,2014,2,2,us,,2,NonSerious,
 2192,2014,1,1,us,70.0,2,Serious,['amgen']
 2193,2014,1,3,nl,41.0,2,Serious,['amgen']
-2194,2014,1,3,us,,1,NonSerious,"['biogenidec', 'bi']"
+2194,2014,1,3,us,,1,Death,"['biogenidec', 'bi']"
 2195,2016,1,3,no,52.0,2,Serious,"['biogenidec', 'bi']"
 2198,2015,1,1,us,53.0,2,Serious,"['biogenidec', 'bi']"
 2200,2017,1,1,us,65.0,2,Serious,['ranbaxy']
@@ -867,7 +867,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2222,2014,1,1,us,61.0,2,Serious,['ranbaxy']
 2223,2014,1,1,br,,2,Serious,['amgen']
 2224,2014,2,1,us,,2,NonSerious,
-2225,2015,1,1,fr,63.0,2,Serious,['roche']
+2225,2015,1,1,fr,63.0,2,Death,['roche']
 2227,2014,1,3,it,29.0,1,Serious,['ranbaxy']
 2230,2015,1,1,us,,2,Serious,['roche']
 2231,2014,1,1,ca,48.0,2,Serious,['amgen']
@@ -914,11 +914,11 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2489,2014,1,1,in,65.0,2,Serious,['ranbaxy']
 2490,2014,1,3,nl,53.0,1,Serious,['amgen']
 2492,2014,1,1,gb,69.0,2,Serious,['drreddys']
-2493,2014,1,3,nl,67.0,1,Serious,['amgen']
+2493,2014,1,3,nl,67.0,1,Death,['amgen']
 2494,2014,1,1,mx,63.0,1,Serious,['roche']
 2495,2014,1,3,nl,71.0,1,Serious,['amgen']
 2497,2014,1,3,nl,70.0,1,Serious,['amgen']
-2499,2014,1,3,nl,75.0,1,Serious,['amgen']
+2499,2014,1,3,nl,75.0,1,Death,['amgen']
 2500,2014,1,1,mx,49.0,2,Serious,['roche']
 2501,2014,1,1,jp,77.0,1,Serious,['roche']
 2504,2014,1,3,nl,38.0,2,Death,['amgen']
@@ -939,7 +939,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2521,2014,1,3,gb,70.0,1,Serious,"['micro', 'labs', 'limited']"
 2523,2014,1,1,se,58.0,1,Serious,['ucbsa']
 2524,2014,1,3,nl,29.0,2,Serious,['amgen']
-2525,2014,1,3,gb,69.0,2,NonSerious,['amgen']
+2525,2014,1,3,gb,69.0,2,Death,['amgen']
 2526,2014,1,1,jp,77.0,1,Serious,['astrazeneca']
 2528,2014,1,1,lb,,1,Death,['celgeneus']
 2529,2014,1,1,us,,1,Death,['roche']
@@ -974,10 +974,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2582,2014,1,3,jp,72.0,2,Serious,"['amgen', 'jpnsp']"
 2584,2014,2,3,us,69.0,1,Serious,
 2585,2014,2,2,us,,0,NonSerious,['shire']
-2587,2016,1,3,jp,0.0,2,Serious,['jnjfoc']
+2587,2016,1,3,jp,0.0,2,Death,['jnjfoc']
 2588,2016,1,3,jp,27.0,2,Serious,['jnjfoc']
 2589,2014,1,2,ca,,0,Serious,['jnjfoc']
-2590,2014,1,1,us,56.0,1,Serious,['jnjfoc']
+2590,2014,1,1,us,56.0,1,Death,['jnjfoc']
 2593,2014,1,3,nl,68.0,1,Serious,['amgen']
 2594,2014,1,1,de,52.0,2,Serious,['novoprod']
 2596,2014,1,3,nl,66.0,1,Serious,['amgen']
@@ -985,7 +985,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2598,2014,1,1,us,44.0,1,Serious,['jnjfoc']
 2602,2014,1,1,de,73.0,2,Serious,['roche']
 2603,2014,1,3,nl,68.0,2,Serious,['amgen']
-2605,2017,1,3,ca,69.0,1,Serious,['pubhosp']
+2605,2017,1,3,ca,69.0,1,Death,['pubhosp']
 2608,2015,1,3,it,67.0,1,Death,['beh']
 2609,2014,1,1,us,76.0,1,Serious,"['eli', 'lilly']"
 2610,2015,1,3,ca,47.0,2,Serious,['ucbsa']
@@ -997,18 +997,18 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2619,2014,1,3,hr,78.0,2,Serious,['accord']
 2621,2014,1,1,id,65.0,1,Serious,['astrazeneca']
 2622,2014,1,1,jp,54.0,2,Serious,['ucbsa']
-2623,2017,1,3,fi,,0,Serious,['celgeneus']
+2623,2017,1,3,fi,,0,Death,['celgeneus']
 2624,2015,1,1,jp,76.0,2,Serious,['ucbsa']
 2626,2014,1,3,fr,22.0,2,Death,['ranbaxy']
 2628,2014,1,1,it,,0,Serious,['ucbsa']
 2629,2014,1,3,nl,69.0,2,Serious,['pubhosp']
 2631,2014,1,1,us,32.0,1,Serious,['jnjfoc']
-2632,2014,1,3,us,77.0,1,Serious,['pubhosp']
+2632,2014,1,3,us,77.0,1,Death,['pubhosp']
 2633,2015,1,3,fr,65.0,2,Serious,['pubhosp']
 2634,2014,1,3,au,53.0,2,Serious,['pubhosp']
 2635,2014,1,2,us,37.0,1,Serious,['bayer']
 2636,2014,1,1,gb,64.0,2,Serious,['accord']
-2637,2015,1,3,jp,74.0,2,NonSerious,['pubhosp']
+2637,2015,1,3,jp,74.0,2,Death,['pubhosp']
 2640,2014,1,1,gb,,1,Serious,['pubhosp']
 2641,2014,1,3,fr,53.0,2,Serious,['jnjfoc']
 2643,2014,1,3,ca,44.0,2,Serious,
@@ -1038,8 +1038,8 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2684,2014,1,2,za,49.0,2,Serious,['abbvie']
 2685,2014,1,3,fr,28.0,2,Serious,['ucbsa']
 2687,2014,1,1,us,86.0,2,Serious,['amgen']
-2693,2014,1,1,us,55.0,1,NonSerious,['pubhosp']
-2698,2014,1,3,jp,50.0,1,NonSerious,['pubhosp']
+2693,2014,1,1,us,55.0,1,Death,['pubhosp']
+2698,2014,1,3,jp,50.0,1,Death,['pubhosp']
 2707,2014,1,2,us,,2,Serious,['mylanlabs']
 2708,2017,1,1,fr,56.0,2,Serious,['roche']
 2713,2014,1,1,fr,50.0,2,Serious,['astrazeneca']
@@ -1047,7 +1047,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2728,2014,1,1,us,,2,Death,['teva']
 2732,2014,1,1,us,,1,Serious,['mylanlabs']
 2733,2014,1,1,de,12.0,1,Serious,['jnjfoc']
-2734,2014,1,2,us,67.0,1,Serious,['jnjfoc']
+2734,2014,1,2,us,67.0,1,Death,['jnjfoc']
 2735,2014,1,3,us,,1,Serious,['jnjfoc']
 2737,2014,1,2,us,40.0,1,Serious,['jnjfoc']
 2738,2014,1,1,us,70.0,1,Serious,['jnjfoc']
@@ -1056,15 +1056,15 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2742,2014,1,1,es,77.0,2,Serious,['jnjfoc']
 2743,2015,1,1,se,71.0,2,Serious,['jnjfoc']
 2744,2014,2,1,il,86.0,1,Serious,['jnjfoc']
-2746,2014,1,2,us,75.0,1,Serious,['jnjfoc']
+2746,2014,1,2,us,75.0,1,Death,['jnjfoc']
 2748,2015,1,1,de,49.0,1,Serious,"['endo', 'pharmaceuticals', 'inc']"
 2749,2014,1,2,us,46.0,1,Serious,['jnjfoc']
 2750,2014,1,2,us,55.0,1,Serious,['jnjfoc']
 2751,2014,1,2,us,58.0,1,Serious,['jnjfoc']
 2753,2014,1,2,us,,2,Serious,['jnjfoc']
-2755,2014,1,2,us,81.0,1,Serious,['jnjfoc']
+2755,2014,1,2,us,81.0,1,Death,['jnjfoc']
 2756,2014,1,2,us,86.0,2,Serious,['jnjfoc']
-2757,2015,2,2,us,75.0,2,Serious,['jnjfoc']
+2757,2015,2,2,us,75.0,2,Death,['jnjfoc']
 2758,2014,1,1,de,77.0,1,Serious,['ucbsa']
 2759,2014,1,3,us,63.0,2,Serious,
 2760,2014,1,2,jp,64.0,2,Death,['jnjfoc']
@@ -1089,12 +1089,12 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2793,2016,1,1,br,55.0,2,Serious,['roche']
 2794,2014,1,1,ca,,0,Serious,['ucbsa']
 2796,2014,1,1,gb,74.0,1,Serious,"['incyte', 'corporation']"
-2797,2014,1,3,us,,0,NonSerious,['celgeneus']
+2797,2014,1,3,us,,0,Death,['celgeneus']
 2798,2014,1,2,us,59.0,1,Serious,['ucbsa']
-2800,2014,1,1,us,67.0,2,NonSerious,['celgeneus']
+2800,2014,1,1,us,67.0,2,Death,['celgeneus']
 2802,2014,1,3,us,69.0,2,Serious,
 2805,2014,1,3,gb,54.0,1,Serious,"['pfizer', 'inc']"
-2806,2014,1,1,us,66.0,2,Serious,['celgeneus']
+2806,2014,1,1,us,66.0,2,Death,['celgeneus']
 2807,2014,1,3,nl,42.0,1,Serious,['amgen']
 2808,2014,1,3,nl,46.0,1,Serious,['amgen']
 2809,2014,1,3,us,84.0,2,Serious,
@@ -1106,7 +1106,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2821,2014,1,3,us,80.0,2,Serious,
 2822,2014,1,3,,74.0,2,Serious,"['roxane', 'laboratories', 'inc']"
 2823,2014,1,3,,,1,Serious,"['roxane', 'laboratories', 'inc']"
-2824,2014,1,3,,62.0,2,NonSerious,"['roxane', 'laboratories', 'inc']"
+2824,2014,1,3,,62.0,2,Death,"['roxane', 'laboratories', 'inc']"
 2825,2014,1,2,gb,67.0,2,Serious,['ucbsa']
 2826,2014,1,3,us,,2,Death,['celgeneus']
 2827,2014,1,1,us,42.0,2,Serious,['amgen']
@@ -1116,7 +1116,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2853,2014,1,3,us,,1,Serious,['astellas']
 2856,2014,1,2,ca,63.0,2,Death,['astellas']
 2859,2014,1,2,jp,81.0,1,Serious,['astellas']
-2865,2014,1,3,us,64.0,2,NonSerious,['astellas']
+2865,2014,1,3,us,64.0,2,Death,['astellas']
 2866,2014,1,1,jp,30.0,1,Serious,['astellas']
 2871,2014,1,2,jp,,1,Serious,['astellas']
 2872,2014,1,3,us,72.0,1,Serious,['astellas']
@@ -1129,13 +1129,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2891,2014,1,3,us,62.0,1,Serious,
 2892,2014,1,3,us,45.0,2,Serious,"['pfizer', 'inc']"
 2893,2014,1,2,jp,80.0,1,Serious,"['pfizer', 'inc']"
-2896,2014,1,3,fr,89.0,2,Serious,"['pfizer', 'inc']"
+2896,2014,1,3,fr,89.0,2,Death,"['pfizer', 'inc']"
 2897,2014,1,2,us,,1,Serious,"['pfizer', 'inc']"
 2899,2014,1,2,jp,,2,Serious,"['pfizer', 'inc']"
-2901,2014,1,1,us,60.0,2,NonSerious,"['pfizer', 'inc']"
+2901,2014,1,1,us,60.0,2,Death,"['pfizer', 'inc']"
 2903,2014,1,2,us,68.0,2,Death,"['pfizer', 'inc']"
 2905,2014,1,2,ca,80.0,2,Serious,['celgeneus']
-2909,2015,1,3,us,68.0,1,Serious,"['pfizer', 'inc']"
+2909,2015,1,3,us,68.0,1,Death,"['pfizer', 'inc']"
 2913,2014,1,2,gb,63.0,1,Serious,['teva']
 2918,2014,1,1,us,,2,Serious,['roche']
 2919,2014,1,3,us,74.0,2,Serious,
@@ -1144,13 +1144,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 2923,2014,1,3,nl,36.0,1,Serious,['amgen']
 2926,2015,1,1,cn,52.0,2,Serious,['roche']
 2927,2014,1,1,gb,69.0,2,Serious,['perrigo']
-2931,2017,1,3,us,66.0,1,NonSerious,['novoprod']
+2931,2017,1,3,us,66.0,1,Death,['novoprod']
 2932,2014,1,1,th,0.5,1,Serious,['perrigo']
 2934,2014,2,2,us,69.0,2,NonSerious,"['endo', 'pharmaceuticals', 'inc']"
 2937,2014,2,2,us,,1,NonSerious,"['endo', 'pharmaceuticals', 'inc']"
 2938,2014,1,1,us,84.0,2,Serious,['novoprod']
 2939,2014,1,1,us,,0,Serious,['novoprod']
-2946,2014,1,1,il,67.0,1,Serious,['novoprod']
+2946,2014,1,1,il,67.0,1,Death,['novoprod']
 2948,2014,1,1,fr,84.0,1,Serious,['ucbsa']
 2952,2014,1,1,us,59.0,1,Serious,['amgen']
 2953,2014,1,3,us,,1,Serious,['novoprod']
@@ -1196,14 +1196,14 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3045,2014,1,3,pe,76.0,2,Death,"['pfizer', 'inc']"
 3048,2014,1,3,nl,48.0,1,Serious,['amgen']
 3052,2014,1,3,fr,68.0,1,Serious,"['pfizer', 'inc']"
-3055,2014,1,3,fr,72.0,1,Serious,"['pfizer', 'inc']"
+3055,2014,1,3,fr,72.0,1,Death,"['pfizer', 'inc']"
 3061,2014,1,1,gb,,1,Serious,"['pfizer', 'inc']"
-3066,2014,2,3,us,63.0,2,NonSerious,
+3066,2014,2,3,us,63.0,2,Death,
 3071,2014,2,3,us,,2,Serious,
 3072,2014,2,1,jp,72.0,2,Death,
 3080,2014,1,3,us,75.0,2,Serious,
 3083,2014,1,1,gb,68.0,2,Serious,
-3085,2020,1,2,jp,60.0,1,Serious,['otsuka']
+3085,2020,1,2,jp,60.0,1,Death,['otsuka']
 3086,2014,1,3,us,72.0,1,Serious,
 3089,2015,1,2,jp,92.0,2,Serious,['otsuka']
 3090,2016,1,1,jp,,2,Serious,['thym']
@@ -1214,10 +1214,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3104,2014,1,3,nl,67.0,1,Serious,['amgen']
 3105,2014,2,3,us,,2,NonSerious,['teva']
 3107,2014,1,3,us,81.0,2,Serious,
-3110,2014,1,1,us,35.0,2,NonSerious,"['upsher', 'smith', 'laboratories', 'inc']"
+3110,2014,1,1,us,35.0,2,Death,"['upsher', 'smith', 'laboratories', 'inc']"
 3111,2016,1,1,us,19.0,2,Serious,"['vertex', 'pharmaceuticals', 'inc']"
 3112,2014,1,1,au,70.0,1,Death,"['bi', 'pharmaceuticals']"
-3114,2016,1,1,jp,87.0,1,Serious,"['bi', 'pharmaceuticals']"
+3114,2016,1,1,jp,87.0,1,Death,"['bi', 'pharmaceuticals']"
 3115,2014,2,1,,27.0,1,Serious,"['bi', 'pharmaceuticals']"
 3116,2014,2,1,,85.0,2,Serious,"['bi', 'pharmaceuticals']"
 3117,2014,2,1,,56.0,1,Serious,"['bi', 'pharmaceuticals']"
@@ -1245,7 +1245,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3176,2014,1,3,us,83.0,1,Serious,
 3178,2014,1,2,gb,60.0,2,Serious,['teva']
 3180,2014,1,1,us,65.0,1,Serious,['astrazeneca']
-3182,2015,1,1,jp,41.0,2,Serious,['thym']
+3182,2015,1,1,jp,41.0,2,Death,['thym']
 3183,2014,1,3,us,68.0,2,Serious,
 3186,2015,1,3,us,47.0,2,Serious,['teva']
 3187,2014,1,3,us,71.0,1,Serious,
@@ -1281,7 +1281,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3268,2014,1,3,de,,0,Serious,
 3271,2015,1,2,us,49.0,2,Serious,['actelion']
 3272,2014,1,1,us,80.0,2,Death,['amgen']
-3273,2017,1,3,us,76.0,2,Serious,['actelion']
+3273,2017,1,3,us,76.0,2,Death,['actelion']
 3275,2014,1,1,us,44.0,2,Serious,['actelion']
 3277,2014,1,1,de,0.0027397260273972603,1,Serious,['teva']
 3280,2014,1,3,de,,0,Serious,['merck']
@@ -1391,7 +1391,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3643,2015,2,1,us,75.0,1,NonSerious,['gilead']
 3650,2015,2,1,us,43.0,2,NonSerious,['gilead']
 3653,2014,1,3,us,,2,Serious,
-3661,2014,1,1,fr,68.0,1,Serious,['jnjfoc']
+3661,2014,1,1,fr,68.0,1,Death,['jnjfoc']
 3662,2014,1,1,ca,61.0,2,Serious,['jnjfoc']
 3664,2015,2,1,us,66.0,2,NonSerious,['gilead']
 3666,2015,2,1,us,56.0,2,NonSerious,['gilead']
@@ -1405,7 +1405,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3697,2015,2,3,us,49.0,2,NonSerious,['gilead']
 3699,2015,2,3,us,53.0,2,NonSerious,['gilead']
 3701,2014,1,3,de,88.0,2,Serious,
-3712,2014,1,3,us,77.0,1,Serious,['glaxosmithkline']
+3712,2014,1,3,us,77.0,1,Death,['glaxosmithkline']
 3714,2015,2,1,us,74.0,2,NonSerious,['gilead']
 3718,2014,1,3,fr,80.0,1,Serious,
 3720,2015,2,3,us,13.0,2,NonSerious,['gilead']
@@ -1496,7 +1496,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 3933,2014,1,3,us,37.0,1,Serious,['watson']
 3934,2014,1,3,de,71.0,1,Serious,
 3936,2014,2,2,us,,2,Serious,['nan']
-3939,2014,1,3,us,,1,NonSerious,['baxter']
+3939,2014,1,3,us,,1,Death,['baxter']
 3941,2014,1,1,us,26.0,2,Serious,['opcr']
 3945,2014,2,2,us,,1,Serious,['nan']
 3950,2014,1,1,jp,87.0,1,Death,['amgen']
@@ -1543,7 +1543,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4043,2014,2,3,us,,1,NonSerious,['baxter']
 4044,2014,1,3,ca,48.0,2,Serious,['astrazeneca']
 4046,2015,1,3,cn,57.0,2,Serious,
-4047,2014,1,1,us,63.0,2,Serious,['glaxosmithkline']
+4047,2014,1,1,us,63.0,2,Death,['glaxosmithkline']
 4048,2014,1,1,br,0.25,2,Serious,['glaxosmithkline']
 4050,2014,1,2,us,68.0,1,Serious,['glaxosmithkline']
 4051,2014,1,3,us,62.0,2,Serious,['glaxosmithkline']
@@ -1552,8 +1552,8 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4059,2014,1,3,ca,75.0,2,Serious,"['bristol', 'myers', 'squibb']"
 4063,2014,1,1,br,62.0,1,Serious,['astrazeneca']
 4064,2014,1,1,tn,59.0,2,Serious,['capt']
-4066,2014,1,1,ph,33.0,2,Serious,['baxter']
-4067,2014,1,3,us,80.0,2,Serious,['baxter']
+4066,2014,1,1,ph,33.0,2,Death,['baxter']
+4067,2014,1,3,us,80.0,2,Death,['baxter']
 4068,2014,1,3,us,72.0,2,Serious,['baxter']
 4073,2014,1,1,jp,31.0,2,Serious,['glaxosmithkline']
 4076,2014,1,3,us,67.0,0,Serious,
@@ -1584,7 +1584,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4112,2014,1,3,us,,2,Serious,['baxter']
 4113,2014,2,1,us,,2,NonSerious,"['roxane', 'laboratories', 'inc']"
 4115,2014,1,1,de,,1,Serious,['glaxosmithkline']
-4117,2014,1,1,us,57.0,2,Serious,['glaxosmithkline']
+4117,2014,1,1,us,57.0,2,Death,['glaxosmithkline']
 4120,2014,2,2,us,75.0,1,Serious,['nan']
 4124,2014,1,1,gb,80.0,1,Serious,"['pfizer', 'inc']"
 4125,2014,1,3,gb,72.0,1,Serious,
@@ -1597,12 +1597,12 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4141,2014,2,2,us,,0,Serious,['nan']
 4146,2014,1,1,us,16.0,2,Serious,['teva']
 4147,2014,1,3,us,72.0,2,Serious,
-4148,2014,1,3,gb,63.0,1,Serious,['fk']
+4148,2014,1,3,gb,63.0,1,Death,['fk']
 4149,2014,2,2,us,51.0,2,Serious,['nan']
 4151,2014,2,1,us,68.0,1,NonSerious,"['pfizer', 'inc']"
 4155,2014,2,2,us,35.0,2,Serious,['nan']
 4158,2014,2,2,us,14.0,2,Serious,['nan']
-4162,2014,1,3,pt,67.0,0,Serious,['fk']
+4162,2014,1,3,pt,67.0,0,Death,['fk']
 4164,2014,2,2,us,43.0,2,Serious,['nan']
 4165,2014,1,1,gb,87.0,2,Serious,['teva']
 4167,2014,2,3,us,,1,NonSerious,['baxter']
@@ -1618,7 +1618,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4199,2014,2,2,us,0.5833333333333334,2,NonSerious,"['pfizer', 'inc']"
 4200,2014,1,3,dk,28.0,2,Serious,['fri']
 4201,2014,1,1,it,31.0,2,NonSerious,['pubhosp']
-4202,2014,1,1,no,77.0,1,NonSerious,['celgeneus']
+4202,2014,1,1,no,77.0,1,Death,['celgeneus']
 4205,2014,1,3,us,,2,Serious,['baxter']
 4207,2014,1,3,us,,0,NonSerious,['bracco']
 4209,2014,1,3,us,,0,NonSerious,['bracco']
@@ -1711,8 +1711,8 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4611,2014,1,1,,,1,Serious,"['ipsen', 'biopharmaceuticals', 'inc']"
 4612,2015,1,3,us,75.0,1,Serious,['pubhosp']
 4614,2015,2,1,us,66.0,2,NonSerious,['gilead']
-4618,2014,1,3,de,70.0,1,Serious,['pubhosp']
-4622,2015,1,3,de,,0,Serious,['gxkr']
+4618,2014,1,3,de,70.0,1,Death,['pubhosp']
+4622,2015,1,3,de,,0,Death,['gxkr']
 4623,2015,2,1,us,37.0,2,NonSerious,['gilead']
 4626,2014,1,3,jp,70.0,2,Serious,['jnjfoc']
 4627,2015,2,1,us,29.0,2,NonSerious,['gilead']
@@ -1735,25 +1735,25 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4674,2014,1,3,us,62.0,2,Serious,"['incyte', 'corporation']"
 4679,2014,1,3,us,16.0,1,Serious,['abbvie']
 4680,2014,1,3,us,75.0,1,Death,"['pfizer', 'inc']"
-4681,2016,1,1,tr,39.0,1,NonSerious,['bayer']
+4681,2016,1,1,tr,39.0,1,Death,['bayer']
 4683,2014,1,3,ch,66.0,2,Serious,['pubhosp']
 4687,2014,1,2,us,68.0,2,Serious,['jnjfoc']
 4688,2014,1,2,us,67.0,2,Death,['jnjfoc']
 4689,2014,1,2,us,79.0,1,Serious,['jnjfoc']
-4690,2014,1,3,us,65.0,2,Serious,['jnjfoc']
+4690,2014,1,3,us,65.0,2,Death,['jnjfoc']
 4691,2014,1,2,us,89.0,1,Serious,['jnjfoc']
 4694,2014,1,3,ca,44.0,2,Serious,['jnjfoc']
-4697,2015,1,3,ca,60.0,1,NonSerious,['pubhosp']
+4697,2015,1,3,ca,60.0,1,Death,['pubhosp']
 4698,2014,1,3,ca,43.0,2,Serious,['jnjfoc']
 4701,2018,1,3,jp,58.0,1,Serious,['pubhosp']
 4704,2014,1,1,tw,61.0,2,Serious,['roche']
-4705,2014,1,3,,94.0,1,NonSerious,['abbvie']
+4705,2014,1,3,,94.0,1,Death,['abbvie']
 4706,2014,1,1,ca,,2,Serious,['pubhosp']
 4707,2014,1,3,kr,36.0,2,NonSerious,['jnjfoc']
-4712,2014,1,3,cn,72.0,2,Serious,['pubhosp']
+4712,2014,1,3,cn,72.0,2,Death,['pubhosp']
 4714,2014,1,3,fr,50.0,2,Serious,['takeda']
 4718,2014,2,1,us,55.0,1,Death,['jnjfoc']
-4719,2015,2,1,us,,1,Serious,['jnjfoc']
+4719,2015,2,1,us,,1,Death,['jnjfoc']
 4720,2014,1,1,us,,1,Serious,['jnjfoc']
 4721,2014,1,1,us,79.0,2,Serious,['jnjfoc']
 4722,2014,1,3,us,,1,Serious,['jnjfoc']
@@ -1761,7 +1761,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4724,2014,1,1,us,,1,Serious,['jnjfoc']
 4725,2014,1,3,nl,63.0,1,Serious,['amgen']
 4726,2014,1,3,it,85.0,1,Serious,['pubhosp']
-4728,2016,1,3,es,,0,NonSerious,['celgeneus']
+4728,2016,1,3,es,,0,Death,['celgeneus']
 4729,2014,1,1,gr,,1,Serious,"['pfizer', 'inc']"
 4730,2014,1,1,de,,2,Serious,['mylanlabs']
 4732,2014,1,2,ie,79.0,2,Serious,['jnjfoc']
@@ -1787,7 +1787,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 4781,2015,2,3,us,80.0,2,NonSerious,['gilead']
 4783,2014,1,3,fr,79.0,1,Serious,"['pfizer', 'inc']"
 4784,2014,1,1,de,0.0027397260273972603,2,Serious,['mylanlabs']
-4788,2014,1,1,it,,0,NonSerious,['celgeneus']
+4788,2014,1,1,it,,0,Death,['celgeneus']
 4791,2014,1,3,ca,45.0,2,Serious,
 4795,2014,2,3,us,,2,NonSerious,['teva']
 4797,2014,1,3,us,68.0,1,Serious,['gilead']
@@ -1865,8 +1865,8 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5082,2014,1,1,us,19.0,1,Serious,['lundbeck']
 5087,2015,2,1,us,54.0,2,NonSerious,['gilead']
 5090,2015,2,1,us,65.0,1,NonSerious,['gilead']
-5092,2014,1,3,,68.0,2,Serious,"['roxane', 'laboratories', 'inc']"
-5094,2014,1,1,bd,,0,NonSerious,['pubhosp']
+5092,2014,1,3,,68.0,2,Death,"['roxane', 'laboratories', 'inc']"
+5094,2014,1,1,bd,,0,Death,['pubhosp']
 5096,2014,1,1,us,,2,NonSerious,['gilead']
 5099,2015,2,1,us,32.0,2,NonSerious,['gilead']
 5102,2014,1,1,us,,2,NonSerious,['gilead']
@@ -1895,7 +1895,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5168,2014,1,3,de,6.0,2,Serious,['alcn']
 5170,2014,2,2,us,,1,NonSerious,"['bi', 'pharmaceuticals']"
 5171,2014,1,1,us,68.0,2,Death,['pubhosp']
-5176,2014,1,1,ch,81.0,1,Serious,['teva']
+5176,2014,1,1,ch,81.0,1,Death,['teva']
 5178,2015,1,1,jp,78.0,2,Serious,"['pfizer', 'inc']"
 5179,2014,2,1,us,70.0,2,NonSerious,
 5180,2014,2,2,us,17.0,2,Serious,['lundbeck']
@@ -1920,13 +1920,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5216,2014,2,1,us,78.0,1,NonSerious,"['incyte', 'corporation']"
 5219,2014,1,1,us,56.0,1,Serious,['abbvie']
 5220,2014,1,1,,75.0,1,Death,['abbvie']
-5221,2014,1,1,us,75.0,2,Serious,['teva']
+5221,2014,1,1,us,75.0,2,Death,['teva']
 5222,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 5224,2014,2,1,us,87.0,2,NonSerious,"['incyte', 'corporation']"
 5225,2014,1,3,tr,71.0,1,Serious,['alcn']
-5227,2014,1,1,de,57.0,2,Serious,['celgeneus']
+5227,2014,1,1,de,57.0,2,Death,['celgeneus']
 5228,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
-5231,2014,1,1,th,55.0,2,NonSerious,"['eli', 'lilly']"
+5231,2014,1,1,th,55.0,2,Death,"['eli', 'lilly']"
 5232,2014,2,1,us,74.0,1,NonSerious,"['incyte', 'corporation']"
 5235,2014,2,1,us,73.0,2,NonSerious,"['incyte', 'corporation']"
 5238,2014,1,3,tr,74.0,1,Serious,['alcn']
@@ -1976,7 +1976,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5321,2014,2,1,us,71.0,1,NonSerious,"['incyte', 'corporation']"
 5322,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 5323,2014,2,1,us,76.0,1,NonSerious,"['incyte', 'corporation']"
-5327,2014,1,3,us,78.0,2,Serious,['actelion']
+5327,2014,1,3,us,78.0,2,Death,['actelion']
 5328,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 5329,2014,2,1,us,80.0,1,NonSerious,"['incyte', 'corporation']"
 5332,2014,2,1,us,72.0,1,NonSerious,"['incyte', 'corporation']"
@@ -2118,7 +2118,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5561,2014,2,1,us,78.0,2,NonSerious,"['incyte', 'corporation']"
 5564,2014,2,1,us,51.0,1,NonSerious,"['incyte', 'corporation']"
 5567,2014,2,3,us,,1,NonSerious,"['incyte', 'corporation']"
-5568,2014,1,3,us,66.0,2,Serious,['pubhosp']
+5568,2014,1,3,us,66.0,2,Death,['pubhosp']
 5570,2014,2,1,us,66.0,1,Serious,"['incyte', 'corporation']"
 5571,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 5572,2014,1,3,tr,37.0,2,Serious,['pubhosp']
@@ -2126,7 +2126,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5574,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 5577,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 5578,2015,1,3,se,69.0,1,Serious,['pubhosp']
-5580,2014,1,3,us,91.0,2,Serious,['pubhosp']
+5580,2014,1,3,us,91.0,2,Death,['pubhosp']
 5581,2014,2,3,us,28.0,2,NonSerious,['teva']
 5584,2014,1,3,us,56.0,2,Serious,['pubhosp']
 5585,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
@@ -2148,7 +2148,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5608,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 5610,2014,1,3,fr,35.0,1,Serious,['astrazeneca']
 5613,2014,2,1,us,70.0,2,NonSerious,"['incyte', 'corporation']"
-5616,2014,1,3,us,79.0,2,Serious,['pubhosp']
+5616,2014,1,3,us,79.0,2,Death,['pubhosp']
 5618,2014,2,1,us,33.0,2,NonSerious,"['incyte', 'corporation']"
 5619,2014,2,1,us,77.0,1,NonSerious,"['incyte', 'corporation']"
 5620,2014,2,1,us,66.0,1,NonSerious,"['incyte', 'corporation']"
@@ -2160,7 +2160,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5628,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 5629,2020,1,1,jp,39.0,1,Serious,['gilead']
 5631,2014,1,1,bg,51.0,1,Serious,['astrazeneca']
-5633,2014,1,3,pl,19.0,2,Serious,['pubhosp']
+5633,2014,1,3,pl,19.0,2,Death,['pubhosp']
 5634,2014,2,1,us,71.0,2,NonSerious,"['incyte', 'corporation']"
 5635,2014,2,1,us,81.0,2,Serious,"['incyte', 'corporation']"
 5636,2014,1,3,es,69.0,1,Serious,['pubhosp']
@@ -2216,7 +2216,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 5727,2015,2,3,us,82.0,2,NonSerious,['gilead']
 5729,2014,2,1,us,67.0,2,NonSerious,"['incyte', 'corporation']"
 5730,2015,2,1,us,78.0,2,NonSerious,['gilead']
-5733,2014,1,1,be,62.0,1,Serious,['pubhosp']
+5733,2014,1,1,be,62.0,1,Death,['pubhosp']
 5735,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 5737,2014,2,1,us,,0,NonSerious,"['incyte', 'corporation']"
 5738,2015,2,1,us,86.0,2,NonSerious,['gilead']
@@ -2350,7 +2350,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6124,2014,2,1,us,63.0,2,NonSerious,"['incyte', 'corporation']"
 6125,2014,1,1,,51.0,1,Serious,['abbvie']
 6126,2014,2,1,us,70.0,2,NonSerious,"['incyte', 'corporation']"
-6127,2014,1,1,de,76.0,1,Serious,"['bi', 'pharmaceuticals']"
+6127,2014,1,1,de,76.0,1,Death,"['bi', 'pharmaceuticals']"
 6129,2014,2,1,us,87.0,2,NonSerious,"['incyte', 'corporation']"
 6132,2014,2,1,us,78.0,1,NonSerious,"['incyte', 'corporation']"
 6135,2014,1,1,,64.0,2,Serious,"['bi', 'pharmaceuticals']"
@@ -2380,7 +2380,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6168,2014,2,3,us,81.0,2,Serious,"['incyte', 'corporation']"
 6169,2014,2,1,us,83.0,1,NonSerious,"['incyte', 'corporation']"
 6173,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
-6175,2014,1,1,us,85.0,2,Serious,"['bi', 'pharmaceuticals']"
+6175,2014,1,1,us,85.0,2,Death,"['bi', 'pharmaceuticals']"
 6176,2014,2,1,us,87.0,2,NonSerious,"['incyte', 'corporation']"
 6177,2014,2,1,us,56.0,1,NonSerious,"['incyte', 'corporation']"
 6178,2014,2,3,us,,1,NonSerious,"['incyte', 'corporation']"
@@ -2764,7 +2764,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6747,2014,2,1,us,70.0,2,NonSerious,"['incyte', 'corporation']"
 6750,2014,2,1,us,75.0,1,NonSerious,"['incyte', 'corporation']"
 6751,2014,2,3,us,64.0,2,NonSerious,"['incyte', 'corporation']"
-6752,2020,1,3,us,,0,Serious,"['incyte', 'corporation']"
+6752,2020,1,3,us,,0,Death,"['incyte', 'corporation']"
 6753,2014,2,1,us,,2,NonSerious,"['incyte', 'corporation']"
 6754,2014,2,1,us,83.0,1,Serious,"['incyte', 'corporation']"
 6755,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
@@ -2773,7 +2773,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6764,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 6766,2014,2,1,us,60.0,1,NonSerious,"['incyte', 'corporation']"
 6767,2014,2,1,us,,2,Serious,"['incyte', 'corporation']"
-6768,2014,1,1,us,70.0,2,NonSerious,['gilead']
+6768,2014,1,1,us,70.0,2,Death,['gilead']
 6769,2014,2,3,us,,1,NonSerious,"['incyte', 'corporation']"
 6770,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
 6773,2014,2,2,us,,2,NonSerious,"['incyte', 'corporation']"
@@ -2856,7 +2856,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6879,2014,2,3,us,58.0,1,NonSerious,"['incyte', 'corporation']"
 6887,2014,2,3,us,,1,NonSerious,"['incyte', 'corporation']"
 6893,2014,2,1,us,80.0,2,NonSerious,"['incyte', 'corporation']"
-6894,2014,1,3,cn,,0,NonSerious,['celgeneus']
+6894,2014,1,3,cn,,0,Death,['celgeneus']
 6895,2014,2,3,us,,2,Serious,"['incyte', 'corporation']"
 6896,2014,1,3,nl,58.0,1,Serious,['amgen']
 6897,2014,2,1,us,,1,NonSerious,"['incyte', 'corporation']"
@@ -2865,7 +2865,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6900,2014,1,3,nl,71.0,1,Serious,['amgen']
 6903,2014,1,2,gb,63.0,2,Serious,['teva']
 6906,2014,1,1,gb,46.0,1,Serious,['teva']
-6907,2014,1,1,ke,39.0,1,Serious,['gilead']
+6907,2014,1,1,ke,39.0,1,Death,['gilead']
 6908,2014,1,1,us,,1,Serious,"['sucampo', 'pharma', 'americas', 'inc', 'spi']"
 6909,2014,1,3,fr,82.0,2,Death,['celgeneus']
 6911,2014,1,1,it,70.0,1,Serious,['teva']
@@ -2903,10 +2903,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 6972,2017,2,1,us,64.0,2,Serious,['amgen']
 6973,2014,1,1,us,73.0,1,Serious,['roche']
 6975,2014,1,1,us,71.0,2,Serious,['amgen']
-6976,2014,1,1,gb,79.0,2,NonSerious,['jnjfoc']
+6976,2014,1,1,gb,79.0,2,Death,['jnjfoc']
 6978,2014,2,3,jp,64.0,1,Serious,['jnjfoc']
 6979,2014,2,3,jp,68.0,1,Serious,['jnjfoc']
-6980,2015,1,1,ca,47.0,2,Serious,['roche']
+6980,2015,1,1,ca,47.0,2,Death,['roche']
 6981,2014,1,1,jp,76.0,2,Serious,"['amgen', 'jpnsp']"
 6982,2014,1,1,ca,26.0,1,Serious,
 6983,2014,1,1,jp,53.0,2,Death,['roche']
@@ -3005,7 +3005,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7223,2014,1,2,de,59.0,2,Serious,"['pfizer', 'inc']"
 7227,2014,1,1,us,52.0,2,Serious,"['pfizer', 'inc']"
 7238,2014,2,2,us,85.0,1,Serious,['nan']
-7239,2014,1,1,us,90.0,2,NonSerious,['amgen']
+7239,2014,1,1,us,90.0,2,Death,['amgen']
 7240,2014,1,1,us,71.0,2,Serious,['amgen']
 7241,2014,1,3,nl,73.0,1,Serious,['amgen']
 7243,2014,2,2,us,,0,NonSerious,['shire']
@@ -3051,7 +3051,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7325,2014,2,3,us,64.0,1,Serious,['nan']
 7326,2014,1,3,us,50.0,2,Serious,['bayer']
 7339,2014,1,1,us,38.0,1,Serious,['amgen']
-7340,2014,1,1,ch,81.0,1,Serious,['roche']
+7340,2014,1,1,ch,81.0,1,Death,['roche']
 7341,2014,1,3,ch,,2,Death,['bayer']
 7345,2014,1,1,gb,81.0,1,Serious,['ranbaxy']
 7346,2014,1,3,de,,2,Serious,['ranbaxy']
@@ -3142,7 +3142,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7474,2014,1,3,co,,2,Serious,['bayer']
 7476,2014,1,1,de,81.0,2,Serious,['apl']
 7478,2014,1,1,it,57.0,2,Serious,['apl']
-7479,2014,1,1,ar,54.0,1,Serious,['abbvie']
+7479,2014,1,1,ar,54.0,1,Death,['abbvie']
 7481,2014,1,1,de,0.0027397260273972603,1,Serious,['apl']
 7482,2014,1,2,it,86.0,2,Serious,['apl']
 7483,2014,1,1,gb,44.0,1,Serious,['apl']
@@ -3183,7 +3183,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7546,2014,1,1,cm,20.0,1,Serious,
 7550,2014,1,2,gb,57.0,2,Serious,['perrigo']
 7551,2015,1,1,us,70.0,1,Serious,['perrigo']
-7553,2016,1,1,at,74.0,2,Serious,"['pfizer', 'inc']"
+7553,2016,1,1,at,74.0,2,Death,"['pfizer', 'inc']"
 7554,2014,1,1,de,70.0,2,Serious,['amgen']
 7557,2014,2,2,us,,1,Serious,"['endo', 'pharmaceuticals', 'inc']"
 7558,2014,2,2,us,52.0,2,NonSerious,['teva']
@@ -3202,7 +3202,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7579,2014,1,1,lb,15.0,1,Serious,
 7581,2014,1,3,hk,29.0,2,Serious,['fk']
 7582,2014,1,3,it,56.0,0,Serious,['fk']
-7584,2014,1,3,us,,0,NonSerious,['roche']
+7584,2014,1,3,us,,0,Death,['roche']
 7597,2014,1,1,jp,73.0,1,Death,"['eisai', 'inc']"
 7599,2014,2,1,jp,55.0,1,Serious,['jnjfoc']
 7600,2014,1,2,jp,,0,NonSerious,['jnjfoc']
@@ -3267,12 +3267,12 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7739,2014,1,3,us,,2,Serious,['baxter']
 7742,2014,1,1,fr,52.0,1,Serious,['kad']
 7744,2014,1,3,us,,2,Death,['baxter']
-7745,2014,1,3,in,66.0,1,NonSerious,['baxter']
+7745,2014,1,3,in,66.0,1,Death,['baxter']
 7746,2014,1,3,us,,1,Serious,['baxter']
 7749,2014,1,3,dk,30.0,2,Serious,['dexpharm']
 7750,2014,1,1,us,,2,NonSerious,['baxter']
 7752,2014,2,1,us,,2,Serious,['rb']
-7757,2014,1,3,us,2.0,1,Serious,['lundbeck']
+7757,2014,1,3,us,2.0,1,Death,['lundbeck']
 7759,2014,1,3,nl,72.0,1,Serious,['amgen']
 7760,2014,1,1,de,35.0,2,Serious,['bracco']
 7761,2014,1,1,us,81.0,1,Serious,['amgen']
@@ -3301,10 +3301,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7787,2014,1,1,us,,0,Serious,['baxter']
 7790,2014,1,1,us,,0,Serious,['baxter']
 7791,2014,1,1,tr,49.0,1,Serious,['val']
-7792,2014,1,1,us,60.0,1,Serious,['celgeneus']
+7792,2014,1,1,us,60.0,1,Death,['celgeneus']
 7795,2014,1,3,gb,76.0,1,Serious,['ranbaxy']
 7796,2014,1,3,nl,56.0,1,Serious,['amgen']
-7800,2014,1,1,jp,,0,NonSerious,['celgeneus']
+7800,2014,1,1,jp,,0,Death,['celgeneus']
 7803,2014,2,2,us,,0,NonSerious,
 7805,2014,1,3,gb,70.0,2,Serious,
 7811,2014,2,3,us,,2,NonSerious,['bayer']
@@ -3420,23 +3420,23 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 7944,2014,1,1,us,85.0,2,Serious,['jnjfoc']
 7945,2014,1,1,us,74.0,1,Serious,['jnjfoc']
 7946,2014,1,1,us,80.0,2,Serious,['jnjfoc']
-7947,2014,1,3,de,83.0,0,NonSerious,
+7947,2014,1,3,de,83.0,0,Death,
 7952,2014,1,1,ru,,0,Serious,['jnjfoc']
 7954,2014,2,1,us,17.0,1,Serious,['jnjfoc']
 7955,2014,1,1,us,21.0,1,Serious,['jnjfoc']
 7956,2015,1,1,us,15.0,1,Serious,['jnjfoc']
 7957,2014,1,1,us,17.0,1,Serious,['jnjfoc']
 7959,2015,1,3,gb,65.0,1,Death,
-7962,2014,1,3,gb,87.0,2,Serious,
+7962,2014,1,3,gb,87.0,2,Death,
 7963,2015,1,1,fi,46.0,1,Serious,['jnjfoc']
 7964,2014,1,1,jp,74.0,2,Serious,['jnjfoc']
 7968,2014,2,1,us,,2,NonSerious,"['endo', 'pharmaceuticals', 'inc']"
-7971,2014,1,3,sz,41.0,1,Serious,['ipc']
+7971,2014,1,3,sz,41.0,1,Death,['ipc']
 7973,2014,1,1,jp,90.0,1,Serious,['jnjfoc']
 7975,2014,2,3,ca,46.0,2,NonSerious,['jnjfoc']
-7988,2014,1,3,fr,64.0,1,Serious,
+7988,2014,1,3,fr,64.0,1,Death,
 7992,2014,1,3,us,42.0,1,Serious,['bayer']
-7993,2014,1,1,ch,45.0,1,NonSerious,
+7993,2014,1,1,ch,45.0,1,Death,
 7994,2014,1,1,us,1.0,2,Serious,['lundbeck']
 7995,2014,1,1,ca,,0,Serious,"['mpijnj', 'jnj']"
 7996,2014,1,3,fr,60.0,1,Serious,['jnjfoc']
@@ -3493,7 +3493,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8060,2014,1,1,us,,0,Serious,['baxter']
 8062,2014,1,1,us,,0,Serious,['baxter']
 8063,2014,1,1,us,,0,Serious,['baxter']
-8066,2014,1,3,us,23.0,2,NonSerious,['adr']
+8066,2014,1,3,us,23.0,2,Death,['adr']
 8067,2014,1,1,us,,0,Serious,['baxter']
 8068,2014,1,3,gb,49.0,2,Serious,['baxter']
 8069,2014,1,1,us,,0,Serious,['baxter']
@@ -3528,7 +3528,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8106,2014,1,1,us,,0,Serious,['baxter']
 8108,2014,1,1,us,,0,Serious,['baxter']
 8109,2014,1,1,us,,0,Serious,['baxter']
-8110,2014,1,3,us,36.0,1,NonSerious,['adr']
+8110,2014,1,3,us,36.0,1,Death,['adr']
 8111,2014,1,1,gb,69.0,1,Serious,['jnjfoc']
 8112,2014,2,1,us,,0,NonSerious,['teva']
 8114,2014,1,1,tr,,0,Serious,
@@ -3543,7 +3543,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8136,2014,1,3,us,,1,Death,['sym']
 8140,2014,1,1,it,67.0,1,Serious,
 8141,2014,1,3,us,57.0,1,Death,['fk']
-8145,2014,1,1,jp,103.0,1,Serious,"['eisai', 'inc']"
+8145,2014,1,1,jp,103.0,1,Death,"['eisai', 'inc']"
 8147,2014,1,1,us,,0,Death,['adr']
 8148,2015,1,1,tn,28.0,2,Serious,['pubhosp']
 8150,2014,1,1,kr,39.0,1,Serious,['jnjfoc']
@@ -3566,7 +3566,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8190,2014,1,3,pl,26.0,1,Serious,['ranbaxy']
 8191,2014,2,3,us,,1,Serious,['nan']
 8194,2014,1,1,jp,35.0,2,Serious,"['pfizer', 'inc']"
-8195,2014,1,1,kr,64.0,1,Serious,['astellas']
+8195,2014,1,1,kr,64.0,1,Death,['astellas']
 8196,2014,2,1,us,,1,Serious,['nan']
 8198,2014,1,1,fr,,2,Serious,['astellas']
 8199,2015,1,2,fr,29.0,1,Serious,['astellas']
@@ -3575,7 +3575,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8202,2014,1,2,jp,82.0,1,Serious,"['pfizer', 'inc']"
 8206,2014,2,3,us,27.0,2,Serious,['nan']
 8207,2014,1,1,es,63.0,1,Serious,['astellas']
-8211,2014,1,1,jp,2.0,2,Serious,
+8211,2014,1,1,jp,2.0,2,Death,
 8212,2014,1,1,mx,65.0,2,Serious,['astellas']
 8214,2014,1,1,jp,26.0,1,Serious,['astellas']
 8215,2014,1,1,jp,3.0,1,Serious,['astellas']
@@ -3588,7 +3588,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8224,2014,1,1,jp,73.0,2,Serious,['pubhosp']
 8225,2014,1,1,jp,43.0,1,Serious,['astellas']
 8227,2014,1,1,jp,,1,Serious,['astellas']
-8228,2014,1,1,us,,1,NonSerious,['astellas']
+8228,2014,1,1,us,,1,Death,['astellas']
 8232,2014,1,1,us,,2,Serious,['beh']
 8234,2014,2,3,us,44.0,1,Serious,['nan']
 8235,2023,1,3,ca,75.0,1,Serious,['merck']
@@ -3596,7 +3596,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8240,2014,2,3,us,7.0,2,Serious,['nan']
 8241,2014,1,3,cz,3.0,1,Serious,['beh']
 8242,2014,1,1,de,13.0,1,Serious,['astellas']
-8243,2014,1,1,us,59.0,1,Serious,['astellas']
+8243,2014,1,1,us,59.0,1,Death,['astellas']
 8247,2014,1,1,jp,,1,Serious,['astellas']
 8251,2014,2,2,us,32.0,2,Serious,['nan']
 8252,2015,1,3,fr,0.0,2,Serious,['astellas']
@@ -3617,7 +3617,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8296,2014,2,3,us,63.0,2,Serious,['nan']
 8298,2014,1,1,,55.0,1,Serious,['abbvie']
 8299,2023,1,3,ca,44.0,2,Serious,['pubhosp']
-8302,2014,1,1,us,61.0,1,Serious,['jnjfoc']
+8302,2014,1,1,us,61.0,1,Death,['jnjfoc']
 8303,2014,1,1,us,,1,Serious,['jnjfoc']
 8304,2014,2,1,us,,1,Death,['rb']
 8306,2015,1,3,us,,2,Serious,['jnjfoc']
@@ -3639,12 +3639,12 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8345,2014,2,1,us,36.0,2,Serious,['teva']
 8347,2014,1,1,nl,,2,Serious,['pubhosp']
 8348,2014,2,3,us,59.0,2,Serious,['nan']
-8350,2014,1,1,us,78.0,2,Serious,['utc']
+8350,2014,1,1,us,78.0,2,Death,['utc']
 8353,2014,1,3,us,77.0,1,Death,['utc']
-8360,2014,1,3,us,38.0,2,NonSerious,['utc']
+8360,2014,1,3,us,38.0,2,Death,['utc']
 8363,2018,1,1,kr,64.0,1,Serious,
-8371,2014,1,1,jp,76.0,1,NonSerious,"['pfizer', 'inc']"
-8373,2014,1,2,jp,91.0,2,Serious,"['pfizer', 'inc']"
+8371,2014,1,1,jp,76.0,1,Death,"['pfizer', 'inc']"
+8373,2014,1,2,jp,91.0,2,Death,"['pfizer', 'inc']"
 8376,2014,1,1,jp,65.0,1,Serious,"['pfizer', 'inc']"
 8380,2014,1,3,us,59.0,1,Death,"['pfizer', 'inc']"
 8398,2014,2,2,us,58.0,1,Serious,['nan']
@@ -3670,7 +3670,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8445,2014,1,3,no,63.0,2,Serious,"['bristol', 'myers', 'squibb']"
 8447,2014,1,1,us,1.0,1,Serious,['stp']
 8448,2014,2,3,us,,0,Serious,['nan']
-8449,2014,1,3,us,,0,NonSerious,"['bristol', 'myers', 'squibb']"
+8449,2014,1,3,us,,0,Death,"['bristol', 'myers', 'squibb']"
 8451,2014,1,1,us,43.0,2,Serious,['jnjfoc']
 8452,2014,1,1,us,17.0,1,Serious,['utc']
 8453,2014,2,1,us,23.0,2,NonSerious,
@@ -3700,10 +3700,10 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8512,2014,2,2,us,95.0,2,Serious,['nan']
 8515,2014,1,3,dk,21.0,2,Serious,['fri']
 8517,2014,1,1,us,,0,Serious,['ap']
-8519,2014,1,1,it,58.0,2,Serious,['teva']
+8519,2014,1,1,it,58.0,2,Death,['teva']
 8520,2014,1,1,us,,0,Serious,['ap']
 8525,2014,2,1,us,,1,NonSerious,['lundbeck']
-8534,2014,1,3,,,0,NonSerious,"['bi', 'pharmaceuticals']"
+8534,2014,1,3,,,0,Death,"['bi', 'pharmaceuticals']"
 8537,2014,1,1,us,43.0,1,Serious,['stpi']
 8539,2014,2,3,us,23.0,2,NonSerious,
 8543,2014,1,1,us,,0,Serious,['ap']
@@ -3755,30 +3755,30 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8686,2014,2,1,us,80.0,0,NonSerious,['teva']
 8687,2015,1,1,gb,69.0,2,Serious,['glaxosmithkline']
 8690,2014,1,1,fr,69.0,1,Death,['celgeneus']
-8691,2014,1,1,gb,71.0,1,Serious,['pubhosp']
+8691,2014,1,1,gb,71.0,1,Death,['pubhosp']
 8692,2014,1,1,au,59.0,2,Serious,['pubhosp']
 8693,2014,1,1,in,,2,Death,['pubhosp']
 8694,2014,1,1,us,,1,Serious,['celgeneus']
 8695,2014,1,2,ie,10.0,1,Serious,['ucbsa']
 8696,2014,1,1,us,,1,Serious,['celgeneus']
-8697,2014,1,1,,55.0,1,Serious,['pubhosp']
+8697,2014,1,1,,55.0,1,Death,['pubhosp']
 8700,2015,1,1,jp,27.0,2,Serious,"['pfizer', 'inc']"
 8701,2014,2,1,us,,0,Serious,['nan']
 8721,2014,1,1,us,71.0,2,Serious,['imp']
 8733,2014,2,2,us,65.0,1,Serious,['nan']
-8742,2015,1,1,au,72.0,2,NonSerious,"['pfizer', 'inc']"
+8742,2015,1,1,au,72.0,2,Death,"['pfizer', 'inc']"
 8746,2014,1,3,us,79.0,2,Serious,['celgeneus']
 8747,2014,2,1,us,80.0,2,Serious,['nan']
 8750,2014,1,3,us,,1,Serious,['celgeneus']
 8753,2014,1,1,,64.0,1,Serious,['abbvie']
 8755,2014,1,2,jp,68.0,1,Serious,['otsuka']
-8756,2017,1,1,jp,77.0,1,NonSerious,['otsuka']
+8756,2017,1,1,jp,77.0,1,Death,['otsuka']
 8763,2014,2,1,us,66.0,1,Serious,['nan']
 8765,2014,1,1,us,91.0,2,Serious,
 8767,2018,1,1,fr,62.0,1,Serious,
 8768,2014,2,1,us,42.0,2,NonSerious,
 8770,2014,1,2,us,,1,Serious,['glaxosmithkline']
-8771,2014,1,3,us,,2,Serious,['glaxosmithkline']
+8771,2014,1,3,us,,2,Death,['glaxosmithkline']
 8773,2014,1,1,us,92.0,1,Serious,
 8774,2014,1,1,,70.0,2,Serious,"['bi', 'pharmaceuticals']"
 8775,2015,1,1,,56.0,2,Serious,"['bi', 'pharmaceuticals']"
@@ -3799,13 +3799,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8813,2014,2,3,us,,1,NonSerious,"['pfizer', 'inc']"
 8817,2014,1,1,us,84.0,2,Serious,['glaxosmithkline']
 8818,2014,1,3,us,75.0,1,Serious,['pubhosp']
-8819,2014,1,3,us,75.0,2,Serious,['pubhosp']
-8821,2014,1,3,za,29.0,2,NonSerious,['pubhosp']
+8819,2014,1,3,us,75.0,2,Death,['pubhosp']
+8821,2014,1,3,za,29.0,2,Death,['pubhosp']
 8822,2014,1,1,it,83.0,2,NonSerious,['glaxosmithkline']
 8825,2014,2,1,us,,0,NonSerious,['teva']
 8826,2014,1,1,ly,,0,Serious,
 8829,2014,1,1,jp,43.0,1,Serious,"['viiv', 'healthcare', 'limited']"
-8830,2014,1,1,de,67.0,2,Serious,['glaxosmithkline']
+8830,2014,1,1,de,67.0,2,Death,['glaxosmithkline']
 8831,2014,1,1,jp,,1,Serious,['glaxosmithkline']
 8832,2014,1,1,jp,11.0,2,Serious,['glaxosmithkline']
 8833,2014,1,1,jp,71.0,1,Serious,['glaxosmithkline']
@@ -3828,7 +3828,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 8860,2014,1,3,nl,67.0,1,Serious,['pubhosp']
 8861,2014,1,3,fr,57.0,1,Serious,['pubhosp']
 8863,2014,2,3,us,,2,NonSerious,"['pfizer', 'inc']"
-8864,2014,1,3,kr,65.0,1,NonSerious,['pubhosp']
+8864,2014,1,3,kr,65.0,1,Death,['pubhosp']
 8866,2014,1,3,,,2,Death,['abbvie']
 8867,2014,1,3,gb,56.0,2,Serious,['teva']
 8868,2014,2,1,us,61.0,2,NonSerious,"['pfizer', 'inc']"
@@ -3879,7 +3879,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9000,2015,2,2,us,46.0,2,NonSerious,"['pfizer', 'inc']"
 9001,2017,1,3,jp,8.0,1,Serious,['jnjfoc']
 9002,2014,1,3,,72.0,2,Serious,"['roxane', 'laboratories', 'inc']"
-9009,2014,1,1,,71.0,1,Serious,['abbvie']
+9009,2014,1,1,,71.0,1,Death,['abbvie']
 9013,2014,1,1,us,43.0,2,Serious,"['biogenidec', 'bi']"
 9014,2014,2,3,us,,2,Serious,"['emd', 'serono', 'inc']"
 9016,2014,1,3,ca,41.0,1,Serious,['pubhosp']
@@ -3915,9 +3915,9 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9091,2014,2,1,us,52.0,0,NonSerious,"['pfizer', 'inc']"
 9092,2014,1,1,us,54.0,2,Serious,['actelion']
 9094,2014,1,1,au,,1,Serious,['pubhosp']
-9098,2014,1,3,us,54.0,2,Serious,['actelion']
+9098,2014,1,3,us,54.0,2,Death,['actelion']
 9099,2015,1,1,us,45.0,2,Serious,['actelion']
-9100,2015,1,1,jp,78.0,2,Serious,['actelion']
+9100,2015,1,1,jp,78.0,2,Death,['actelion']
 9114,2014,1,3,ca,47.0,2,Serious,['actavis']
 9116,2014,1,3,us,81.0,2,Death,['actelion']
 9117,2014,1,3,us,40.0,2,Serious,['actelion']
@@ -3933,7 +3933,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9147,2014,2,3,us,25.0,2,NonSerious,['teva']
 9148,2014,1,2,us,,1,Serious,['pubhosp']
 9152,2014,2,1,us,59.0,2,NonSerious,"['pfizer', 'inc']"
-9154,2014,1,3,de,,0,Serious,
+9154,2014,1,3,de,,0,Death,
 9155,2014,1,3,us,,1,Serious,['pubhosp']
 9171,2014,2,1,us,71.0,1,NonSerious,"['pfizer', 'inc']"
 9172,2014,1,3,bd,,2,Serious,"['emd', 'serono', 'inc']"
@@ -3948,7 +3948,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9188,2014,2,3,us,58.0,2,NonSerious,"['pfizer', 'inc']"
 9190,2014,1,1,us,14.0,2,Serious,"['vertex', 'pharmaceuticals', 'inc']"
 9191,2014,1,3,fr,,1,Serious,"['bi', 'pharmaceuticals']"
-9193,2014,1,1,jp,,0,Serious,"['cubist', 'pharmaceutical', 'inc']"
+9193,2014,1,1,jp,,0,Death,"['cubist', 'pharmaceutical', 'inc']"
 9194,2016,1,3,us,68.0,2,Serious,"['bristol', 'myers', 'squibb']"
 9197,2014,1,1,fr,50.0,2,Serious,"['vertex', 'pharmaceuticals', 'inc']"
 9198,2015,2,3,us,,0,Serious,['alexion']
@@ -3969,20 +3969,20 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9225,2014,1,3,gb,,2,Serious,"['emd', 'serono', 'inc']"
 9226,2014,2,1,pr,,0,NonSerious,"['pfizer', 'inc']"
 9227,2015,1,3,us,50.0,1,Serious,['jnjfoc']
-9230,2014,1,1,jp,77.0,2,Serious,"['pfizer', 'inc']"
+9230,2014,1,1,jp,77.0,2,Death,"['pfizer', 'inc']"
 9231,2014,1,3,fr,11.0,1,Serious,"['pfizer', 'inc']"
 9233,2015,1,1,gb,35.0,1,Serious,['pubhosp']
-9235,2014,1,1,us,40.0,2,Serious,"['pfizer', 'inc']"
+9235,2014,1,1,us,40.0,2,Death,"['pfizer', 'inc']"
 9236,2014,1,2,jp,68.0,2,Serious,"['pfizer', 'inc']"
 9240,2014,1,1,tw,8.0,1,Serious,['bracco']
 9243,2015,1,3,de,60.0,2,Serious,['purdue']
 9249,2014,1,1,us,,1,Serious,['jnjfoc']
 9250,2014,2,1,us,,2,Serious,['alexion']
-9251,2014,1,1,us,,1,NonSerious,['jnjfoc']
+9251,2014,1,1,us,,1,Death,['jnjfoc']
 9252,2014,1,1,jp,83.0,1,Death,['jnjfoc']
 9256,2014,2,3,us,,2,Serious,['teva']
 9262,2014,1,3,es,53.0,1,Serious,['jnjfoc']
-9263,2014,1,3,us,35.0,2,NonSerious,['jnjfoc']
+9263,2014,1,3,us,35.0,2,Death,['jnjfoc']
 9267,2014,1,3,,,1,Serious,"['bi', 'pharmaceuticals']"
 9268,2014,1,3,,,1,Serious,"['bi', 'pharmaceuticals']"
 9270,2014,1,3,,,1,Serious,"['bi', 'pharmaceuticals']"
@@ -4009,7 +4009,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9328,2014,1,1,de,74.0,2,Serious,"['pfizer', 'inc']"
 9330,2014,1,1,,30.0,2,Serious,['abbvie']
 9339,2014,1,3,pt,51.0,1,Serious,
-9343,2014,1,1,ch,83.0,1,NonSerious,['celgeneus']
+9343,2014,1,1,ch,83.0,1,Death,['celgeneus']
 9344,2014,1,3,fr,37.0,1,Serious,"['pfizer', 'inc']"
 9345,2014,1,3,,,1,Serious,"['bi', 'pharmaceuticals']"
 9346,2014,1,3,,17.0,1,Serious,['abbvie']
@@ -4033,8 +4033,8 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9390,2014,1,3,us,71.0,2,Death,['actelion']
 9391,2014,1,1,fr,22.0,2,Serious,"['emd', 'serono', 'inc']"
 9393,2015,1,1,fr,38.0,2,Serious,['abbvie']
-9396,2016,1,3,fr,63.0,2,NonSerious,['celgeneus']
-9398,2014,1,3,ie,0.8333333333333334,1,NonSerious,['pubhosp']
+9396,2016,1,3,fr,63.0,2,Death,['celgeneus']
+9398,2014,1,3,ie,0.8333333333333334,1,Death,['pubhosp']
 9400,2014,1,3,us,62.0,1,Serious,['actelion']
 9405,2015,1,1,de,76.0,2,Serious,['celgeneus']
 9409,2014,1,1,at,74.0,1,Serious,"['pfizer', 'inc']"
@@ -4045,13 +4045,13 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9416,2014,1,1,us,,2,Serious,"['bi', 'pharmaceuticals']"
 9419,2014,1,3,,39.0,2,Serious,"['roxane', 'laboratories', 'inc']"
 9420,2014,1,2,gb,,0,Serious,"['bi', 'pharmaceuticals']"
-9423,2014,1,3,jp,64.0,2,NonSerious,['chpa']
+9423,2014,1,3,jp,64.0,2,Death,['chpa']
 9429,2014,1,3,us,,0,Serious,['teva']
 9442,2014,1,3,us,,0,Serious,['teva']
 9446,2014,1,3,ma,44.0,2,Serious,['watson']
 9450,2014,1,3,us,47.0,2,Serious,['actavis']
 9456,2014,1,3,it,35.0,2,Serious,['pubhosp']
-9457,2014,1,1,us,80.0,0,NonSerious,['teva']
+9457,2014,1,1,us,80.0,0,Death,['teva']
 9458,2014,1,1,us,64.0,2,Serious,['teva']
 9459,2014,1,1,it,53.8054794520548,2,Serious,['astrazeneca']
 9460,2014,1,1,us,33.0,1,Death,"['incyte', 'corporation']"
@@ -4086,11 +4086,11 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9512,2014,1,3,tr,98.0,1,Serious,['actavis']
 9513,2014,1,3,,,2,Serious,['abbvie']
 9514,2014,2,3,us,59.0,1,NonSerious,"['bi', 'pharmaceuticals']"
-9515,2014,1,3,jp,73.0,2,NonSerious,['watson']
+9515,2014,1,3,jp,73.0,2,Death,['watson']
 9516,2014,1,3,dk,,2,Serious,['fri']
 9518,2014,1,2,ru,47.0,1,Serious,"['pfizer', 'inc']"
 9519,2014,1,3,gb,35.0,2,Serious,
-9522,2015,1,1,,,2,Serious,['abbvie']
+9522,2015,1,1,,,2,Death,['abbvie']
 9525,2014,1,3,us,49.0,2,Serious,['actavis']
 9526,2014,1,1,ie,41.0,1,Serious,"['bristol', 'myers', 'squibb']"
 9528,2014,1,3,dk,60.0,2,Serious,['fri']
@@ -4099,7 +4099,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9539,2018,2,3,us,45.0,2,NonSerious,"['pfizer', 'inc']"
 9540,2014,1,1,jp,65.0,2,Serious,['takeda']
 9542,2014,2,2,us,,0,NonSerious,['astrazeneca']
-9544,2014,1,1,us,,0,Serious,['takeda']
+9544,2014,1,1,us,,0,Death,['takeda']
 9545,2014,1,1,jp,67.0,1,Serious,['takeda']
 9546,2014,1,1,us,77.0,1,Serious,['takeda']
 9548,2014,1,1,us,,1,Serious,['astrazeneca']
@@ -4151,7 +4151,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9680,2014,1,3,gb,92.0,2,Serious,['bausch']
 9681,2014,1,3,it,65.0,2,Serious,['bausch']
 9682,2014,1,2,gb,93.0,2,Serious,['teva']
-9683,2014,1,3,,79.0,1,Serious,['bausch']
+9683,2014,1,3,,79.0,1,Death,['bausch']
 9686,2015,1,3,au,42.0,2,Serious,['celgeneus']
 9690,2014,2,1,us,65.0,1,NonSerious,"['pfizer', 'inc']"
 9693,2014,2,1,us,,2,NonSerious,"['pfizer', 'inc']"
@@ -4180,7 +4180,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9747,2014,1,1,il,80.0,1,Serious,"['bi', 'pharmaceuticals']"
 9748,2014,2,1,us,14.0,2,NonSerious,
 9750,2014,1,1,in,,1,Serious,
-9752,2014,1,3,gb,59.0,2,NonSerious,"['pfizer', 'inc']"
+9752,2014,1,3,gb,59.0,2,Death,"['pfizer', 'inc']"
 9755,2014,1,1,,,1,Serious,['abbvie']
 9758,2014,1,3,us,82.0,2,Serious,['astrazeneca']
 9761,2014,1,3,es,,0,Death,['celgeneus']
@@ -4221,7 +4221,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9825,2014,1,1,us,,0,Serious,['baxter']
 9826,2014,1,1,us,,0,Serious,['baxter']
 9827,2014,1,1,us,,0,Serious,['baxter']
-9829,2014,1,1,ph,,1,Serious,['baxter']
+9829,2014,1,1,ph,,1,Death,['baxter']
 9832,2014,1,1,us,,0,Serious,['baxter']
 9834,2014,1,1,us,,0,Serious,['baxter']
 9840,2014,1,1,us,,0,Serious,['baxter']
@@ -4243,7 +4243,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9881,2014,1,1,us,,0,Serious,['baxter']
 9882,2014,1,1,us,,0,Serious,['baxter']
 9883,2014,1,1,us,,0,Serious,['baxter']
-9884,2014,1,1,us,,2,NonSerious,['gilead']
+9884,2014,1,1,us,,2,Death,['gilead']
 9885,2014,1,1,us,,0,Serious,['baxter']
 9887,2014,2,2,us,,2,NonSerious,
 9888,2014,1,1,us,,0,Serious,['baxter']
@@ -4287,7 +4287,7 @@ event_id,year,expedited,report_source,country,age,sex,serious_outcome,company_na
 9932,2014,1,1,us,,0,Serious,['baxter']
 9933,2014,1,1,us,,0,Serious,['baxter']
 9935,2014,1,1,us,,0,Serious,['baxter']
-9936,2014,1,1,gb,50.0,1,NonSerious,['baxter']
+9936,2014,1,1,gb,50.0,1,Death,['baxter']
 9939,2014,1,1,us,,0,Serious,['baxter']
 9941,2014,2,3,us,31.0,2,NonSerious,['teva']
 9942,2014,1,1,us,,0,Serious,['baxter']
