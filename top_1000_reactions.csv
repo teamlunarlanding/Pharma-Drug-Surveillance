@@ -1,0 +1,1001 @@
+reaction,count
+off label use,1213
+fatigue,885
+pyrexia,883
+diarrhoea,809
+nausea,772
+dyspnoea,695
+pain,653
+drug ineffective,621
+arthralgia,609
+headache,590
+vomiting,561
+pneumonia,556
+condition aggravated,550
+malaise,497
+weight decreased,476
+rash,466
+anaemia,447
+weight increased,433
+decreased appetite,423
+asthenia,402
+pruritus,393
+dizziness,390
+abdominal pain,386
+covid-19,374
+acute kidney injury,372
+hypertension,358
+cough,356
+neutropenia,351
+inappropriate schedule of product administration,324
+pain in extremity,324
+death,323
+intentional product use issue,322
+hypotension,317
+nasopharyngitis,316
+thrombocytopenia,314
+device expulsion,306
+febrile neutropenia,303
+fall,299
+white blood cell count decreased,295
+blood pressure increased,290
+platelet count decreased,284
+infusion related reaction,278
+constipation,277
+sepsis,261
+confusional state,260
+infection,257
+urinary tract infection,255
+back pain,254
+peripheral swelling,250
+product use issue,247
+hypersensitivity,246
+general physical health deterioration,245
+neutrophil count decreased,241
+alopecia,224
+joint swelling,220
+abdominal discomfort,216
+sinusitis,213
+rheumatoid arthritis,211
+alanine aminotransferase increased,206
+insomnia,206
+anxiety,205
+erythema,204
+malignant neoplasm progression,202
+complication of device insertion,200
+gait disturbance,196
+abdominal pain upper,195
+dehydration,193
+product dose omission issue,188
+product use in unapproved indication,188
+chest pain,187
+stomatitis,186
+blood pressure fluctuation,184
+therapeutic product effect decreased,178
+hypoaesthesia,175
+oedema peripheral,174
+drug intolerance,173
+muscle spasms,171
+swelling,169
+somnolence,167
+urticaria,167
+musculoskeletal stiffness,165
+chills,163
+hepatic enzyme increased,163
+drug hypersensitivity,161
+aspartate aminotransferase increased,161
+device dislocation,160
+hypokalaemia,160
+tachycardia,158
+discomfort,157
+interstitial lung disease,154
+c-reactive protein increased,153
+cardiac failure,153
+arthropathy,152
+cytokine release syndrome,151
+contusion,149
+myalgia,148
+atrial fibrillation,146
+heart rate decreased,146
+renal impairment,144
+maternal exposure during pregnancy,144
+paraesthesia,144
+heart rate increased,143
+lower respiratory tract infection,142
+therapeutic product effect incomplete,140
+muscular weakness,140
+oropharyngeal pain,139
+depression,137
+contraindicated product administered,137
+incorrect dose administered,136
+feeling abnormal,134
+abdominal distension,134
+influenza,134
+gastrointestinal disorder,132
+syncope,132
+pulmonary embolism,130
+chest discomfort,128
+hyponatraemia,128
+hepatic function abnormal,127
+disease progression,127
+renal failure,125
+haemoglobin decreased,124
+blood creatinine increased,123
+pancytopenia,122
+tremor,122
+seizure,121
+mobility decreased,121
+respiratory failure,120
+toxicity to various agents,120
+multiple organ dysfunction syndrome,117
+oxygen saturation decreased,117
+synovitis,116
+pleural effusion,116
+bronchitis,116
+blister,116
+leukopenia,115
+inflammation,115
+lymphocyte count decreased,114
+illness,112
+systemic lupus erythematosus,112
+treatment failure,111
+pericarditis,111
+blood pressure systolic increased,110
+arthritis,110
+wound,109
+complication of device removal,109
+glossodynia,108
+dysphagia,107
+blood pressure decreased,104
+colitis,103
+impaired healing,102
+flushing,102
+device breakage,101
+hyperhidrosis,101
+hand deformity,101
+septic shock,100
+neuropathy peripheral,99
+asthma,99
+memory impairment,98
+pemphigus,98
+overdose,98
+stress,97
+herpes zoster,94
+irritable bowel syndrome,90
+sleep disorder,90
+pneumonitis,89
+productive cough,89
+hypoxia,89
+loss of personal independence in daily activities,89
+device placement issue,89
+cerebrovascular accident,89
+hepatic cytolysis,88
+drug interaction,87
+crohn^s disease,87
+neoplasm progression,86
+rhinorrhoea,86
+loss of consciousness,85
+anti-cyclic citrullinated peptide antibody positive,85
+haematochezia,84
+blood glucose increased,84
+ill-defined disorder,84
+haemorrhage,84
+palpitations,82
+myelosuppression,82
+liver disorder,81
+blood cholesterol increased,81
+nasal congestion,81
+wheezing,81
+ascites,80
+epistaxis,80
+balance disorder,79
+dyspepsia,78
+hyperkalaemia,77
+injection site pain,76
+pneumonia aspiration,75
+hypothyroidism,75
+helicobacter infection,74
+dry mouth,74
+hyperglycaemia,73
+folliculitis,72
+duodenal ulcer perforation,72
+cardiac arrest,71
+cellulitis,71
+drug-induced liver injury,71
+dyspnoea exertional,71
+gastrointestinal haemorrhage,71
+migraine,71
+blood bilirubin increased,70
+vertigo,70
+myocardial infarction,70
+therapeutic response shortened,69
+vision blurred,69
+colitis ulcerative,69
+muscle injury,69
+hallucination,68
+dyskinesia,68
+hypoglycaemia,67
+foreign body in reproductive tract,66
+white blood cell count increased,66
+covid-19 pneumonia,66
+rash maculo-papular,66
+hepatic failure,65
+body temperature decreased,65
+visual impairment,65
+exposure during pregnancy,65
+intentional product misuse,64
+electrocardiogram qt prolonged,64
+psoriatic arthropathy,63
+delirium,63
+mucosal inflammation,63
+oedema,63
+"sleep disorder due to general medical condition, insomnia type",63
+anaphylactic reaction,63
+foetal exposure during pregnancy,63
+rhabdomyolysis,62
+blood alkaline phosphatase increased,62
+osteoarthritis,62
+skin ulcer,61
+diabetes mellitus,61
+embedded device,61
+device issue,61
+lung disorder,61
+coma,60
+hypocalcaemia,60
+dysphonia,59
+bradycardia,59
+rectal haemorrhage,59
+drug level below therapeutic,58
+heart rate irregular,58
+intestinal obstruction,58
+neck pain,58
+procedural pain,58
+influenza like illness,58
+basal cell carcinoma,57
+upper respiratory tract infection,57
+agitation,57
+acute respiratory failure,56
+red blood cell count decreased,56
+deep vein thrombosis,56
+night sweats,55
+flatulence,55
+rash pruritic,55
+feeling hot,55
+cholestasis,55
+hot flush,54
+proteinuria,54
+gamma-glutamyltransferase increased,54
+psoriasis,54
+blood pressure diastolic decreased,54
+gastrooesophageal reflux disease,54
+complication associated with device,54
+bone pain,53
+tumour lysis syndrome,53
+swelling face,52
+intentional overdose,52
+neurotoxicity,52
+cystitis,52
+blood creatine phosphokinase increased,51
+nephrolithiasis,51
+speech disorder,51
+aphasia,51
+restlessness,51
+acne,51
+hospitalisation,51
+therapy non-responder,50
+body temperature increased,50
+blood lactate dehydrogenase increased,50
+liver injury,50
+haemoptysis,49
+therapeutic response decreased,49
+cognitive disorder,49
+on and off phenomenon,49
+thrombosis,49
+cardio-respiratory arrest,49
+cataract,49
+viral infection,49
+no adverse event,49
+suicide attempt,48
+haematuria,48
+poor venous access,48
+dry skin,48
+abnormal uterine bleeding,48
+medication error,48
+respiratory tract infection,47
+unevaluable event,47
+epilepsy,47
+burning sensation,47
+drug reaction with eosinophilia and systemic symptoms,46
+depressed mood,46
+chronic obstructive pulmonary disease,46
+lymphadenopathy,46
+myocarditis,46
+pancreatitis,46
+injury,45
+underdose,45
+cerebral haemorrhage,45
+hepatitis,45
+hypophosphataemia,45
+suicidal ideation,45
+diabetic ketoacidosis,44
+disorientation,44
+throat irritation,44
+lactic acidosis,44
+cardiac failure congestive,44
+hypophagia,43
+dysuria,43
+metabolic acidosis,43
+encephalopathy,43
+hypomagnesaemia,43
+type 2 diabetes mellitus,43
+skin disorder,43
+haematocrit decreased,43
+product quality issue,43
+respiratory distress,43
+sars-cov-2 test positive,43
+chronic kidney disease,42
+adrenal insufficiency,42
+transaminases increased,42
+eczema,42
+osteonecrosis of jaw,42
+red blood cell sedimentation rate increased,42
+pericardial effusion,42
+adverse event,42
+pelvic pain,42
+haematoma,42
+cerebral infarction,41
+ocular hyperaemia,41
+gastroenteritis,41
+pollakiuria,41
+adverse drug reaction,41
+fibromyalgia,41
+neuralgia,41
+immune-mediated enterocolitis,41
+atelectasis,41
+skin exfoliation,40
+drug eruption,40
+ear infection,40
+pallor,40
+plasma cell myeloma,40
+prescribed underdose,40
+fungal infection,40
+oral herpes,40
+frequent bowel movements,40
+skin discolouration,40
+dysgeusia,40
+palmar-plantar erythrodysaesthesia syndrome,39
+ataxia,39
+hereditary angioedema,39
+disseminated intravascular coagulation,39
+stoma site discharge,39
+heavy menstrual bleeding,39
+musculoskeletal pain,39
+muscle rigidity,39
+eating disorder,39
+dysarthria,39
+depressed level of consciousness,39
+pyelonephritis,38
+gastric disorder,38
+taste disorder,38
+renal disorder,38
+tachypnoea,38
+hypercalcaemia,38
+urinary retention,38
+hyperthyroidism,38
+skin lesion,38
+weight fluctuation,38
+pulmonary oedema,38
+leukocytosis,37
+tooth disorder,37
+jaundice,37
+amnesia,37
+diverticulitis,37
+haemophagocytic lymphohistiocytosis,37
+rheumatoid factor positive,37
+multiple sclerosis relapse,37
+dry eye,37
+staphylococcal infection,37
+lethargy,37
+myelodysplastic syndrome,37
+emotional distress,37
+peritonitis,36
+mental status changes,36
+wrong technique in product usage process,36
+hepatotoxicity,36
+pain in jaw,36
+ear pain,36
+gait inability,36
+incorrect product administration duration,36
+liver function test increased,36
+angina pectoris,36
+melaena,36
+enterocolitis,35
+arrhythmia,35
+injection site swelling,35
+irritability,35
+venoocclusive liver disease,35
+sensation of foreign body,35
+bacteraemia,35
+road traffic accident,35
+acute myocardial infarction,35
+nervousness,34
+oral pain,34
+lymphopenia,34
+gastritis,34
+blood potassium decreased,34
+enteritis,34
+upper gastrointestinal haemorrhage,34
+blood pressure diastolic increased,34
+cholangitis,34
+generalised oedema,33
+drug abuse,33
+immune effector cell-associated neurotoxicity syndrome,33
+clostridium difficile infection,33
+acute myeloid leukaemia,33
+device use issue,33
+limb injury,33
+liver function test abnormal,33
+localised infection,33
+abscess,33
+freezing phenomenon,33
+acute hepatic failure,33
+injection site erythema,33
+prescribed overdose,33
+respiratory disorder,32
+faecal calprotectin increased,32
+sleep apnoea syndrome,32
+osteoporosis,32
+angioedema,32
+joint injury,32
+poor quality sleep,32
+hemiparesis,32
+disturbance in attention,32
+eye pain,31
+appendicitis,31
+breast cancer,31
+pulmonary hypertension,31
+polyneuropathy,31
+motor dysfunction,31
+facial paralysis,31
+presyncope,31
+erectile dysfunction,31
+tubulointerstitial nephritis,30
+tinnitus,30
+blood urea increased,30
+abdominal pain lower,30
+hepatitis acute,30
+anaphylactic shock,30
+aphthous ulcer,30
+product prescribing error,30
+cytomegalovirus infection,29
+conjunctivitis,29
+tooth infection,29
+obesity,29
+joint stiffness,29
+cardiac disorder,29
+hypoalbuminaemia,29
+blood pressure diastolic abnormal,29
+orthostatic hypotension,29
+hyperuricaemia,29
+progressive multifocal leukoencephalopathy,29
+mental disorder,29
+limb discomfort,29
+malnutrition,29
+fluid retention,29
+urinary incontinence,29
+pneumothorax,28
+full blood count abnormal,28
+hypoacusis,28
+cholelithiasis,28
+blood calcium decreased,28
+nervous system disorder,28
+pulmonary arterial hypertension,28
+anal abscess,28
+knee arthroplasty,28
+coagulopathy,28
+toothache,28
+wound infection,28
+stoma site erythema,27
+cardiac failure acute,27
+drug level increased,27
+product administration error,27
+mouth ulceration,27
+shock,27
+myositis,27
+drug level above therapeutic,27
+clostridium difficile colitis,27
+dermatitis,27
+chromaturia,27
+ileus,27
+disease recurrence,27
+device occlusion,27
+drug level decreased,27
+cardiogenic shock,27
+serum ferritin increased,27
+crying,27
+pancreatitis acute,27
+rash erythematous,27
+peripheral sensory neuropathy,27
+pharyngitis,27
+intervertebral disc protrusion,27
+acute lymphocytic leukaemia recurrent,26
+hepatic encephalopathy,26
+hip arthroplasty,26
+haemorrhoids,26
+haematemesis,26
+lip swelling,26
+rheumatic fever,26
+cytopenia,26
+throat tightness,26
+unintentional medical device removal,26
+therapy interrupted,26
+respiratory rate increased,26
+gastroenteritis viral,26
+metastases to liver,26
+cyanosis,26
+subdural haematoma,26
+fear,26
+acute respiratory distress syndrome,26
+head injury,26
+hyperbilirubinaemia,26
+transient ischaemic attack,25
+red cell distribution width increased,25
+infusion site pain,25
+ischaemic stroke,25
+generalised tonic-clonic seizure,25
+laryngitis,25
+osteomyelitis,25
+device related infection,25
+cholecystitis,25
+pneumocystis jirovecii pneumonia,25
+gestational diabetes,25
+skin infection,25
+sedation,25
+sinus tachycardia,25
+oesophagitis,25
+nocturia,25
+altered state of consciousness,24
+swollen tongue,24
+small intestinal obstruction,24
+eosinophilia,24
+product dose omission in error,24
+coordination abnormal,24
+large intestine perforation,24
+lipase increased,24
+neutropenic sepsis,24
+pulmonary fibrosis,24
+initial insomnia,24
+sciatica,24
+ejection fraction decreased,24
+injection site reaction,24
+feeling cold,24
+mood altered,24
+oropharyngeal discomfort,24
+hepatic steatosis,24
+hepatic cirrhosis,24
+thrombotic microangiopathy,24
+subarachnoid haemorrhage,23
+blood sodium decreased,23
+diplopia,23
+tooth abscess,23
+muscle spasticity,23
+cyst,23
+musculoskeletal disorder,23
+pulmonary congestion,23
+coronary artery disease,23
+lung infiltration,23
+neoplasm malignant,23
+faeces discoloured,23
+ulcer,23
+infusion site extravasation,23
+parkinson^s disease,23
+urosepsis,23
+neutrophil count increased,23
+c-reactive protein abnormal,23
+encephalitis,22
+rash macular,22
+embolism,22
+psychotic disorder,22
+device leakage,22
+circulatory collapse,22
+lacrimation increased,22
+bursitis,22
+"hallucination, visual",22
+diabetes mellitus inadequate control,22
+blood pressure systolic abnormal,22
+uveitis,22
+pregnancy,22
+escherichia urinary tract infection,22
+activated partial thromboplastin time prolonged,22
+pneumonia bacterial,22
+stevens-johnson syndrome,22
+sensory loss,22
+toxic epidermal necrolysis,22
+movement disorder,22
+bradykinesia,22
+bronchopulmonary aspergillosis,22
+emotional disorder,22
+glomerular filtration rate decreased,22
+drug ineffective for unapproved indication,21
+blood triglycerides increased,21
+middle insomnia,21
+hypercholesterolaemia,21
+gastric ulcer,21
+tendonitis,21
+inappropriate antidiuretic hormone secretion,21
+ventricular fibrillation,21
+premature baby,21
+myasthenia gravis,21
+treatment noncompliance,21
+dermatitis acneiform,21
+foot deformity,21
+brain oedema,21
+haemarthrosis,21
+guillain-barre syndrome,21
+anhedonia,21
+skin cancer,21
+myoclonus,20
+spinal disorder,20
+pulmonary toxicity,20
+erythema multiforme,20
+hypersomnia,20
+swollen joint count increased,20
+skin laceration,20
+hypernatraemia,20
+joint dislocation,20
+mitral valve incompetence,20
+cardiomegaly,20
+gastrointestinal infection,20
+sinus disorder,20
+secretion discharge,20
+abnormal dreams,20
+anal fistula,20
+wrong technique in device usage process,20
+hypertensive crisis,20
+impaired quality of life,20
+abnormal behaviour,20
+deafness,20
+abnormal faeces,20
+defaecation urgency,19
+agranulocytosis,19
+sudden death,19
+laboratory test abnormal,19
+hepatitis fulminant,19
+oral candidiasis,19
+renal tubular necrosis,19
+haemorrhage intracranial,19
+squamous cell carcinoma,19
+petechiae,19
+anal fissure,19
+spinal osteoarthritis,19
+hyperlipidaemia,19
+pharyngeal swelling,19
+cytomegalovirus infection reactivation,19
+platelet count increased,19
+fistula,19
+blood albumin decreased,19
+gout,19
+sinus congestion,19
+bacterial infection,19
+injection site pruritus,19
+toxic skin eruption,19
+multiple sclerosis,19
+labelled drug-drug interaction medication error,19
+rib fracture,19
+duodenal ulcer,19
+hypokinesia,19
+eye disorder,19
+serotonin syndrome,18
+femur fracture,18
+vasculitis,18
+dysstasia,18
+left ventricular dysfunction,18
+device malfunction,18
+international normalised ratio increased,18
+intestinal ischaemia,18
+blood phosphorus increased,18
+blood uric acid increased,18
+radiation pneumonitis,18
+bone density decreased,18
+unresponsive to stimuli,18
+vascular device infection,18
+restless legs syndrome,18
+nodule,18
+flank pain,18
+visual acuity reduced,18
+dementia,18
+joint range of motion decreased,18
+vaginal haemorrhage,18
+blood iron decreased,18
+panic attack,18
+demyelination,18
+feeding disorder,18
+pain of skin,17
+mydriasis,17
+blood urine present,17
+quality of life decreased,17
+hip fracture,17
+therapy cessation,17
+live birth,17
+nephrotic syndrome,17
+hiatus hernia,17
+incorrect route of product administration,17
+poisoning deliberate,17
+candida infection,17
+immune-mediated hepatitis,17
+product storage error,17
+atrial flutter,17
+intentional dose omission,17
+respiratory arrest,17
+ankle fracture,17
+body temperature fluctuation,17
+device difficult to use,17
+hemiplegia,17
+blindness,17
+menstruation irregular,17
+non-cardiac chest pain,17
+nightmare,17
+hypothermia,17
+muscle atrophy,17
+vaginal discharge,17
+drug tolerance decreased,17
+dental caries,17
+sneezing,17
+injection site mass,17
+hypertransaminasaemia,16
+escherichia infection,16
+fibrin d dimer increased,16
+delusion,16
+lung consolidation,16
+proctalgia,16
+pulmonary mass,16
+sleep disorder due to a general medical condition,16
+anger,16
+staphylococcal sepsis,16
+tension,16
+product availability issue,16
+face oedema,16
+tricuspid valve incompetence,16
+injection site bruising,16
+respiratory tract congestion,16
+splenomegaly,16
+lung opacity,16
+hydronephrosis,16
+erythema nodosum,16
+drug specific antibody present,16
+injection site haemorrhage,16
+hypogammaglobulinaemia,16
+abortion spontaneous,16
+kidney infection,16
+immune thrombocytopenia,16
+bone erosion,16
+hypopituitarism,16
+supraventricular tachycardia,16
+blood pressure abnormal,16
+obstructive airways disorder,16
+ankylosing spondylitis,16
+blood potassium increased,16
+spinal pain,16
+blood glucose decreased,16
+electrolyte imbalance,15
+concomitant disease aggravated,15
+intestinal perforation,15
+tongue disorder,15
+hyperammonaemia,15
+thyroid disorder,15
+shock haemorrhagic,15
+arteriosclerosis,15
+anal incontinence,15
+prostate cancer,15
+diarrhoea haemorrhagic,15
+acute coronary syndrome,15
+lower limb fracture,15
+hepatitis cholestatic,15
+mouth haemorrhage,15
+renal cyst,15
+skin necrosis,15
+rales,15
+fear of injection,15
+mean cell volume increased,15
+enthesopathy,15
+sputum discoloured,15
+viral upper respiratory tract infection,15
+glycosylated haemoglobin increased,15
+photosensitivity reaction,15
+immune reconstitution inflammatory syndrome,15
+intestinal haemorrhage,15
+troponin increased,15
+ovarian cyst,15
+mental impairment,15
+cardiomyopathy,15
+device deployment issue,15
+skin fissures,15
+cholecystitis acute,15
+faeces soft,15
+respiratory syncytial virus infection,15
+joint effusion,15
+premature delivery,15
+walking aid user,15
+withdrawal syndrome,15
+chest x-ray abnormal,15
+needle issue,15
+vertigo positional,14
+aortic valve incompetence,14
+hyperthermia,14
+hypervolaemia,14
+drug dose omission by device,14
+myocardial ischaemia,14
+blood thyroid stimulating hormone increased,14
+gastrointestinal pain,14
+euglycaemic diabetic ketoacidosis,14
+paronychia,14
+renal pain,14
+malignant melanoma,14
+surgery,14
+eosinophil count increased,14
+device material issue,14
+seasonal allergy,14
+fracture,14
+pulmonary haemorrhage,14
+tenderness,14
+psychiatric symptom,14
+eye swelling,14
+dermatitis allergic,14
+muscle tightness,14
+status epilepticus,14
+philadelphia positive acute lymphocytic leukaemia,14
+amylase increased,14
+atrioventricular block complete,14
+asphyxia,14
+cutaneous vasculitis,14
+head discomfort,14
+rash pustular,14
+spinal compression fracture,14
+type 1 diabetes mellitus,14
+brain injury,14
+ageusia,14
+troponin i increased,14
+eye pruritus,14
+thermal burn,14
+metastases to central nervous system,14
+breath sounds abnormal,14
+tenosynovitis,14
+hepatocellular injury,14
+general physical condition abnormal,14
+pulmonary alveolar haemorrhage,14
+eye irritation,14
+dissociation,14
+musculoskeletal discomfort,14
+metastases to lung,14
+full blood count decreased,14
+stoma site pain,14
+skin irritation,14
+extra dose administered,14
+panniculitis,14
+aspiration,14
+iron deficiency anaemia,14
+haemolysis,14
+hyperphosphataemia,13
+mean cell haemoglobin decreased,13
+hypophysitis,13
+suspected covid-19,13
+lymphoma,13
+rash papular,13
+decubitus ulcer,13
+cold sweat,13
+musculoskeletal chest pain,13
+scoliosis,13
+tonsillitis,13
+upper limb fracture,13
+bowel movement irregularity,13
+grip strength decreased,13
+hernia,13
+vitamin d decreased,13
+sinus bradycardia,13
+postoperative wound infection,13
+hepatic lesion,13
+rhinitis,13
+impaired work ability,13
+impaired gastric emptying,13
+nerve injury,13
+metastases to bone,13
+lung neoplasm malignant,13
+neuroleptic malignant syndrome,13
+psychomotor hyperactivity,13
+rheumatoid nodule,13
+brain stem glioma,13
+lip dry,13
+colon cancer,13
+fulminant type 1 diabetes mellitus,13
+vitamin b12 deficiency,13
+inguinal hernia,13
+n-terminal prohormone brain natriuretic peptide increased,13
+dystonia,13
+hepatic cyst,13
+scab,13
+shunt stenosis,13
+hepatomegaly,13
+mass,13
+hypovolaemic shock,13
+abscess limb,13
+pregnancy with implant contraceptive,13
+product substitution issue,13
+photophobia,13
+incorrect drug administration rate,12
+tuberculosis,12
+right ventricular failure,12
+faeces hard,12
+necrosis,12
+acidosis,12
+hepatocellular carcinoma,12
+retinal detachment,12
+post procedural infection,12
+blood parathyroid hormone decreased,12
+ventricular hypokinesia,12
+sjogren^s syndrome,12
+femoral neck fracture,12
+pyoderma gangrenosum,12
+lupus-like syndrome,12
+hiccups,12
+herpes simplex,12
+uterine perforation,12
+abdominal abscess,12
+monocyte count increased,12
+enterocolitis infectious,12
+nerve compression,12
+erysipelas,12
+appetite disorder,12
+gastric haemorrhage,12
+gingival bleeding,12
+bone marrow failure,12
+urine output decreased,12
+inflammatory bowel disease,12
+granuloma skin,12
+failure to thrive,12
+alanine aminotransferase abnormal,12
+skin haemorrhage,12
+bronchospasm,12
+ventricular extrasystoles,12
+ear discomfort,12
+haemorrhoidal haemorrhage,12
+left ventricular hypertrophy,12
+completed suicide,12
+squamous cell carcinoma of skin,12
+affect lability,12
+escherichia sepsis,12
+inflammatory marker increased,12
+ligament sprain,12
+dermatitis contact,12
+immunosuppression,12
+immunodeficiency,12
+drug dependence,12
+abdominal tenderness,12
+thyroiditis,12
+diastolic dysfunction,12
+appendicolith,12
+aphonia,12
+enterococcal infection,12
+systemic inflammatory response syndrome,12
+pharyngitis streptococcal,12
+brain natriuretic peptide increased,12
+dizziness postural,12
+eyelid oedema,12
+scar,12
+glaucoma,12
+purpura,12
+keratopathy,12
+diffuse large b-cell lymphoma,12
+bronchial disorder,12
+cardiac failure chronic,11
+temperature intolerance,11
+cerebral ischaemia,11
+post procedural complication,11
+upper respiratory tract inflammation,11
+foetal death,11
+sensory disturbance,11
+incontinence,11
+foot fracture,11
+autoimmune disorder,11
+autoimmune hepatitis,11
+localised oedema,11
+peripheral coldness,11
