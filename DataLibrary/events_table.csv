@@ -1,101 +1,101 @@
 event_id,year,expedited,report_source,country,age,sex,weight,serious_outcome,company_name
-1,2022,1,1,gb,,2,67,Serious,perrigo
-2,2022,1,1,gb,,2,49,Death,perrigo
-3,2022,1,1,gb,,2,54,Serious,perrigo
-4,2022,1,1,gb,,2,60,Serious,perrigo
-5,2022,1,1,gb,,2,58,Serious,perrigo
-6,2022,1,1,gb,,2,60,Serious,
-7,2022,1,1,us,,1,97.3,Death,"pfizer, inc"
-8,2022,1,1,us,,2,69.916,Serious,roche
-9,2022,1,1,hu,,1,64,Serious,abbvie
-10,2022,1,3,gb,,1,50,Serious,roche
-11,2022,1,1,jp,,1,53.8,Death,"pfizer, inc"
-12,2022,1,3,us,,1,56.7,Serious,bayer
-13,2022,1,3,il,,1,58,Serious,shire
-14,2022,1,1,ca,,2,68,Serious,roche
-15,2022,1,1,ca,,1,74,Death,roche
-16,2022,1,1,ca,,2,95,Serious,roche
-17,2022,1,1,us,,2,101.3,Serious,"pfizer, inc"
-18,2022,2,3,dk,,2,60,Serious,
-19,2022,1,1,gb,,2,2.2,Serious,"aurobindo, apl"
-20,2022,2,3,us,,2,.454,Serious,"pfizer, inc"
-21,2022,1,1,jp,,1,63,Death,"chugai, roche"
-22,2022,1,1,us,,2,77.8,Serious,pubhosp
-23,2022,1,1,us,,1,89.2,Serious,roche
-24,2022,1,3,ca,,1,56.689,Serious,pubhosp
-25,2022,1,1,ca,,1,83,Serious,roche
-26,2022,1,3,us,,2,112.49,Serious,
-27,2022,1,1,pl,,1,80,Serious,roche
-28,2022,1,1,gb,,1,88,Serious,"aurobindo, apl"
-29,2022,1,1,jp,,1,47,Serious,pubhosp
-30,2022,1,1,us,,1,60,Serious,roche
-31,2022,1,3,us,,2,75.818,Serious,jnjfoc
-32,2022,1,1,il,,2,85,Serious,pubhosp
-33,2022,1,1,us,,2,122,Serious,"pfizer, inc"
-34,2022,1,1,us,,1,69.9,Death,"pfizer, inc"
-35,2022,2,3,dk,,2,50,Death,
-36,2022,2,3,us,,2,74.83,Serious,"pfizer, inc"
-37,2022,1,3,ca,,1,116.55,Death,pubhosp
-38,2022,1,1,dk,,2,50,Death,
-39,2022,1,1,jp,,2,50,Serious,bayer
-40,2022,2,3,us,,2,72.562,Serious,"pfizer, inc"
-41,2022,1,1,us,,2,89.8,Serious,pubhosp
-42,2022,1,3,de,,2,81,Serious,gilead
-43,2022,1,1,us,,2,45.805,Serious,jazz
-44,2022,1,1,jp,,2,59,Serious,otsuka
-45,2022,2,1,us,,2,71,Serious,"pfizer, inc"
-46,2022,1,2,us,,1,62,Serious,"cubist, pharmaceuticals, inc"
-47,2022,1,1,cn,,2,52,Death,"pfizer, inc"
-48,2022,1,3,ca,,2,74,Serious,jnjfoc
-49,2022,1,3,us,,2,57.143,Serious,"pfizer, inc"
-50,2022,1,1,us,,2,43.5,Serious,jnjfoc
-51,2022,1,1,nl,,1,80,Serious,
-52,2022,1,3,ca,,2,50.8,Serious,roche
-53,2022,1,3,au,,2,61,Serious,baxter
-54,2022,1,1,ca,,1,80.6,Serious,pubhosp
-55,2022,2,3,ca,,2,72,Serious,amgen
-56,2022,2,2,us,,2,80.726,Serious,shire
-57,2022,1,1,jp,,2,47.4,Serious,otsuka
-58,2022,1,1,jp,,1,50,Serious,phjp
-59,2022,2,3,us,,1,86,Serious,"pfizer, inc"
-60,2022,1,3,us,,2,57,Death,"pfizer, inc"
-61,2022,1,1,cz,,1,10.6,Serious,"baxalta, blt"
-62,2022,1,1,us,,1,94,Serious,novoprod
-63,2022,1,1,us,,2,78.912,Serious,jazz
-64,2022,2,1,us,,2,51.247,Serious,jazz
-65,2022,1,1,il,,2,62.2,Serious,"glaxosmithkline, inc, gsk"
-66,2022,1,3,us,,2,38.549,Serious,"pfizer, inc"
-67,2022,1,1,jp,,1,58,Serious,"bausch, sym"
-68,2022,1,1,ca,,2,61,Serious,roche
-69,2022,2,1,us,,1,47.8,Serious,gxbr
-70,2022,1,1,br,,1,80.9,Serious,pubhosp
-71,2022,1,1,us,,2,102,Death,roche
-72,2022,1,1,pl,,1,92.00,Serious,accord
-73,2022,1,1,jp,,1,76,Serious,phjp
-74,2022,1,1,ch,,1,3.1,Serious,sf
-75,2022,1,1,us,,1,91,Serious,"pfizer, inc"
-76,2022,1,1,it,,1,68,Serious,"baxalta, blt"
-77,2022,2,3,ca,,2,80,Serious,"amgen, cansl"
-78,2022,2,1,jp,,2,46,Serious,"dsjp, dsj"
-79,2022,1,2,gb,,1,95,Serious,
-80,2022,1,2,gb,,1,95,Serious,
-81,2022,1,1,us,,2,67,Serious,"pfizer, inc"
-82,2022,1,1,ca,,2,70,Serious,otsuka
-83,2022,1,1,de,,2,95.8,Serious,"eisai, medical, research"
-84,2022,1,1,jp,,1,57,Death,"chugai, roche"
-85,2022,1,2,br,,2,64,Serious,jnjfoc
-86,2022,1,1,hu,,1,12.8,Serious,"baxalta, blt"
-87,2022,1,1,fr,,1,70,Serious,pubhosp
-88,2022,1,1,us,,2,74,Serious,"pfizer, inc"
-89,2022,1,1,tw,,1,69.5,Serious,roche
-90,2022,1,1,ca,,2,112,Serious,roche
-91,2022,1,1,us,,2,49.1,Serious,jnjfoc
-92,2022,1,1,us,,2,42.9,Serious,roche
-93,2022,1,1,de,,1,95,Serious,roche
-94,2022,2,1,us,,2,107.5,Serious,jazz
-95,2022,1,1,us,,2,49.486,Death,"biogen, bi"
-96,2022,1,1,ca,,1,95,Serious,roche
-97,2022,1,1,us,,2,96,Serious,jazz
-98,2022,1,1,jp,,2,27,Death,
-99,2022,1,1,de,,2,76,Serious,gxkr
-100,2022,2,1,jp,,1,45,Death,"eisai, medical, research"
+1,2022,1,1,gb,25.0,2,67,1,perrigo
+2,2022,1,1,gb,48.0,2,49,2,perrigo
+3,2022,1,1,gb,20.0,2,54,1,perrigo
+4,2022,1,1,gb,37.0,2,60,1,perrigo
+5,2022,1,1,gb,25.0,2,58,1,perrigo
+6,2022,1,1,gb,18.0,2,60,1,
+7,2022,1,1,us,53.0,1,97.3,2,"pfizer, inc"
+8,2022,1,1,us,76.0,2,69.916,1,roche
+9,2022,1,1,hu,37.0,1,64,1,abbvie
+10,2022,1,3,gb,72.0,1,50,1,roche
+11,2022,1,1,jp,66.0,1,53.8,2,"pfizer, inc"
+12,2022,1,3,us,15.0,1,56.7,1,bayer
+13,2022,1,3,il,38.0,1,58,1,shire
+14,2022,1,1,ca,20.0,2,68,1,roche
+15,2022,1,1,ca,60.0,1,74,2,roche
+16,2022,1,1,ca,50.0,2,95,1,roche
+17,2022,1,1,us,73.0,2,101.3,1,"pfizer, inc"
+18,2022,2,3,dk,81.0,2,60,1,
+19,2022,1,1,gb,0.00011415525114155251,2,2.2,1,"aurobindo, apl"
+20,2022,2,3,us,55.0,2,.454,1,"pfizer, inc"
+21,2022,1,1,jp,87.0,1,63,2,"chugai, roche"
+22,2022,1,1,us,64.0,2,77.8,1,pubhosp
+23,2022,1,1,us,53.0,1,89.2,1,roche
+24,2022,1,3,ca,77.0,1,56.689,1,pubhosp
+25,2022,1,1,ca,64.0,1,83,1,roche
+26,2022,1,3,us,59.0,2,112.49,1,
+27,2022,1,1,pl,44.0,1,80,1,roche
+28,2022,1,1,gb,24.0,1,88,1,"aurobindo, apl"
+29,2022,1,1,jp,32.0,1,47,1,pubhosp
+30,2022,1,1,us,58.0,1,60,1,roche
+31,2022,1,3,us,35.0,2,75.818,1,jnjfoc
+32,2022,1,1,il,66.0,2,85,1,pubhosp
+33,2022,1,1,us,47.0,2,122,1,"pfizer, inc"
+34,2022,1,1,us,70.0,1,69.9,2,"pfizer, inc"
+35,2022,2,3,dk,55.0,2,50,2,
+36,2022,2,3,us,80.0,2,74.83,1,"pfizer, inc"
+37,2022,1,3,ca,65.0,1,116.55,2,pubhosp
+38,2022,1,1,dk,55.0,2,50,2,
+39,2022,1,1,jp,81.0,2,50,1,bayer
+40,2022,2,3,us,63.0,2,72.562,1,"pfizer, inc"
+41,2022,1,1,us,53.0,2,89.8,1,pubhosp
+42,2022,1,3,de,28.0,2,81,1,gilead
+43,2022,1,1,us,34.0,2,45.805,1,jazz
+44,2022,1,1,jp,65.0,2,59,1,otsuka
+45,2022,2,1,us,66.0,2,71,1,"pfizer, inc"
+46,2022,1,2,us,64.0,1,62,1,"cubist, pharmaceuticals, inc"
+47,2022,1,1,cn,66.0,2,52,2,"pfizer, inc"
+48,2022,1,3,ca,29.0,2,74,1,jnjfoc
+49,2022,1,3,us,77.0,2,57.143,1,"pfizer, inc"
+50,2022,1,1,us,13.0,2,43.5,1,jnjfoc
+51,2022,1,1,nl,82.0,1,80,1,
+52,2022,1,3,ca,69.0,2,50.8,1,roche
+53,2022,1,3,au,25.0,2,61,1,baxter
+54,2022,1,1,ca,67.0,1,80.6,1,pubhosp
+55,2022,2,3,ca,62.0,2,72,1,amgen
+56,2022,2,2,us,55.0,2,80.726,1,shire
+57,2022,1,1,jp,60.0,2,47.4,1,otsuka
+58,2022,1,1,jp,37.0,1,50,1,phjp
+59,2022,2,3,us,64.0,1,86,1,"pfizer, inc"
+60,2022,1,3,us,74.0,2,57,2,"pfizer, inc"
+61,2022,1,1,cz,1.0,1,10.6,1,"baxalta, blt"
+62,2022,1,1,us,76.0,1,94,1,novoprod
+63,2022,1,1,us,59.0,2,78.912,1,jazz
+64,2022,2,1,us,59.0,2,51.247,1,jazz
+65,2022,1,1,il,46.0,2,62.2,1,"glaxosmithkline, inc, gsk"
+66,2022,1,3,us,60.0,2,38.549,1,"pfizer, inc"
+67,2022,1,1,jp,69.0,1,58,1,"bausch, sym"
+68,2022,1,1,ca,8.0,2,61,1,roche
+69,2022,2,1,us,16.0,1,47.8,1,gxbr
+70,2022,1,1,br,74.0,1,80.9,1,pubhosp
+71,2022,1,1,us,76.0,2,102,2,roche
+72,2022,1,1,pl,63.0,1,92.00,1,accord
+73,2022,1,1,jp,57.0,1,76,1,phjp
+74,2022,1,1,ch,0.0,1,3.1,1,sf
+75,2022,1,1,us,55.0,1,91,1,"pfizer, inc"
+76,2022,1,1,it,30.0,1,68,1,"baxalta, blt"
+77,2022,2,3,ca,50.0,2,80,1,"amgen, cansl"
+78,2022,2,1,jp,74.0,2,46,1,"dsjp, dsj"
+79,2022,1,2,gb,72.0,1,95,1,
+80,2022,1,2,gb,72.0,1,95,1,
+81,2022,1,1,us,75.0,2,67,1,"pfizer, inc"
+82,2022,1,1,ca,32.0,2,70,1,otsuka
+83,2022,1,1,de,55.0,2,95.8,1,"eisai, medical, research"
+84,2022,1,1,jp,43.0,1,57,2,"chugai, roche"
+85,2022,1,2,br,50.0,2,64,1,jnjfoc
+86,2022,1,1,hu,1.5833333333333333,1,12.8,1,"baxalta, blt"
+87,2022,1,1,fr,34.0,1,70,1,pubhosp
+88,2022,1,1,us,62.0,2,74,1,"pfizer, inc"
+89,2022,1,1,tw,49.0,1,69.5,1,roche
+90,2022,1,1,ca,39.0,2,112,1,roche
+91,2022,1,1,us,15.0,2,49.1,1,jnjfoc
+92,2022,1,1,us,58.0,2,42.9,1,roche
+93,2022,1,1,de,56.0,1,95,1,roche
+94,2022,2,1,us,47.0,2,107.5,1,jazz
+95,2022,1,1,us,50.0,2,49.486,2,"biogen, bi"
+96,2022,1,1,ca,37.0,1,95,1,roche
+97,2022,1,1,us,47.0,2,96,1,jazz
+98,2022,1,1,jp,66.0,2,27,2,
+99,2022,1,1,de,46.0,2,76,1,gxkr
+100,2022,2,1,jp,75.0,1,45,2,"eisai, medical, research"
