@@ -1,3 +1,5 @@
 joblib
 scikit-learn
 dill
+matplotlib
+seaborn
