@@ -16,7 +16,7 @@ The system shows novel insights that are clinically relevant and add a precision
 * PowerBI Dashboard
 ![PowerBIDashboard](/ImageLibrary/dashboard.png) 
 
-* Streamlit Application
+* Streamlit Application(https://pharma-drug-surveillance-atgm5xpvbuhuvolftviaun.streamlit.app/)
 ![Streamlit](/ImageLibrary/streamlit.png)
 
 * Public Access to SQL Database: UN and PW
