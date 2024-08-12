@@ -25,10 +25,6 @@ The system shows novel insights that are clinically relevant and add a precision
 # Programming Languages
 * Python
 * SQL
-  
-# Notes on System Use
-* Note 1
-* Note 2
 
 # Style
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
