@@ -3,3 +3,4 @@
 # Usage:
 # (base) C:\Users\user> cd repo_location
 # (base) C:\Users\user> black file.ipynb
+# Push changes to GitHub
