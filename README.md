@@ -6,7 +6,8 @@ Almost half of Americans take prescription pharmaceutical drugs every month. Sid
 # Method
 Here, we document the method of an extract-transform-load pipeline that synthesizes multiple sources of public data about pharmaceutical drugs into a SQL database (FAERS, Medicaid drug prices, RxNorm). Data is queried from the database to train, tune, and test machine learning models to classify outcomes of adverse drug events. The optimal pre-trained model is imported into PowerBI via PowerQuery and displayed as an interactive dashboard, creating a user-friendly end-product of drug-related data. 
 
-Add Photo of Architecture here
+
+![ADR Surveillance System Architecture](/ImageLibrary/DataArchSquare.png)
 
 # Results
 Our system shows novel insights that are clinically relevant and add a precision public health approach to adverse event risk. Specifically, individual differences like age, weight, and sex, and economic factors like drug prices, are significant features for classifying adverse outcomes in relation to specific pharmaceutical drugs. EXPLAIN MODEL RESULTS IN ONE OR TWO SENTENCE.
