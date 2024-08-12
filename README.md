@@ -18,7 +18,7 @@ The system shows novel insights that are clinically relevant and add a precision
 ![PowerBIDashboard](/ImageLibrary/dashboard.png) 
 
 
-* [Streamlit Application](https://pharma-drug-surveillance-atgm5xpvbuhuvolftviaun.streamlit.app/)
+* [Streamlit Application](https://pharma-drug-surveillance-8hihsqcwj6jlv6tpki4s8z.streamlit.app/)
 
 ![Streamlit](/ImageLibrary/streamlit.png)
 
