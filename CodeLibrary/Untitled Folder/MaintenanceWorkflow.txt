@@ -1,0 +1,82 @@
+# Apache Airflow DAG Implementation for Quarterly Jupyter Notebook Execution
+
+This guide will help you set up and run an Apache Airflow DAG to execute Jupyter notebooks on a quarterly basis and export the results to a specific location.
+
+## Step 1: Install Apache Airflow
+
+Ensure Apache Airflow is installed on your system. If not, install it using pip on command line:
+
+```bash
+pip install apache-airflow
+```
+
+## Step 2: Set Up Airflow
+
+1. **Initialize the Airflow Database**:
+   Before running any DAGs, initialize the Airflow database:
+
+   ```bash
+   airflow db init
+   ```
+
+2. **Create a Home Directory for Airflow**:
+   Set up an Airflow home directory if not already set:
+
+   ```bash
+   export AIRFLOW_HOME=~/airflow
+   ```
+
+## Step 3: Create the DAG File
+
+1. **Create the DAG File**:
+   DAG code is in file called `quarterly_model_refresh.py` stored in GitHub:
+
+2. **Save the DAG File**:
+   Save the file in the Airflow DAGs directory:
+
+   ```bash
+   mkdir -p $AIRFLOW_HOME/dags
+   nano $AIRFLOW_HOME/dags/quarterly_model_refresh.py
+   ```
+
+## Step 4: Start Airflow Services
+
+1. **Start the Airflow Scheduler**:
+
+   Start the Airflow scheduler to trigger the DAGs:
+
+   ```bash
+   airflow scheduler
+   ```
+
+   Run this in a separate terminal window.
+
+2. **Start the Airflow Web Server**:
+
+   Start the web server to monitor DAGs:
+
+   ```bash
+   airflow webserver --port 8080
+   ```
+
+   The web server will be available at `http://localhost:8080`.
+
+## Step 5: Trigger the DAG
+
+1. **Trigger the DAG Manually** (optional):
+
+   You can trigger the DAG manually via the Airflow UI at `http://localhost:8080`.
+
+2. **View the Logs**:
+
+   To check logs for a specific task:
+
+   ```bash
+   airflow tasks logs quarterly_model_refresh run_functions
+   ```
+
+## Step 6: Monitor and Manage DAGs
+
+Use the Airflow UI to monitor DAG runs, check logs, and see the status of each task. DAGs will automatically trigger quarterly based on the defined schedule.
+
+---
