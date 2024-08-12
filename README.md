@@ -14,12 +14,12 @@ The system shows novel insights that are clinically relevant and add a precision
 
 # System Outputs
 * PowerBI Dashboard
+  
 ![PowerBIDashboard](/ImageLibrary/dashboard.png) 
 
-* Streamlit Application(https://pharma-drug-surveillance-atgm5xpvbuhuvolftviaun.streamlit.app/)
-![Streamlit](/ImageLibrary/streamlit.png)
 
-* Public Access to SQL Database: UN and PW
+* [Streamlit Application](https://pharma-drug-surveillance-atgm5xpvbuhuvolftviaun.streamlit.app/)
+![Streamlit](/ImageLibrary/streamlit.png)
 
 # Programming Languages
 * Python
