@@ -1,4 +1,4 @@
-# Install the Black library and then call the black function on the file before committing
+# Install the Black library on conda/python command line and then call the black function on the file before committing
 # pip install "black[jupyter]"
 # Usage:
 # (base) C:\Users\user> cd repo_location
