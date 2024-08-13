@@ -12,6 +12,8 @@ This project created an extract-transform-load pipeline that synthesizes multipl
 # Results
 The system shows novel insights that are clinically relevant and add a precision public health approach to adverse drug reaction risk. Specifically, individual differences like age, weight, and sex, and economic factors like drug prices, are significant features for classifying adverse outcomes, more so than specific pharmaceutical drugs. More specifically, younger, overweight females are at highest risk for death, compared to older, lower weight males, implying that differences in pharmacokinetics are related to outcome seriousness.
 
+![Results](/ImageLibrary/results.png)
+
 # System Outputs
 * PowerBI Dashboard
   
